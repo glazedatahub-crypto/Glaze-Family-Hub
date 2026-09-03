@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Glaze Family Hub</title>
 
 <style>
@@ -27,38 +26,38 @@ body {
 
   background-image:
     linear-gradient(
-      rgba(20,25,35,0.18),
-      rgba(20,25,35,0.18)
+      rgba(10, 18, 28, 0.10),
+      rgba(10, 18, 28, 0.10)
     ),
     url("IMG_2348.png");
 
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 
-  padding: 20px;
+  padding: 12px 18px;
 }
 
 .hub {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 
 
-/* GLASS EFFECT */
+/* GLASS */
 
 .glass {
-  background: rgba(255,255,255,0.76);
+  background: rgba(255,255,255,0.68);
 
-  border: 1px solid rgba(255,255,255,0.80);
+  border: 1px solid rgba(255,255,255,0.72);
 
   box-shadow:
-    0 8px 30px rgba(0,0,0,0.13);
+    0 6px 22px rgba(0,0,0,0.12);
 
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 
@@ -68,80 +67,75 @@ body {
   display: grid;
 
   grid-template-columns:
-    minmax(300px,1fr)
-    auto
-    auto;
+    minmax(300px, 1fr)
+    125px
+    150px;
 
-  align-items: center;
+  gap: 10px;
 
-  gap: 16px;
+  align-items: stretch;
 
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .date-box,
 .weather-box,
 .clock-box {
-  border-radius: 20px;
+  border-radius: 17px;
 }
 
 .date-box {
-  padding: 16px 22px;
+  padding: 10px 18px;
 }
 
 .hub-name {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 800;
-
-  letter-spacing: 2px;
-
-  color: #555;
-
-  margin-bottom: 5px;
+  letter-spacing: 1.5px;
+  color: #4f4f4f;
+  margin-bottom: 2px;
 }
 
 .day {
-  font-size: 36px;
-  line-height: 1;
+  font-size: 29px;
   font-weight: 800;
+  line-height: 1;
 }
 
 .date {
-  font-size: 17px;
+  font-size: 14px;
   color: #555;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 .weather-box {
-  min-width: 145px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-
-  padding: 14px 18px;
+  padding: 8px;
 }
 
 .weather-main {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 800;
 }
 
 .weather-label {
-  font-size: 13px;
+  font-size: 10px;
   color: #666;
-  margin-top: 3px;
+  margin-top: 2px;
 }
 
 .clock-box {
-  min-width: 185px;
-
-  text-align: center;
-
-  padding: 17px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
 }
 
 .clock {
-  font-size: 38px;
-  line-height: 1;
+  font-size: 30px;
   font-weight: 800;
 }
 
@@ -151,40 +145,40 @@ body {
 .coming-title {
   display: inline-block;
 
-  padding: 8px 16px;
+  padding: 5px 12px;
 
-  border-radius: 16px;
+  border-radius: 13px;
 
-  margin-bottom: 9px;
+  margin-bottom: 6px;
 
-  font-size: 23px;
+  font-size: 18px;
   font-weight: 800;
 }
 
 
-/* COUNTDOWN CARDS */
+/* CARDS */
 
 .cards {
   display: grid;
 
   grid-template-columns:
-    repeat(5,minmax(0,1fr));
+    repeat(5, minmax(0, 1fr));
 
-  gap: 11px;
+  gap: 8px;
 
-  margin-bottom: 13px;
+  margin-bottom: 8px;
 }
 
 .card {
-  min-height: 160px;
+  min-height: 112px;
 
   border: 2px solid;
 
-  border-radius: 20px;
+  border-radius: 17px;
 
   text-align: center;
 
-  padding: 11px 7px 9px;
+  padding: 7px 5px;
 
   display: flex;
 
@@ -193,53 +187,44 @@ body {
   justify-content: center;
 
   box-shadow:
-    0 7px 18px rgba(0,0,0,0.10);
+    0 5px 14px rgba(0,0,0,0.10);
 
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .emoji {
-  font-size: 22px;
-  margin-bottom: 4px;
+  font-size: 17px;
+  margin-bottom: 2px;
 }
 
 .event-name {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 800;
+  line-height: 1.15;
 
-  line-height: 1.2;
-
-  min-height: 38px;
+  min-height: 30px;
 
   display: flex;
-
   align-items: center;
   justify-content: center;
 }
 
 .days {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 900;
-
   line-height: 1;
-
-  margin-top: 6px;
+  margin-top: 3px;
 }
 
 .days-label {
-  font-size: 11px;
-
-  margin-top: 4px;
-
-  letter-spacing: .5px;
+  font-size: 9px;
+  margin-top: 2px;
 }
 
 .event-date {
-  font-size: 12px;
-
-  margin-top: 5px;
-
+  font-size: 9px;
+  margin-top: 3px;
   opacity: .78;
 }
 
@@ -247,37 +232,37 @@ body {
 /* FAMILY COLORS */
 
 .mom {
-  background: rgba(255,227,240,.86);
+  background: rgba(255,227,240,.74);
   border-color: #ff78b5;
   color: #a21858;
 }
 
 .daddy {
-  background: rgba(239,255,214,.86);
+  background: rgba(239,255,214,.74);
   border-color: #9be000;
   color: #4d7300;
 }
 
 .ryder {
-  background: rgba(229,235,255,.86);
+  background: rgba(229,235,255,.74);
   border-color: #4169e1;
   color: #183a9b;
 }
 
 .clyde {
-  background: rgba(227,248,233,.86);
+  background: rgba(227,248,233,.74);
   border-color: #2e9d50;
   color: #186634;
 }
 
 .wyatt {
-  background: rgba(255,228,228,.86);
+  background: rgba(255,228,228,.74);
   border-color: #e53935;
   color: #9e211f;
 }
 
 .charlotte {
-  background: rgba(241,228,255,.86);
+  background: rgba(241,228,255,.74);
   border-color: #9b59d0;
   color: #63328b;
 }
@@ -286,25 +271,25 @@ body {
 /* HOLIDAYS */
 
 .halloween {
-  background: rgba(255,240,223,.88);
+  background: rgba(255,240,223,.76);
   border-color: #ff8c00;
   color: #a35200;
 }
 
 .thanksgiving {
-  background: rgba(255,241,227,.88);
+  background: rgba(255,241,227,.76);
   border-color: #c76b2b;
   color: #864011;
 }
 
 .christmas {
-  background: rgba(232,246,236,.88);
+  background: rgba(232,246,236,.76);
   border-color: #2d8b57;
   color: #195638;
 }
 
 .newyear {
-  background: rgba(230,239,255,.88);
+  background: rgba(230,239,255,.76);
   border-color: #4c7de8;
   color: #264b9b;
 }
@@ -313,30 +298,23 @@ body {
 /* CALENDAR */
 
 .calendar-panel {
-  padding: 10px;
+  padding: 8px;
 
-  border-radius: 22px;
+  border-radius: 18px;
 
   overflow: hidden;
-}
-
-.calendar-title {
-  font-size: 20px;
-  font-weight: 800;
-
-  padding: 2px 5px 8px;
 }
 
 .calendar-wrap {
   width: 100%;
 
-  height: 580px;
+  height: 515px;
 
   overflow: hidden;
 
-  border-radius: 15px;
+  border-radius: 13px;
 
-  background: rgba(255,255,255,.92);
+  background: rgba(255,255,255,.88);
 }
 
 .calendar-wrap iframe {
@@ -349,99 +327,83 @@ body {
 }
 
 
-/* TV */
+/* TV / WIDE SCREEN */
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
 
   body {
-    padding: 16px 28px;
+    padding: 10px 18px;
   }
 
   .hub {
-    max-width: 1650px;
+    max-width: 1750px;
   }
 
   .calendar-wrap {
-    height: 580px;
+    height: 525px;
   }
 
 }
 
 
-/* SMALL SCREEN */
+/* SMALLER SCREENS */
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
 
   body {
-    padding: 10px;
+    padding: 8px;
   }
 
   .topbar {
     grid-template-columns:
-      1fr auto auto;
+      1fr 100px 125px;
 
-    gap: 7px;
-  }
-
-  .date-box {
-    padding: 12px;
-  }
-
-  .hub-name {
-    font-size: 12px;
-  }
-
-  .day {
-    font-size: 28px;
-  }
-
-  .date {
-    font-size: 14px;
-  }
-
-  .weather-box {
-    min-width: 105px;
-
-    padding: 11px 8px;
-  }
-
-  .weather-main {
-    font-size: 24px;
-  }
-
-  .clock-box {
-    min-width: 135px;
-
-    padding: 13px 8px;
-  }
-
-  .clock {
-    font-size: 29px;
-  }
-
-  .cards {
     gap: 6px;
   }
 
+  .date-box {
+    padding: 8px 10px;
+  }
+
+  .hub-name {
+    font-size: 11px;
+  }
+
+  .day {
+    font-size: 24px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .weather-main {
+    font-size: 21px;
+  }
+
+  .clock {
+    font-size: 25px;
+  }
+
+  .cards {
+    gap: 5px;
+  }
+
   .card {
-    min-height: 145px;
-
-    border-radius: 14px;
-
-    padding-left: 3px;
-    padding-right: 3px;
+    min-height: 105px;
+    border-radius: 13px;
   }
 
   .event-name {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .days {
-    font-size: 29px;
+    font-size: 25px;
   }
 
   .calendar-wrap {
-    height: 540px;
+    height: 485px;
   }
 
 }
@@ -454,8 +416,6 @@ body {
 
 <div class="hub">
 
-
-<!-- DATE / WEATHER / CLOCK -->
 
 <div class="topbar">
 
@@ -500,8 +460,6 @@ body {
 
 
 
-<!-- COUNTDOWNS -->
-
 <div class="coming-title glass">
   🎉 Coming Up
 </div>
@@ -514,28 +472,16 @@ body {
 
 
 
-<!-- CALENDAR -->
-
 <div class="calendar-panel glass">
-
-  <div class="calendar-title">
-    📅 Our Calendar
-  </div>
 
   <div class="calendar-wrap">
 
     <iframe
-
       src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&showTabs=0&showCalendars=0&showTitle=0&mode=MONTH&src=glazedatahub%40gmail.com&src=bashhomeschoolers%40gmail.com"
-
       width="100%"
-
       height="600"
-
       frameborder="0"
-
       scrolling="no">
-
     </iframe>
 
   </div>
@@ -550,17 +496,13 @@ body {
 <script>
 
 
-/* CLOCK */
-
 function updateClock() {
 
-  const now =
-    new Date();
+  const now = new Date();
 
   document
     .getElementById("day")
     .textContent =
-
     now.toLocaleDateString(
       "en-US",
       {
@@ -568,11 +510,9 @@ function updateClock() {
       }
     );
 
-
   document
     .getElementById("date")
     .textContent =
-
     now.toLocaleDateString(
       "en-US",
       {
@@ -582,11 +522,9 @@ function updateClock() {
       }
     );
 
-
   document
     .getElementById("clock")
     .textContent =
-
     now.toLocaleTimeString(
       "en-US",
       {
@@ -606,8 +544,6 @@ setInterval(
 );
 
 
-
-/* WEATHER */
 
 function weatherIcon(code) {
 
@@ -659,29 +595,24 @@ async function updateWeather() {
         "https://api.open-meteo.com/v1/forecast?latitude=29.46&longitude=-95.36&current=temperature_2m,weather_code&temperature_unit=fahrenheit&timezone=America%2FChicago"
       );
 
-
     const data =
       await response.json();
-
 
     const temp =
       Math.round(
         data.current.temperature_2m
       );
 
-
     const icon =
       weatherIcon(
         data.current.weather_code
       );
-
 
     document
       .getElementById(
         "weatherMain"
       )
       .textContent =
-
       icon +
       " " +
       temp +
@@ -711,8 +642,6 @@ setInterval(
 );
 
 
-
-/* BIRTHDAYS */
 
 const birthdays = [
 
@@ -777,7 +706,6 @@ function thanksgiving(year) {
       1
     );
 
-
   while(
     d.getDay() !== 4
   ) {
@@ -788,11 +716,9 @@ function thanksgiving(year) {
 
   }
 
-
   d.setDate(
     d.getDate() + 21
   );
-
 
   return d;
 
@@ -805,7 +731,6 @@ function ordinal(number) {
   const lastTwo =
     number % 100;
 
-
   if(
     lastTwo >= 11 &&
     lastTwo <= 13
@@ -814,7 +739,6 @@ function ordinal(number) {
     return number + "th";
 
   }
-
 
   switch(
     number % 10
@@ -838,13 +762,10 @@ function ordinal(number) {
 
 
 
-/* UPCOMING EVENTS */
-
 function upcomingEvents() {
 
   const now =
     new Date();
-
 
   const today =
     new Date(
@@ -852,7 +773,6 @@ function upcomingEvents() {
       now.getMonth(),
       now.getDate()
     );
-
 
   const events = [];
 
@@ -863,7 +783,6 @@ function upcomingEvents() {
       let year =
         today.getFullYear();
 
-
       let eventDate =
         new Date(
           year,
@@ -871,13 +790,11 @@ function upcomingEvents() {
           person.day
         );
 
-
       if(
         eventDate < today
       ) {
 
         year++;
-
 
         eventDate =
           new Date(
@@ -888,11 +805,9 @@ function upcomingEvents() {
 
       }
 
-
       const age =
         year -
         person.year;
-
 
       events.push({
 
@@ -946,14 +861,12 @@ function upcomingEvents() {
       let year =
         today.getFullYear();
 
-
       let eventDate =
         new Date(
           year,
           holiday.month - 1,
           holiday.day
         );
-
 
       if(
         eventDate < today
@@ -967,7 +880,6 @@ function upcomingEvents() {
           );
 
       }
-
 
       events.push({
 
@@ -995,7 +907,6 @@ function upcomingEvents() {
       today.getFullYear()
     );
 
-
   if(
     thanksgivingDate <
     today
@@ -1007,7 +918,6 @@ function upcomingEvents() {
       );
 
   }
-
 
   events.push({
 
@@ -1034,7 +944,6 @@ function upcomingEvents() {
       1
     );
 
-
   events.push({
 
     name:
@@ -1059,7 +968,6 @@ function upcomingEvents() {
       b.date
   );
 
-
   return events.slice(
     0,
     5
@@ -1069,13 +977,10 @@ function upcomingEvents() {
 
 
 
-/* DISPLAY COUNTDOWNS */
-
 function renderCountdowns() {
 
   const now =
     new Date();
-
 
   const today =
     new Date(
@@ -1084,12 +989,10 @@ function renderCountdowns() {
       now.getDate()
     );
 
-
   const cards =
     document.getElementById(
       "cards"
     );
-
 
   cards.innerHTML =
     "";
@@ -1098,7 +1001,6 @@ function renderCountdowns() {
   upcomingEvents()
     .forEach(
       event => {
-
 
         const days =
           Math.round(
@@ -1109,7 +1011,6 @@ function renderCountdowns() {
             /
             86400000
           );
-
 
         const dateText =
           event.date
@@ -1124,17 +1025,14 @@ function renderCountdowns() {
               }
             );
 
-
         const card =
           document.createElement(
             "div"
           );
 
-
         card.className =
           "card " +
           event.className;
-
 
         card.innerHTML = `
 
@@ -1159,7 +1057,6 @@ function renderCountdowns() {
           </div>
 
         `;
-
 
         cards.appendChild(
           card
