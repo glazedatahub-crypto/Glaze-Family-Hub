@@ -48,13 +48,10 @@ body {
 }
 
 
-/* =========================
-   GLASS
-========================= */
+/* GLASS */
 
 .glass {
   background: rgba(255,255,255,0.68);
-
   border: 1px solid rgba(255,255,255,0.72);
 
   box-shadow:
@@ -65,9 +62,7 @@ body {
 }
 
 
-/* =========================
-   TOP BAR
-========================= */
+/* TOP BAR */
 
 .topbar {
   display: grid;
@@ -118,9 +113,7 @@ body {
 }
 
 
-/* =========================
-   UP NEXT
-========================= */
+/* UP NEXT */
 
 .next-box {
   padding: 7px 9px 6px;
@@ -151,9 +144,7 @@ body {
 }
 
 
-/* =========================
-   WEATHER
-========================= */
+/* WEATHER */
 
 .weather-box {
   display: flex;
@@ -177,9 +168,7 @@ body {
 }
 
 
-/* =========================
-   CLOCK
-========================= */
+/* CLOCK */
 
 .clock-box {
   display: flex;
@@ -195,9 +184,7 @@ body {
 }
 
 
-/* =========================
-   COUNTDOWN CARDS
-========================= */
+/* COUNTDOWN CARDS */
 
 .cards {
   display: grid;
@@ -219,7 +206,7 @@ body {
 
   text-align: center;
 
-  padding: 6px 5px;
+  padding: 8px 6px;
 
   display: flex;
   flex-direction: column;
@@ -232,17 +219,16 @@ body {
   -webkit-backdrop-filter: blur(8px);
 }
 
-.emoji {
-  font-size: 17px;
-  margin-bottom: 2px;
-}
+
+/* BIGGER COUNTDOWN TEXT */
 
 .event-name {
-  font-size: 13px;
-  font-weight: 800;
-  line-height: 1.15;
+  font-size: 17px;
+  font-weight: 900;
 
-  min-height: 29px;
+  line-height: 1.1;
+
+  min-height: 38px;
 
   display: flex;
   align-items: center;
@@ -250,123 +236,132 @@ body {
 }
 
 .days {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 900;
+
   line-height: 1;
+
   margin-top: 3px;
 }
 
 .days-label {
-  font-size: 9px;
+  font-size: 11px;
+  font-weight: 700;
+
   margin-top: 2px;
+
+  letter-spacing: .6px;
 }
 
 .event-date {
-  font-size: 9px;
+  font-size: 12px;
+  font-weight: 700;
+
   margin-top: 3px;
-  opacity: .78;
+
+  opacity: .85;
 }
 
 
-/* =========================
-   FAMILY COLORS
-========================= */
+/* FAMILY COLORS */
 
 .mom {
-  background: rgba(255,227,240,.74);
+  background: rgba(255,227,240,.78);
   border-color: #ff78b5;
   color: #a21858;
 }
 
 .daddy {
-  background: rgba(239,255,214,.74);
+  background: rgba(239,255,214,.78);
   border-color: #9be000;
   color: #4d7300;
 }
 
 .ryder {
-  background: rgba(229,235,255,.74);
+  background: rgba(229,235,255,.78);
   border-color: #4169e1;
   color: #183a9b;
 }
 
 .clyde {
-  background: rgba(227,248,233,.74);
+  background: rgba(227,248,233,.78);
   border-color: #2e9d50;
   color: #186634;
 }
 
 .wyatt {
-  background: rgba(255,228,228,.74);
+  background: rgba(255,228,228,.78);
   border-color: #e53935;
   color: #9e211f;
 }
 
 .charlotte {
-  background: rgba(241,228,255,.74);
+  background: rgba(241,228,255,.78);
   border-color: #9b59d0;
   color: #63328b;
 }
 
 
-/* =========================
-   HOLIDAYS
-========================= */
+/* HOLIDAYS */
 
 .halloween {
-  background: rgba(255,240,223,.76);
+  background: rgba(255,240,223,.80);
   border-color: #ff8c00;
   color: #a35200;
 }
 
 .thanksgiving {
-  background: rgba(255,241,227,.76);
+  background: rgba(255,241,227,.80);
   border-color: #c76b2b;
   color: #864011;
 }
 
 .christmas {
-  background: rgba(232,246,236,.76);
+  background: rgba(232,246,236,.80);
   border-color: #2d8b57;
   color: #195638;
 }
 
 .newyear {
-  background: rgba(230,239,255,.76);
+  background: rgba(230,239,255,.80);
   border-color: #4c7de8;
   color: #264b9b;
 }
 
 
-/* =========================
-   MAIN CALENDAR
-========================= */
+/* MAIN CALENDAR */
 
 .calendar-panel {
   padding: 8px;
+
   border-radius: 18px;
+
   overflow: hidden;
 }
 
 .calendar-wrap {
   width: 100%;
+
   height: 610px;
+
   overflow: hidden;
+
   border-radius: 13px;
+
   background: rgba(255,255,255,.88);
 }
 
 .calendar-wrap iframe {
   display: block;
+
   width: 100%;
   height: 100%;
+
   border: 0;
 }
 
 
-/* =========================
-   TV
-========================= */
+/* TV */
 
 @media (min-width:1200px) {
 
@@ -385,9 +380,7 @@ body {
 }
 
 
-/* =========================
-   SMALLER SCREENS
-========================= */
+/* SMALLER SCREENS */
 
 @media (max-width:900px) {
 
@@ -440,11 +433,19 @@ body {
   }
 
   .event-name {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .days {
-    font-size: 25px;
+    font-size: 30px;
+  }
+
+  .days-label {
+    font-size: 10px;
+  }
+
+  .event-date {
+    font-size: 10px;
   }
 
   .calendar-wrap {
@@ -462,9 +463,7 @@ body {
 <div class="hub">
 
 
-<!-- =========================
-     TOP
-========================= -->
+<!-- TOP BAR -->
 
 <div class="topbar">
 
@@ -515,7 +514,7 @@ body {
     <div
       class="weather-main"
       id="weatherMain">
-      🌤️ --°
+      --°
     </div>
 
     <div class="weather-label">
@@ -539,9 +538,8 @@ body {
 </div>
 
 
-<!-- =========================
-     COUNTDOWNS
-========================= -->
+
+<!-- COUNTDOWNS -->
 
 <div
   class="cards"
@@ -549,9 +547,8 @@ body {
 </div>
 
 
-<!-- =========================
-     MONTH CALENDAR
-========================= -->
+
+<!-- MONTH CALENDAR -->
 
 <div class="calendar-panel glass">
 
@@ -576,13 +573,12 @@ body {
 <script>
 
 
-/* =========================
-   DATE + CLOCK
-========================= */
+/* DATE + CLOCK */
 
 function updateClock() {
 
-  const now = new Date();
+  const now =
+    new Date();
 
   document
     .getElementById("day")
@@ -628,9 +624,7 @@ setInterval(
 
 
 
-/* =========================
-   WEATHER
-========================= */
+/* WEATHER */
 
 function weatherIcon(code) {
 
@@ -713,7 +707,7 @@ async function updateWeather() {
         "weatherMain"
       )
       .textContent =
-      "🌤️ --°";
+      "--°";
 
   }
 
@@ -728,9 +722,7 @@ setInterval(
 
 
 
-/* =========================
-   BIRTHDAYS
-========================= */
+/* BIRTHDAYS */
 
 const birthdays = [
 
@@ -785,6 +777,7 @@ const birthdays = [
 ];
 
 
+
 function thanksgiving(year) {
 
   let d =
@@ -811,6 +804,7 @@ function thanksgiving(year) {
   return d;
 
 }
+
 
 
 function ordinal(number) {
@@ -849,13 +843,12 @@ function ordinal(number) {
 
 
 
-/* =========================
-   UPCOMING EVENTS
-========================= */
+/* UPCOMING EVENTS */
 
 function upcomingEvents() {
 
-  const now = new Date();
+  const now =
+    new Date();
 
   const today =
     new Date(
@@ -911,10 +904,7 @@ function upcomingEvents() {
           eventDate,
 
         className:
-          person.className,
-
-        emoji:
-          "🎂"
+          person.className
 
       });
 
@@ -928,16 +918,14 @@ function upcomingEvents() {
       name: "Halloween",
       month: 10,
       day: 31,
-      className: "halloween",
-      emoji: "🎃"
+      className: "halloween"
     },
 
     {
       name: "Christmas",
       month: 12,
       day: 25,
-      className: "christmas",
-      emoji: "🎄"
+      className: "christmas"
     }
 
   ];
@@ -978,10 +966,7 @@ function upcomingEvents() {
           eventDate,
 
         className:
-          holiday.className,
-
-        emoji:
-          holiday.emoji
+          holiday.className
 
       });
 
@@ -1015,10 +1000,7 @@ function upcomingEvents() {
       thanksgivingDate,
 
     className:
-      "thanksgiving",
-
-    emoji:
-      "🦃"
+      "thanksgiving"
 
   });
 
@@ -1039,10 +1021,7 @@ function upcomingEvents() {
       newYear,
 
     className:
-      "newyear",
-
-    emoji:
-      "🎆"
+      "newyear"
 
   });
 
@@ -1053,7 +1032,6 @@ function upcomingEvents() {
       b.date
   );
 
-
   return events.slice(
     0,
     5
@@ -1063,13 +1041,12 @@ function upcomingEvents() {
 
 
 
-/* =========================
-   RENDER COUNTDOWNS
-========================= */
+/* RENDER COUNTDOWNS */
 
 function renderCountdowns() {
 
-  const now = new Date();
+  const now =
+    new Date();
 
   const today =
     new Date(
@@ -1107,7 +1084,6 @@ function renderCountdowns() {
               {
                 month:
                   "long",
-
                 day:
                   "numeric"
               }
@@ -1123,10 +1099,6 @@ function renderCountdowns() {
           event.className;
 
         card.innerHTML = `
-
-          <div class="emoji">
-            ${event.emoji}
-          </div>
 
           <div class="event-name">
             ${event.name}
