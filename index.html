@@ -30,8 +30,6 @@
       margin: auto;
     }
 
-    /* ---------- TOP ---------- */
-
     .topbar {
       display: flex;
       justify-content: space-between;
@@ -86,8 +84,6 @@
       font-size: 38px;
       font-weight: 750;
     }
-
-    /* ---------- COUNTDOWNS ---------- */
 
     .coming-title {
       font-size: 24px;
@@ -146,8 +142,6 @@
       opacity: 0.75;
     }
 
-    /* Family colors */
-
     .mom {
       background: #ffe3f0;
       border-color: #ff78b5;
@@ -184,8 +178,6 @@
       color: #63328b;
     }
 
-    /* Holiday colors */
-
     .halloween {
       background: #fff0df;
       border-color: #ff8c00;
@@ -210,8 +202,6 @@
       color: #264b9b;
     }
 
-    /* ---------- CALENDAR ---------- */
-
     .calendar-wrap {
       width: 100%;
       height: 610px;
@@ -227,8 +217,6 @@
       height: 100%;
       border: 0;
     }
-
-    /* ---------- SMALLER SCREENS ---------- */
 
     @media (max-width: 900px) {
       body {
@@ -268,7 +256,6 @@
 
 <div class="hub">
 
-  <!-- TOP -->
   <div class="topbar">
 
     <div>
@@ -290,16 +277,14 @@
 
   </div>
 
-  <!-- COUNTDOWNS -->
   <div class="coming-title">🎉 Coming Up</div>
 
   <div class="cards" id="cards"></div>
 
-  <!-- GOOGLE CALENDAR -->
   <div class="calendar-wrap">
 
     <iframe
-      src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&showTabs=0&showCalendars=0&mode=MONTH&src=Z2xhemVkYXRhaHViQGdtYWlsLmNvbQ&color=%23039BE5"
+      src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&showTabs=0&showCalendars=0&showTitle=0&mode=MONTH&src=glazedatahub%40gmail.com&src=bashhomeschoolers%40gmail.com"
       scrolling="no">
     </iframe>
 
@@ -307,13 +292,9 @@
 
 </div>
 
-
 <script>
 
-  /* ---------------- DATE + CLOCK ---------------- */
-
   function updateClock() {
-
     const now = new Date();
 
     document.getElementById("day").textContent =
@@ -333,17 +314,13 @@
         hour: "numeric",
         minute: "2-digit"
       });
-
   }
 
   updateClock();
   setInterval(updateClock, 30000);
 
 
-  /* ---------------- WEATHER ---------------- */
-
   function weatherIcon(code) {
-
     if (code === 0) return "☀️";
 
     if (code === 1 || code === 2)
@@ -372,9 +349,7 @@
 
 
   async function updateWeather() {
-
     try {
-
       const response = await fetch(
         "https://api.open-meteo.com/v1/forecast?latitude=29.46&longitude=-95.36&current=temperature_2m,weather_code&temperature_unit=fahrenheit&timezone=America%2FChicago"
       );
@@ -390,25 +365,17 @@
       document.getElementById("weatherMain").textContent =
         icon + " " + temp + "°";
 
-    }
-
-    catch (error) {
-
+    } catch (error) {
       document.getElementById("weatherMain").textContent =
         "🌤️ --°";
-
     }
-
   }
 
   updateWeather();
   setInterval(updateWeather, 900000);
 
 
-  /* ---------------- COUNTDOWNS ---------------- */
-
   const birthdays = [
-
     {
       name: "Mom",
       month: 10,
@@ -416,7 +383,6 @@
       year: 1996,
       className: "mom"
     },
-
     {
       name: "Daddy",
       month: 11,
@@ -424,7 +390,6 @@
       year: 1995,
       className: "daddy"
     },
-
     {
       name: "Ryder",
       month: 10,
@@ -432,7 +397,6 @@
       year: 2016,
       className: "ryder"
     },
-
     {
       name: "Clyde",
       month: 4,
@@ -440,7 +404,6 @@
       year: 2018,
       className: "clyde"
     },
-
     {
       name: "Wyatt",
       month: 12,
@@ -448,7 +411,6 @@
       year: 2019,
       className: "wyatt"
     },
-
     {
       name: "Charlotte",
       month: 11,
@@ -456,12 +418,10 @@
       year: 2021,
       className: "charlotte"
     }
-
   ];
 
 
   function thanksgiving(year) {
-
     let d = new Date(year, 10, 1);
 
     while (d.getDay() !== 4) {
@@ -475,7 +435,6 @@
 
 
   function ordinal(number) {
-
     const lastTwo = number % 100;
 
     if (
@@ -486,16 +445,12 @@
     }
 
     switch (number % 10) {
-
       case 1:
         return number + "st";
-
       case 2:
         return number + "nd";
-
       case 3:
         return number + "rd";
-
       default:
         return number + "th";
     }
@@ -503,7 +458,6 @@
 
 
   function upcomingEvents() {
-
     const now = new Date();
 
     const today =
@@ -517,7 +471,6 @@
 
 
     birthdays.forEach(person => {
-
       let year = today.getFullYear();
 
       let eventDate =
@@ -528,7 +481,6 @@
         );
 
       if (eventDate < today) {
-
         year++;
 
         eventDate =
@@ -537,14 +489,12 @@
             person.month - 1,
             person.day
           );
-
       }
 
       const age =
         year - person.year;
 
       events.push({
-
         name:
           person.name +
           "'s " +
@@ -557,14 +507,11 @@
           person.className,
 
         emoji: "🎂"
-
       });
-
     });
 
 
     const holidayDefinitions = [
-
       {
         name: "Halloween",
         month: 10,
@@ -572,7 +519,6 @@
         className: "halloween",
         emoji: "🎃"
       },
-
       {
         name: "Christmas",
         month: 12,
@@ -580,12 +526,10 @@
         className: "christmas",
         emoji: "🎄"
       }
-
     ];
 
 
     holidayDefinitions.forEach(holiday => {
-
       let year =
         today.getFullYear();
 
@@ -597,18 +541,15 @@
         );
 
       if (eventDate < today) {
-
         eventDate =
           new Date(
             year + 1,
             holiday.month - 1,
             holiday.day
           );
-
       }
 
       events.push({
-
         name: holiday.name,
 
         date: eventDate,
@@ -618,9 +559,7 @@
 
         emoji:
           holiday.emoji
-
       });
-
     });
 
 
@@ -630,16 +569,13 @@
       );
 
     if (thanksgivingDate < today) {
-
       thanksgivingDate =
         thanksgiving(
           today.getFullYear() + 1
         );
-
     }
 
     events.push({
-
       name: "Thanksgiving",
 
       date:
@@ -649,11 +585,10 @@
         "thanksgiving",
 
       emoji: "🦃"
-
     });
 
 
-    let newYear =
+    const newYear =
       new Date(
         today.getFullYear() + 1,
         0,
@@ -661,7 +596,6 @@
       );
 
     events.push({
-
       name:
         "New Year's",
 
@@ -672,7 +606,6 @@
         "newyear",
 
       emoji: "🎆"
-
     });
 
 
@@ -682,12 +615,10 @@
     );
 
     return events.slice(0, 5);
-
   }
 
 
   function renderCountdowns() {
-
     const now = new Date();
 
     const today =
@@ -704,7 +635,6 @@
 
 
     upcomingEvents().forEach(event => {
-
       const days =
         Math.round(
           (
@@ -756,9 +686,7 @@
       `;
 
       cards.appendChild(card);
-
     });
-
   }
 
   renderCountdowns();
