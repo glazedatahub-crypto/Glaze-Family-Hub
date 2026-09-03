@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
-
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Glaze Family Hub</title>
 
@@ -20,147 +17,242 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background: white;
+  min-height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   color: #202124;
 }
 
+/* =========================
+   FAMILY PHOTO BACKGROUND
+========================= */
+
 body {
-  padding: 18px 22px 8px;
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(
+      rgba(20, 25, 35, 0.18),
+      rgba(20, 25, 35, 0.18)
+    ),
+    url("family-background.jpg");
+
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  padding: 20px;
 }
 
 .hub {
   width: 100%;
   max-width: 1500px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 
 /* =========================
-   TOP
+   GLASS EFFECT
+========================= */
+
+.glass {
+  background: rgba(255,255,255,0.78);
+
+  border: 1px solid rgba(255,255,255,0.75);
+
+  box-shadow:
+    0 8px 30px rgba(0,0,0,0.13);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+
+/* =========================
+   TOP AREA
 ========================= */
 
 .topbar {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+
+  grid-template-columns:
+    minmax(300px, 1fr)
+    auto
+    auto;
+
   align-items: center;
-  gap: 25px;
-  margin-bottom: 12px;
+
+  gap: 18px;
+
+  margin-bottom: 14px;
+}
+
+.date-box,
+.weather-box,
+.clock-box {
+  border-radius: 22px;
+}
+
+.date-box {
+  padding: 18px 24px;
 }
 
 .hub-name {
   font-size: 17px;
-  font-weight: 700;
-  color: #777;
-  letter-spacing: .4px;
-  margin-bottom: 4px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+  color: #555;
+
+  margin-bottom: 5px;
 }
 
 .day {
-  font-size: 34px;
+  font-size: 38px;
   line-height: 1;
-  font-weight: 750;
+  font-weight: 800;
 }
 
 .date {
   font-size: 18px;
-  color: #666;
-  margin-top: 7px;
+  color: #555;
+  margin-top: 8px;
 }
 
-.right-info {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  white-space: nowrap;
-}
 
-.weather {
+.weather-box {
+  min-width: 150px;
+
   text-align: center;
+
+  padding: 15px 20px;
 }
 
 .weather-main {
-  font-size: 30px;
-  font-weight: 750;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 .weather-label {
   font-size: 13px;
-  color: #777;
+  color: #666;
   margin-top: 3px;
 }
 
+
+.clock-box {
+  min-width: 190px;
+
+  text-align: center;
+
+  padding: 18px 20px;
+}
+
 .clock {
-  font-size: 38px;
-  font-weight: 750;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 800;
 }
 
 
 /* =========================
-   COMING UP
+   COMING UP TITLE
 ========================= */
 
 .coming-title {
-  font-size: 23px;
-  font-weight: 750;
-  margin: 8px 0 11px;
+  display: inline-block;
+
+  padding: 8px 17px;
+
+  border-radius: 16px;
+
+  margin-bottom: 10px;
+
+  font-size: 24px;
+  font-weight: 800;
 }
+
+
+/* =========================
+   COUNTDOWN CARDS
+========================= */
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 11px;
+
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  gap: 12px;
+
   margin-bottom: 15px;
 }
 
 .card {
-  min-height: 165px;
+  min-height: 170px;
 
   border: 2px solid;
-  border-radius: 17px;
+
+  border-radius: 22px;
 
   text-align: center;
 
-  padding: 12px 7px 9px;
+  padding: 13px 7px 10px;
 
   display: flex;
+
   flex-direction: column;
+
   justify-content: center;
+
+  box-shadow:
+    0 7px 18px rgba(0,0,0,0.10);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
 .emoji {
-  font-size: 21px;
+  font-size: 23px;
   margin-bottom: 5px;
 }
 
 .event-name {
   font-size: 16px;
-  font-weight: 750;
+  font-weight: 800;
+
   line-height: 1.2;
 
-  min-height: 38px;
+  min-height: 39px;
 
   display: flex;
-  align-items: center;
+
   justify-content: center;
+  align-items: center;
 }
 
 .days {
-  font-size: 34px;
-  font-weight: 800;
+  font-size: 36px;
+  font-weight: 900;
   line-height: 1;
+
   margin-top: 7px;
 }
 
 .days-label {
   font-size: 11px;
+
   margin-top: 4px;
+
+  letter-spacing: .5px;
 }
 
 .event-date {
   font-size: 12px;
+
   margin-top: 6px;
-  opacity: .75;
+
+  opacity: .78;
 }
 
 
@@ -169,37 +261,37 @@ body {
 ========================= */
 
 .mom {
-  background: #ffe3f0;
+  background: rgba(255,227,240,.88);
   border-color: #ff78b5;
   color: #a21858;
 }
 
 .daddy {
-  background: #efffd6;
+  background: rgba(239,255,214,.88);
   border-color: #9be000;
   color: #4d7300;
 }
 
 .ryder {
-  background: #e5ebff;
+  background: rgba(229,235,255,.88);
   border-color: #4169e1;
   color: #183a9b;
 }
 
 .clyde {
-  background: #e3f8e9;
+  background: rgba(227,248,233,.88);
   border-color: #2e9d50;
   color: #186634;
 }
 
 .wyatt {
-  background: #ffe4e4;
+  background: rgba(255,228,228,.88);
   border-color: #e53935;
   color: #9e211f;
 }
 
 .charlotte {
-  background: #f1e4ff;
+  background: rgba(241,228,255,.88);
   border-color: #9b59d0;
   color: #63328b;
 }
@@ -210,43 +302,59 @@ body {
 ========================= */
 
 .halloween {
-  background: #fff0df;
+  background: rgba(255,240,223,.90);
   border-color: #ff8c00;
   color: #a35200;
 }
 
 .thanksgiving {
-  background: #fff1e3;
+  background: rgba(255,241,227,.90);
   border-color: #c76b2b;
   color: #864011;
 }
 
 .christmas {
-  background: #e8f6ec;
+  background: rgba(232,246,236,.90);
   border-color: #2d8b57;
   color: #195638;
 }
 
 .newyear {
-  background: #e6efff;
+  background: rgba(230,239,255,.90);
   border-color: #4c7de8;
   color: #264b9b;
 }
 
 
 /* =========================
-   GOOGLE CALENDAR
+   CALENDAR PANEL
 ========================= */
+
+.calendar-panel {
+  padding: 12px;
+
+  border-radius: 24px;
+
+  overflow: hidden;
+}
+
+.calendar-title {
+  font-size: 22px;
+  font-weight: 800;
+
+  padding: 3px 5px 10px;
+}
 
 .calendar-wrap {
   width: 100%;
-  height: 600px;
 
-  border: 1px solid #e1e4e8;
-  border-radius: 12px;
+  height: 590px;
 
   overflow: hidden;
-  background: white;
+
+  border-radius: 16px;
+
+  background: rgba(255,255,255,.90);
 }
 
 .calendar-wrap iframe {
@@ -256,29 +364,89 @@ body {
   height: 100%;
 
   border: 0;
+
+  background: white;
+
+  opacity: .94;
 }
 
 
 /* =========================
-   SMALLER SCREENS
+   TV / WIDE SCREEN
+========================= */
+
+@media (min-width: 1200px) {
+
+  body {
+    padding: 18px 30px;
+  }
+
+  .hub {
+    max-width: 1650px;
+  }
+
+  .card {
+    min-height: 165px;
+  }
+
+  .calendar-wrap {
+    height: 590px;
+  }
+
+}
+
+
+/* =========================
+   SMALLER SCREEN
 ========================= */
 
 @media (max-width: 900px) {
 
   body {
-    padding: 14px;
+    padding: 12px;
+  }
+
+  .topbar {
+    grid-template-columns:
+      1fr auto auto;
+
+    gap: 8px;
+  }
+
+  .date-box {
+    padding: 13px;
   }
 
   .day {
-    font-size: 30px;
+    font-size: 29px;
+  }
+
+  .date {
+    font-size: 15px;
+  }
+
+  .hub-name {
+    font-size: 13px;
+  }
+
+  .weather-box {
+    min-width: 110px;
+
+    padding: 12px 10px;
+  }
+
+  .weather-main {
+    font-size: 25px;
+  }
+
+  .clock-box {
+    min-width: 140px;
+
+    padding: 14px 10px;
   }
 
   .clock {
-    font-size: 32px;
-  }
-
-  .right-info {
-    gap: 20px;
+    font-size: 30px;
   }
 
   .cards {
@@ -286,22 +454,26 @@ body {
   }
 
   .card {
-    min-height: 155px;
-    padding-left: 4px;
-    padding-right: 4px;
+    min-height: 150px;
+
+    border-radius: 15px;
   }
 
   .event-name {
-    font-size: 14px;
+    font-size: 13px;
+  }
+
+  .days {
+    font-size: 30px;
   }
 
   .calendar-wrap {
-    height: 570px;
+    height: 550px;
   }
+
 }
 
 </style>
-
 </head>
 
 
@@ -311,12 +483,12 @@ body {
 
 
 <!-- =========================
-     HEADER
+     DATE WEATHER TIME
 ========================= -->
 
 <div class="topbar">
 
-  <div>
+  <div class="date-box glass">
 
     <div class="hub-name">
       GLAZE FAMILY HUB
@@ -335,22 +507,22 @@ body {
   </div>
 
 
-  <div class="right-info">
+  <div class="weather-box glass">
 
-    <div class="weather">
-
-      <div
-        class="weather-main"
-        id="weatherMain">
-        🌤️ --°
-      </div>
-
-      <div class="weather-label">
-        Manvel
-      </div>
-
+    <div
+      class="weather-main"
+      id="weatherMain">
+      🌤️ --°
     </div>
 
+    <div class="weather-label">
+      Manvel
+    </div>
+
+  </div>
+
+
+  <div class="clock-box glass">
 
     <div
       class="clock"
@@ -362,13 +534,15 @@ body {
 </div>
 
 
+
 <!-- =========================
-     COUNTDOWNS
+     COMING UP
 ========================= -->
 
-<div class="coming-title">
+<div class="coming-title glass">
   🎉 Coming Up
 </div>
+
 
 <div
   class="cards"
@@ -376,27 +550,34 @@ body {
 </div>
 
 
+
 <!-- =========================
-     GOOGLE CALENDAR
+     CALENDAR
 ========================= -->
 
-<div class="calendar-wrap">
+<div class="calendar-panel glass">
 
-<iframe
+  <div class="calendar-title">
+    📅 Our Calendar
+  </div>
 
-src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&showTabs=0&showCalendars=0&showTitle=0&mode=MONTH&src=glazedatahub%40gmail.com&src=bashhomeschoolers%40gmail.com"
+  <div class="calendar-wrap">
 
-style="border:0"
+    <iframe
 
-width="100%"
+      src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&showTabs=0&showCalendars=0&showTitle=0&mode=MONTH&src=glazedatahub%40gmail.com&src=bashhomeschoolers%40gmail.com"
 
-height="600"
+      width="100%"
 
-frameborder="0"
+      height="600"
 
-scrolling="no">
+      frameborder="0"
 
-</iframe>
+      scrolling="no">
+
+    </iframe>
+
+  </div>
 
 </div>
 
@@ -409,7 +590,7 @@ scrolling="no">
 
 
 /* =========================
-   DATE + CLOCK
+   CLOCK + DATE
 ========================= */
 
 function updateClock() {
@@ -477,17 +658,14 @@ function weatherIcon(code) {
   if (code === 0)
     return "☀️";
 
-
   if (
     code === 1 ||
     code === 2
   )
     return "🌤️";
 
-
   if (code === 3)
     return "☁️";
-
 
   if (
     code === 45 ||
@@ -495,13 +673,11 @@ function weatherIcon(code) {
   )
     return "🌫️";
 
-
   if (
     (code >= 51 && code <= 67) ||
     (code >= 80 && code <= 82)
   )
     return "🌧️";
-
 
   if (
     code >= 71 &&
@@ -509,12 +685,11 @@ function weatherIcon(code) {
   )
     return "❄️";
 
-
   if (code >= 95)
     return "⛈️";
 
-
   return "🌤️";
+
 }
 
 
@@ -576,7 +751,6 @@ async function updateWeather() {
 
 
 updateWeather();
-
 
 setInterval(
   updateWeather,
@@ -680,7 +854,7 @@ function thanksgiving(year) {
 
 
 /* =========================
-   ORDINALS
+   ORDINAL
 ========================= */
 
 function ordinal(number) {
@@ -807,42 +981,19 @@ function upcomingEvents() {
   const holidays = [
 
     {
-
-      name:
-        "Halloween",
-
-      month:
-        10,
-
-      day:
-        31,
-
-      className:
-        "halloween",
-
-      emoji:
-        "🎃"
-
+      name: "Halloween",
+      month: 10,
+      day: 31,
+      className: "halloween",
+      emoji: "🎃"
     },
 
-
     {
-
-      name:
-        "Christmas",
-
-      month:
-        12,
-
-      day:
-        25,
-
-      className:
-        "christmas",
-
-      emoji:
-        "🎄"
-
+      name: "Christmas",
+      month: 12,
+      day: 25,
+      className: "christmas",
+      emoji: "🎄"
     }
 
   ];
@@ -906,7 +1057,8 @@ function upcomingEvents() {
 
 
   if (
-    thanksgivingDate < today
+    thanksgivingDate <
+    today
   ) {
 
     thanksgivingDate =
@@ -962,8 +1114,9 @@ function upcomingEvents() {
 
 
   events.sort(
-    (a, b) =>
-      a.date - b.date
+    (a,b) =>
+      a.date -
+      b.date
   );
 
 
@@ -977,7 +1130,7 @@ function upcomingEvents() {
 
 
 /* =========================
-   RENDER COUNTDOWNS
+   DISPLAY COUNTDOWNS
 ========================= */
 
 function renderCountdowns() {
@@ -1096,7 +1249,5 @@ renderCountdowns();
 
 </script>
 
-
 </body>
-
 </html>
