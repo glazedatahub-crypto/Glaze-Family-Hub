@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 18px;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #222;
+}
+
+h2 {
+  margin: 0 0 14px;
+  font-size: 24px;
+}
+
+#countdowns {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 16px 10px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.emoji {
+  font-size: 28px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.days {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.label {
+  font-size: 13px;
+  color: #666;
+}
+
+.date {
+  font-size: 12px;
+  color: #777;
+  margin-top: 6px;
+}
+
+@media (max-width: 700px) {
+  #countdowns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<h2>🎉 Coming Up</h2>
+
+<div id="countdowns"></div>
+
+<script>
+
+const birthdays = [
+  {name:"Mom", month:10, day:9, year:1996},
+  {name:"Daddy", month:11, day:11, year:1995},
+  {name:"Ryder", month:10, day:18, year:2016},
+  {name:"Clyde", month:4, day:21, year:2018},
+  {name:"Wyatt", month:12, day:8, year:2019},
+  {name:"Charlotte", month:11, day:9, year:2021}
+];
+
+function thanksgiving(year) {
+  let d = new Date(year, 10, 1);
+
+  while (d.getDay() !== 4) {
+    d.setDate(d.getDate() + 1);
+  }
+
+  d.setDate(d.getDate() + 21);
+  return d;
+}
+
+function getEvents() {
+
+  const now = new Date();
+  now.setHours(0,0,0,0);
+
+  const year = now.getFullYear();
+
+  let events = [];
+
+  birthdays.forEach(person => {
+
+    let eventDate = new Date(year, person.month - 1, person.day);
+
+    if (eventDate < now) {
+      eventDate = new Date(year + 1, person.month - 1, person.day);
+    }
+
+    const age = eventDate.getFullYear() - person.year;
+
+    events.push({
+      emoji:"🎂",
+      title: person.name + "'s " + ordinal(age) + " Birthday",
+      date:eventDate
+    });
+
+  });
+
+  const holidays = [
+    {
+      emoji:"🎃",
+      title:"Halloween",
+      getDate:y => new Date(y,9,31)
+    },
+    {
+      emoji:"🦃",
+      title:"Thanksgiving",
+      getDate:y => thanksgiving(y)
+    },
+    {
+      emoji:"🎄",
+      title:"Christmas",
+      getDate:y => new Date(y,11,25)
+    },
+    {
+      emoji:"🎆",
+      title:"New Year's",
+      getDate:y => new Date(y,0,1)
+    }
+  ];
+
+  holidays.forEach(holiday => {
+
+    let eventDate = holiday.getDate(year);
+
+    if (eventDate < now) {
+      eventDate = holiday.getDate(year + 1);
+    }
+
+    events.push({
+      emoji:holiday.emoji,
+      title:holiday.title,
+      date:eventDate
+    });
+
+  });
+
+  events.forEach(event => {
+    event.days = Math.round(
+      (event.date - now) / 86400000
+    );
+  });
+
+  events.sort((a,b) => a.days - b.days);
+
+  return events.slice(0,5);
+}
+
+function ordinal(number) {
+
+  const mod100 = number % 100;
+
+  if (mod100 >= 11 && mod100 <= 13) {
+    return number + "th";
+  }
+
+  switch(number % 10) {
+    case 1: return number + "st";
+    case 2: return number + "nd";
+    case 3: return number + "rd";
+    default: return number + "th";
+  }
+}
+
+function displayEvents() {
+
+  const container = document.getElementById("countdowns");
+
+  const events = getEvents();
+
+  events.forEach(event => {
+
+    const card = document.createElement("div");
+
+    card.className = "card";
+
+    const dateText =
+      event.date.toLocaleDateString(
+        "en-US",
+        {month:"long", day:"numeric"}
+      );
+
+    card.innerHTML = `
+      <div class="emoji">${event.emoji}</div>
+      <div class="name">${event.title}</div>
+      <div class="days">${event.days}</div>
+      <div class="label">${event.days === 1 ? "DAY" : "DAYS"}</div>
+      <div class="date">${dateText}</div>
+    `;
+
+    container.appendChild(card);
+
+  });
+
+}
+
+displayEvents();
+
+</script>
+
+</body>
+</html>
