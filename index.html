@@ -7,6 +7,10 @@
 
 <title>Glaze Family Hub</title>
 
+<script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.21/index.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fullcalendar/icalendar@6.1.21/index.global.min.js"></script>
+
 <style>
 
 * {
@@ -51,11 +55,9 @@ body {
 /* GLASS */
 
 .glass {
-  background: rgba(255,255,255,0.68);
-  border: 1px solid rgba(255,255,255,0.72);
-
-  box-shadow:
-    0 6px 22px rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.70);
+  border: 1px solid rgba(255,255,255,0.76);
+  box-shadow: 0 6px 22px rgba(0,0,0,0.12);
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -71,9 +73,7 @@ body {
     260px minmax(350px,1fr) 125px 150px;
 
   gap: 10px;
-
   align-items: stretch;
-
   margin-bottom: 8px;
 }
 
@@ -140,7 +140,6 @@ body {
   height: 125px;
   border: 0;
   margin-top: -2px;
-  background: transparent;
 }
 
 
@@ -150,9 +149,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   text-align: center;
-
   padding: 8px;
 }
 
@@ -174,7 +171,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 8px;
 }
 
@@ -188,46 +184,32 @@ body {
 
 .cards {
   display: grid;
-
-  grid-template-columns:
-    repeat(5,minmax(0,1fr));
-
+  grid-template-columns: repeat(5,minmax(0,1fr));
   gap: 8px;
-
   margin-bottom: 8px;
 }
 
 .card {
   min-height: 108px;
-
   border: 2px solid;
-
   border-radius: 17px;
-
   text-align: center;
-
   padding: 8px 6px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  box-shadow:
-    0 5px 14px rgba(0,0,0,0.10);
+  box-shadow: 0 5px 14px rgba(0,0,0,0.10);
 
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
 
-
-/* BIGGER COUNTDOWN TEXT */
-
 .event-name {
   font-size: 17px;
   font-weight: 900;
-
   line-height: 1.1;
-
   min-height: 38px;
 
   display: flex;
@@ -238,27 +220,21 @@ body {
 .days {
   font-size: 36px;
   font-weight: 900;
-
   line-height: 1;
-
   margin-top: 3px;
 }
 
 .days-label {
   font-size: 11px;
   font-weight: 700;
-
   margin-top: 2px;
-
   letter-spacing: .6px;
 }
 
 .event-date {
   font-size: 12px;
   font-weight: 700;
-
   margin-top: 3px;
-
   opacity: .85;
 }
 
@@ -329,35 +305,176 @@ body {
 }
 
 
-/* MAIN CALENDAR */
+/* CUSTOM CALENDAR PANEL */
 
 .calendar-panel {
-  padding: 8px;
-
+  padding: 10px;
   border-radius: 18px;
-
   overflow: hidden;
 }
 
-.calendar-wrap {
-  width: 100%;
-
-  height: 610px;
-
-  overflow: hidden;
-
+#calendar {
+  background: rgba(255,255,255,.92);
   border-radius: 13px;
-
-  background: rgba(255,255,255,.88);
+  overflow: hidden;
+  padding: 6px;
 }
 
-.calendar-wrap iframe {
-  display: block;
 
-  width: 100%;
-  height: 100%;
+/* CALENDAR HEADER */
 
-  border: 0;
+.fc .fc-toolbar {
+  margin: 2px 4px 8px 4px !important;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 27px !important;
+  font-weight: 900 !important;
+  color: #222 !important;
+}
+
+.fc .fc-button {
+  background: rgba(255,255,255,.88) !important;
+  color: #333 !important;
+
+  border: 1px solid #bbb !important;
+
+  font-weight: 800 !important;
+
+  box-shadow: none !important;
+}
+
+.fc .fc-button:hover {
+  background: #f2f2f2 !important;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+  background: #e6efff !important;
+  color: #244f9d !important;
+}
+
+
+/* WEEKDAY HEADERS */
+
+.fc .fc-col-header-cell {
+  background: rgba(242,245,249,.96);
+}
+
+.fc .fc-col-header-cell-cushion {
+  color: #333 !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+  font-weight: 900 !important;
+  padding: 6px 2px !important;
+}
+
+
+/* DAY BOXES */
+
+.fc .fc-daygrid-day {
+  background: rgba(255,255,255,.80);
+}
+
+.fc .fc-daygrid-day-frame {
+  min-height: 86px;
+}
+
+.fc .fc-daygrid-day-number {
+  color: #333 !important;
+  text-decoration: none !important;
+
+  font-size: 16px !important;
+  font-weight: 900 !important;
+
+  padding: 6px 7px 3px !important;
+}
+
+
+/* DAYS OUTSIDE CURRENT MONTH */
+
+.fc .fc-day-other {
+  background: rgba(238,238,238,.60);
+}
+
+.fc .fc-day-other .fc-daygrid-day-number {
+  opacity: .35;
+}
+
+
+/* =====================================
+   TODAY - HIGHLIGHT THE WHOLE BOX
+===================================== */
+
+.fc .fc-day-today {
+  background: rgba(203,225,255,.92) !important;
+
+  box-shadow:
+    inset 0 0 0 3px #4385e8 !important;
+}
+
+.fc .fc-day-today .fc-daygrid-day-number {
+  color: #174f9f !important;
+  font-size: 18px !important;
+}
+
+
+/* EVENTS */
+
+.fc .fc-daygrid-event {
+  border: 0 !important;
+  border-radius: 5px !important;
+
+  padding: 3px 5px !important;
+
+  margin: 2px 3px !important;
+
+  font-size: 12px !important;
+  font-weight: 800 !important;
+
+  line-height: 1.18 !important;
+
+  white-space: normal !important;
+}
+
+.fc .fc-event-title {
+  white-space: normal !important;
+  overflow: visible !important;
+  font-weight: 800 !important;
+}
+
+
+/* GLAZE CALENDAR EVENTS */
+
+.glaze-event {
+  background: #dceaff !important;
+  color: #1f4d8f !important;
+  border-left: 4px solid #4f8fe8 !important;
+}
+
+
+/* BASH EVENTS */
+
+.bash-event {
+  background: #e7f6e8 !important;
+  color: #245d2b !important;
+  border-left: 4px solid #55a95c !important;
+}
+
+
+/* MORE EVENTS LINK */
+
+.fc .fc-daygrid-more-link {
+  font-size: 11px !important;
+  font-weight: 900 !important;
+  color: #315fa7 !important;
+}
+
+
+/* GRID LINES */
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border-color: rgba(90,100,110,.25) !important;
 }
 
 
@@ -373,8 +490,8 @@ body {
     max-width: 1750px;
   }
 
-  .calendar-wrap {
-    height: 610px;
+  .fc .fc-daygrid-day-frame {
+    min-height: 92px;
   }
 
 }
@@ -448,8 +565,16 @@ body {
     font-size: 10px;
   }
 
-  .calendar-wrap {
-    height: 560px;
+  .fc .fc-toolbar-title {
+    font-size: 20px !important;
+  }
+
+  .fc .fc-daygrid-event {
+    font-size: 10px !important;
+  }
+
+  .fc .fc-daygrid-day-frame {
+    min-height: 76px;
   }
 
 }
@@ -467,21 +592,16 @@ body {
 
 <div class="topbar">
 
+
   <div class="date-box glass">
 
     <div class="hub-name">
       GLAZE FAMILY HUB
     </div>
 
-    <div
-      class="day"
-      id="day">
-    </div>
+    <div class="day" id="day"></div>
 
-    <div
-      class="date"
-      id="date">
-    </div>
+    <div class="date" id="date"></div>
 
   </div>
 
@@ -511,9 +631,7 @@ body {
 
   <div class="weather-box glass">
 
-    <div
-      class="weather-main"
-      id="weatherMain">
+    <div class="weather-main" id="weatherMain">
       --°
     </div>
 
@@ -528,10 +646,7 @@ body {
 
   <div class="clock-box glass">
 
-    <div
-      class="clock"
-      id="clock">
-    </div>
+    <div class="clock" id="clock"></div>
 
   </div>
 
@@ -541,30 +656,18 @@ body {
 
 <!-- COUNTDOWNS -->
 
-<div
-  class="cards"
-  id="cards">
-</div>
+<div class="cards" id="cards"></div>
 
 
 
-<!-- MONTH CALENDAR -->
+<!-- CUSTOM MONTH CALENDAR -->
 
 <div class="calendar-panel glass">
 
-  <div class="calendar-wrap">
-
-    <iframe
-      src="https://calendar.google.com/calendar/embed?height=700&wkst=1&ctz=America%2FChicago&showPrint=0&showTabs=0&showCalendars=0&showTitle=0&mode=MONTH&src=glazedatahub%40gmail.com&src=bashhomeschoolers%40gmail.com"
-      width="100%"
-      height="700"
-      frameborder="0"
-      scrolling="no">
-    </iframe>
-
-  </div>
+  <div id="calendar"></div>
 
 </div>
+
 
 </div>
 
@@ -577,12 +680,9 @@ body {
 
 function updateClock() {
 
-  const now =
-    new Date();
+  const now = new Date();
 
-  document
-    .getElementById("day")
-    .textContent =
+  document.getElementById("day").textContent =
     now.toLocaleDateString(
       "en-US",
       {
@@ -590,9 +690,7 @@ function updateClock() {
       }
     );
 
-  document
-    .getElementById("date")
-    .textContent =
+  document.getElementById("date").textContent =
     now.toLocaleDateString(
       "en-US",
       {
@@ -602,9 +700,7 @@ function updateClock() {
       }
     );
 
-  document
-    .getElementById("clock")
-    .textContent =
+  document.getElementById("clock").textContent =
     now.toLocaleTimeString(
       "en-US",
       {
@@ -617,10 +713,7 @@ function updateClock() {
 
 updateClock();
 
-setInterval(
-  updateClock,
-  30000
-);
+setInterval(updateClock,30000);
 
 
 
@@ -688,25 +781,14 @@ async function updateWeather() {
         data.current.weather_code
       );
 
-    document
-      .getElementById(
-        "weatherMain"
-      )
-      .textContent =
-      icon +
-      " " +
-      temp +
-      "°";
+    document.getElementById("weatherMain").textContent =
+      icon + " " + temp + "°";
 
   }
 
   catch(error) {
 
-    document
-      .getElementById(
-        "weatherMain"
-      )
-      .textContent =
+    document.getElementById("weatherMain").textContent =
       "--°";
 
   }
@@ -715,10 +797,7 @@ async function updateWeather() {
 
 updateWeather();
 
-setInterval(
-  updateWeather,
-  900000
-);
+setInterval(updateWeather,900000);
 
 
 
@@ -777,7 +856,6 @@ const birthdays = [
 ];
 
 
-
 function thanksgiving(year) {
 
   let d =
@@ -806,7 +884,6 @@ function thanksgiving(year) {
 }
 
 
-
 function ordinal(number) {
 
   const lastTwo =
@@ -821,9 +898,7 @@ function ordinal(number) {
 
   }
 
-  switch(
-    number % 10
-  ) {
+  switch(number % 10) {
 
     case 1:
       return number + "st";
@@ -843,12 +918,11 @@ function ordinal(number) {
 
 
 
-/* UPCOMING EVENTS */
+/* UPCOMING COUNTDOWNS */
 
 function upcomingEvents() {
 
-  const now =
-    new Date();
+  const now = new Date();
 
   const today =
     new Date(
@@ -873,9 +947,7 @@ function upcomingEvents() {
           person.day
         );
 
-      if(
-        eventDate < today
-      ) {
+      if(eventDate < today) {
 
         year++;
 
@@ -944,9 +1016,7 @@ function upcomingEvents() {
           holiday.day
         );
 
-      if(
-        eventDate < today
-      ) {
+      if(eventDate < today) {
 
         eventDate =
           new Date(
@@ -1032,6 +1102,7 @@ function upcomingEvents() {
       b.date
   );
 
+
   return events.slice(
     0,
     5
@@ -1045,8 +1116,7 @@ function upcomingEvents() {
 
 function renderCountdowns() {
 
-  const now =
-    new Date();
+  const now = new Date();
 
   const today =
     new Date(
@@ -1063,73 +1133,201 @@ function renderCountdowns() {
   cards.innerHTML = "";
 
 
-  upcomingEvents()
-    .forEach(
-      event => {
+  upcomingEvents().forEach(
+    event => {
 
-        const days =
-          Math.round(
-            (
-              event.date -
-              today
-            )
-            /
-            86400000
-          );
-
-        const dateText =
-          event.date
-            .toLocaleDateString(
-              "en-US",
-              {
-                month:
-                  "long",
-                day:
-                  "numeric"
-              }
-            );
-
-        const card =
-          document.createElement(
-            "div"
-          );
-
-        card.className =
-          "card " +
-          event.className;
-
-        card.innerHTML = `
-
-          <div class="event-name">
-            ${event.name}
-          </div>
-
-          <div class="days">
-            ${days}
-          </div>
-
-          <div class="days-label">
-            DAYS
-          </div>
-
-          <div class="event-date">
-            ${dateText}
-          </div>
-
-        `;
-
-        cards.appendChild(
-          card
+      const days =
+        Math.round(
+          (
+            event.date -
+            today
+          )
+          /
+          86400000
         );
 
-      }
-    );
+      const dateText =
+        event.date.toLocaleDateString(
+          "en-US",
+          {
+            month: "long",
+            day: "numeric"
+          }
+        );
+
+      const card =
+        document.createElement(
+          "div"
+        );
+
+      card.className =
+        "card " +
+        event.className;
+
+      card.innerHTML = `
+
+        <div class="event-name">
+          ${event.name}
+        </div>
+
+        <div class="days">
+          ${days}
+        </div>
+
+        <div class="days-label">
+          DAYS
+        </div>
+
+        <div class="event-date">
+          ${dateText}
+        </div>
+
+      `;
+
+      cards.appendChild(card);
+
+    }
+  );
 
 }
 
 renderCountdowns();
 
+
+
+/* CUSTOM CALENDAR */
+
+document.addEventListener(
+  "DOMContentLoaded",
+  function() {
+
+    const calendarEl =
+      document.getElementById(
+        "calendar"
+      );
+
+
+    const calendar =
+      new FullCalendar.Calendar(
+        calendarEl,
+        {
+
+          plugins: [
+            FullCalendar.iCalendarPlugin
+          ],
+
+          initialView:
+            "dayGridMonth",
+
+          timeZone:
+            "America/Chicago",
+
+          firstDay:
+            1,
+
+          fixedWeekCount:
+            false,
+
+          showNonCurrentDates:
+            true,
+
+          height:
+            "auto",
+
+          dayMaxEvents:
+            4,
+
+          displayEventTime:
+            true,
+
+          eventTimeFormat: {
+            hour:
+              "numeric",
+
+            minute:
+              "2-digit"
+          },
+
+          headerToolbar: {
+
+            left:
+              "prev,next today",
+
+            center:
+              "title",
+
+            right:
+              ""
+
+          },
+
+          buttonText: {
+            today:
+              "Today"
+          },
+
+
+          eventSources: [
+
+            {
+              url:
+                "glaze-calendar.ics",
+
+              format:
+                "ics",
+
+              className:
+                "glaze-event"
+            },
+
+            {
+              url:
+                "bash-calendar.ics",
+
+              format:
+                "ics",
+
+              className:
+                "bash-event"
+            }
+
+          ],
+
+
+          eventClassNames:
+            function(info) {
+
+              if(
+                info.event.source &&
+                info.event.source.url &&
+                info.event.source.url.includes(
+                  "bash-calendar"
+                )
+              ) {
+
+                return [
+                  "bash-event"
+                ];
+
+              }
+
+              return [
+                "glaze-event"
+              ];
+
+            }
+
+        }
+      );
+
+
+    calendar.render();
+
+  }
+);
+
 </script>
 
 </body>
+
 </html>
