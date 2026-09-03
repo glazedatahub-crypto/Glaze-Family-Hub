@@ -57,7 +57,9 @@ body {
 .glass {
   background: rgba(255,255,255,0.70);
   border: 1px solid rgba(255,255,255,0.76);
-  box-shadow: 0 6px 22px rgba(0,0,0,0.12);
+
+  box-shadow:
+    0 6px 22px rgba(0,0,0,0.12);
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -73,7 +75,9 @@ body {
     260px minmax(350px,1fr) 125px 150px;
 
   gap: 10px;
+
   align-items: stretch;
+
   margin-bottom: 8px;
 }
 
@@ -150,6 +154,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+
   padding: 8px;
 }
 
@@ -171,6 +176,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding: 8px;
 }
 
@@ -191,16 +197,21 @@ body {
 
 .card {
   min-height: 108px;
+
   border: 2px solid;
+
   border-radius: 17px;
+
   text-align: center;
+
   padding: 8px 6px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  box-shadow: 0 5px 14px rgba(0,0,0,0.10);
+  box-shadow:
+    0 5px 14px rgba(0,0,0,0.10);
 
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -210,6 +221,7 @@ body {
   font-size: 17px;
   font-weight: 900;
   line-height: 1.1;
+
   min-height: 38px;
 
   display: flex;
@@ -305,7 +317,7 @@ body {
 }
 
 
-/* CUSTOM CALENDAR PANEL */
+/* CUSTOM CALENDAR */
 
 .calendar-panel {
   padding: 10px;
@@ -314,17 +326,17 @@ body {
 }
 
 #calendar {
-  background: rgba(255,255,255,.92);
+  background: rgba(255,255,255,.94);
   border-radius: 13px;
   overflow: hidden;
-  padding: 6px;
+  padding: 7px;
 }
 
 
-/* CALENDAR HEADER */
+/* CALENDAR TOOLBAR */
 
 .fc .fc-toolbar {
-  margin: 2px 4px 8px 4px !important;
+  margin: 2px 4px 8px !important;
 }
 
 .fc .fc-toolbar-title {
@@ -334,7 +346,7 @@ body {
 }
 
 .fc .fc-button {
-  background: rgba(255,255,255,.88) !important;
+  background: rgba(255,255,255,.92) !important;
   color: #333 !important;
 
   border: 1px solid #bbb !important;
@@ -348,23 +360,20 @@ body {
   background: #f2f2f2 !important;
 }
 
-.fc .fc-button-primary:not(:disabled).fc-button-active {
-  background: #e6efff !important;
-  color: #244f9d !important;
-}
 
-
-/* WEEKDAY HEADERS */
+/* WEEKDAYS */
 
 .fc .fc-col-header-cell {
-  background: rgba(242,245,249,.96);
+  background: rgba(242,245,249,.98);
 }
 
 .fc .fc-col-header-cell-cushion {
   color: #333 !important;
   text-decoration: none !important;
+
   font-size: 15px !important;
   font-weight: 900 !important;
+
   padding: 6px 2px !important;
 }
 
@@ -372,28 +381,28 @@ body {
 /* DAY BOXES */
 
 .fc .fc-daygrid-day {
-  background: rgba(255,255,255,.80);
+  background: rgba(255,255,255,.86);
 }
 
 .fc .fc-daygrid-day-frame {
-  min-height: 86px;
+  min-height: 92px;
 }
 
 .fc .fc-daygrid-day-number {
   color: #333 !important;
   text-decoration: none !important;
 
-  font-size: 16px !important;
+  font-size: 17px !important;
   font-weight: 900 !important;
 
   padding: 6px 7px 3px !important;
 }
 
 
-/* DAYS OUTSIDE CURRENT MONTH */
+/* OTHER MONTH DAYS */
 
 .fc .fc-day-other {
-  background: rgba(238,238,238,.60);
+  background: rgba(238,238,238,.62);
 }
 
 .fc .fc-day-other .fc-daygrid-day-number {
@@ -401,20 +410,18 @@ body {
 }
 
 
-/* =====================================
-   TODAY - HIGHLIGHT THE WHOLE BOX
-===================================== */
+/* TODAY - FULL BOX HIGHLIGHT */
 
 .fc .fc-day-today {
-  background: rgba(203,225,255,.92) !important;
+  background: rgba(198,224,255,.95) !important;
 
   box-shadow:
-    inset 0 0 0 3px #4385e8 !important;
+    inset 0 0 0 4px #4385e8 !important;
 }
 
 .fc .fc-day-today .fc-daygrid-day-number {
   color: #174f9f !important;
-  font-size: 18px !important;
+  font-size: 19px !important;
 }
 
 
@@ -422,6 +429,7 @@ body {
 
 .fc .fc-daygrid-event {
   border: 0 !important;
+
   border-radius: 5px !important;
 
   padding: 3px 5px !important;
@@ -442,8 +450,12 @@ body {
   font-weight: 800 !important;
 }
 
+.fc .fc-event-time {
+  font-weight: 900 !important;
+}
 
-/* GLAZE CALENDAR EVENTS */
+
+/* GLAZE EVENTS */
 
 .glaze-event {
   background: #dceaff !important;
@@ -461,7 +473,7 @@ body {
 }
 
 
-/* MORE EVENTS LINK */
+/* MORE EVENTS */
 
 .fc .fc-daygrid-more-link {
   font-size: 11px !important;
@@ -470,7 +482,7 @@ body {
 }
 
 
-/* GRID LINES */
+/* GRID */
 
 .fc-theme-standard td,
 .fc-theme-standard th {
@@ -491,7 +503,7 @@ body {
   }
 
   .fc .fc-daygrid-day-frame {
-    min-height: 92px;
+    min-height: 96px;
   }
 
 }
@@ -592,16 +604,21 @@ body {
 
 <div class="topbar">
 
-
   <div class="date-box glass">
 
     <div class="hub-name">
       GLAZE FAMILY HUB
     </div>
 
-    <div class="day" id="day"></div>
+    <div
+      class="day"
+      id="day">
+    </div>
 
-    <div class="date" id="date"></div>
+    <div
+      class="date"
+      id="date">
+    </div>
 
   </div>
 
@@ -631,7 +648,9 @@ body {
 
   <div class="weather-box glass">
 
-    <div class="weather-main" id="weatherMain">
+    <div
+      class="weather-main"
+      id="weatherMain">
       --°
     </div>
 
@@ -646,7 +665,10 @@ body {
 
   <div class="clock-box glass">
 
-    <div class="clock" id="clock"></div>
+    <div
+      class="clock"
+      id="clock">
+    </div>
 
   </div>
 
@@ -656,11 +678,14 @@ body {
 
 <!-- COUNTDOWNS -->
 
-<div class="cards" id="cards"></div>
+<div
+  class="cards"
+  id="cards">
+</div>
 
 
 
-<!-- CUSTOM MONTH CALENDAR -->
+<!-- CUSTOM CALENDAR -->
 
 <div class="calendar-panel glass">
 
@@ -680,9 +705,12 @@ body {
 
 function updateClock() {
 
-  const now = new Date();
+  const now =
+    new Date();
 
-  document.getElementById("day").textContent =
+  document
+    .getElementById("day")
+    .textContent =
     now.toLocaleDateString(
       "en-US",
       {
@@ -690,7 +718,9 @@ function updateClock() {
       }
     );
 
-  document.getElementById("date").textContent =
+  document
+    .getElementById("date")
+    .textContent =
     now.toLocaleDateString(
       "en-US",
       {
@@ -700,7 +730,9 @@ function updateClock() {
       }
     );
 
-  document.getElementById("clock").textContent =
+  document
+    .getElementById("clock")
+    .textContent =
     now.toLocaleTimeString(
       "en-US",
       {
@@ -713,7 +745,10 @@ function updateClock() {
 
 updateClock();
 
-setInterval(updateClock,30000);
+setInterval(
+  updateClock,
+  30000
+);
 
 
 
@@ -781,14 +816,21 @@ async function updateWeather() {
         data.current.weather_code
       );
 
-    document.getElementById("weatherMain").textContent =
-      icon + " " + temp + "°";
+    document
+      .getElementById("weatherMain")
+      .textContent =
+      icon +
+      " " +
+      temp +
+      "°";
 
   }
 
   catch(error) {
 
-    document.getElementById("weatherMain").textContent =
+    document
+      .getElementById("weatherMain")
+      .textContent =
       "--°";
 
   }
@@ -797,7 +839,10 @@ async function updateWeather() {
 
 updateWeather();
 
-setInterval(updateWeather,900000);
+setInterval(
+  updateWeather,
+  900000
+);
 
 
 
@@ -856,6 +901,7 @@ const birthdays = [
 ];
 
 
+
 function thanksgiving(year) {
 
   let d =
@@ -884,6 +930,7 @@ function thanksgiving(year) {
 }
 
 
+
 function ordinal(number) {
 
   const lastTwo =
@@ -898,7 +945,9 @@ function ordinal(number) {
 
   }
 
-  switch(number % 10) {
+  switch(
+    number % 10
+  ) {
 
     case 1:
       return number + "st";
@@ -922,7 +971,8 @@ function ordinal(number) {
 
 function upcomingEvents() {
 
-  const now = new Date();
+  const now =
+    new Date();
 
   const today =
     new Date(
@@ -947,7 +997,9 @@ function upcomingEvents() {
           person.day
         );
 
-      if(eventDate < today) {
+      if(
+        eventDate < today
+      ) {
 
         year++;
 
@@ -1016,7 +1068,9 @@ function upcomingEvents() {
           holiday.day
         );
 
-      if(eventDate < today) {
+      if(
+        eventDate < today
+      ) {
 
         eventDate =
           new Date(
@@ -1116,7 +1170,8 @@ function upcomingEvents() {
 
 function renderCountdowns() {
 
-  const now = new Date();
+  const now =
+    new Date();
 
   const today =
     new Date(
@@ -1133,61 +1188,68 @@ function renderCountdowns() {
   cards.innerHTML = "";
 
 
-  upcomingEvents().forEach(
-    event => {
+  upcomingEvents()
+    .forEach(
+      event => {
 
-      const days =
-        Math.round(
-          (
-            event.date -
-            today
-          )
-          /
-          86400000
+        const days =
+          Math.round(
+            (
+              event.date -
+              today
+            )
+            /
+            86400000
+          );
+
+        const dateText =
+          event.date
+            .toLocaleDateString(
+              "en-US",
+              {
+                month:
+                  "long",
+
+                day:
+                  "numeric"
+              }
+            );
+
+        const card =
+          document.createElement(
+            "div"
+          );
+
+        card.className =
+          "card " +
+          event.className;
+
+        card.innerHTML = `
+
+          <div class="event-name">
+            ${event.name}
+          </div>
+
+          <div class="days">
+            ${days}
+          </div>
+
+          <div class="days-label">
+            DAYS
+          </div>
+
+          <div class="event-date">
+            ${dateText}
+          </div>
+
+        `;
+
+        cards.appendChild(
+          card
         );
 
-      const dateText =
-        event.date.toLocaleDateString(
-          "en-US",
-          {
-            month: "long",
-            day: "numeric"
-          }
-        );
-
-      const card =
-        document.createElement(
-          "div"
-        );
-
-      card.className =
-        "card " +
-        event.className;
-
-      card.innerHTML = `
-
-        <div class="event-name">
-          ${event.name}
-        </div>
-
-        <div class="days">
-          ${days}
-        </div>
-
-        <div class="days-label">
-          DAYS
-        </div>
-
-        <div class="event-date">
-          ${dateText}
-        </div>
-
-      `;
-
-      cards.appendChild(card);
-
-    }
-  );
+      }
+    );
 
 }
 
@@ -1195,7 +1257,7 @@ renderCountdowns();
 
 
 
-/* CUSTOM CALENDAR */
+/* CUSTOM MONTH CALENDAR */
 
 document.addEventListener(
   "DOMContentLoaded",
@@ -1211,10 +1273,6 @@ document.addEventListener(
       new FullCalendar.Calendar(
         calendarEl,
         {
-
-          plugins: [
-            FullCalendar.iCalendarPlugin
-          ],
 
           initialView:
             "dayGridMonth",
@@ -1241,12 +1299,18 @@ document.addEventListener(
             true,
 
           eventTimeFormat: {
+
             hour:
               "numeric",
 
             minute:
-              "2-digit"
+              "2-digit",
+
+            omitZeroMinute:
+              true
+
           },
+
 
           headerToolbar: {
 
@@ -1261,15 +1325,19 @@ document.addEventListener(
 
           },
 
+
           buttonText: {
+
             today:
               "Today"
+
           },
 
 
           eventSources: [
 
             {
+
               url:
                 "glaze-calendar.ics",
 
@@ -1278,9 +1346,11 @@ document.addEventListener(
 
               className:
                 "glaze-event"
+
             },
 
             {
+
               url:
                 "bash-calendar.ics",
 
@@ -1289,6 +1359,7 @@ document.addEventListener(
 
               className:
                 "bash-event"
+
             }
 
           ],
