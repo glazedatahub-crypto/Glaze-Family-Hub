@@ -28,12 +28,18 @@ jobs:
           "https://calendar.google.com/calendar/ical/bashhomeschoolers%40gmail.com/public/basic.ics" \
           -o bash-calendar.ics
 
+      - name: Download Savanna calendar
+        run: |
+          curl -L --fail \
+          "https://calendar.google.com/calendar/ical/savannaglaze%40gmail.com/public/basic.ics" \
+          -o savanna-calendar.ics
+
       - name: Commit updated calendars
         run: |
           git config user.name "Glaze Family Hub"
           git config user.email "actions@github.com"
 
-          git add glaze-calendar.ics bash-calendar.ics
+          git add glaze-calendar.ics bash-calendar.ics savanna-calendar.ics
 
           if git diff --cached --quiet; then
             echo "No calendar changes"
