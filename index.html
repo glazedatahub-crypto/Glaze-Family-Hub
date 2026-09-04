@@ -51,9 +51,6 @@ body {
   margin: 0 auto;
 }
 
-
-/* GLASS */
-
 .glass {
   background: rgba(255,255,255,0.76);
   border: 1px solid rgba(255,255,255,0.82);
@@ -65,9 +62,6 @@ body {
   -webkit-backdrop-filter: blur(10px);
 }
 
-
-/* TOP BAR */
-
 .topbar {
   display: grid;
 
@@ -75,9 +69,7 @@ body {
     255px minmax(420px,1fr) 125px 155px;
 
   gap: 10px;
-
   align-items: stretch;
-
   margin-bottom: 8px;
 }
 
@@ -89,12 +81,8 @@ body {
   overflow: hidden;
 }
 
-
-/* DATE */
-
 .date-box {
   padding: 11px 18px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,16 +100,12 @@ body {
   margin-top: 7px;
 }
 
-
-/* TITLE */
-
 .title-box {
   display: flex;
   justify-content: center;
   align-items: center;
 
   padding: 8px 20px;
-
   text-align: center;
 }
 
@@ -130,14 +114,10 @@ body {
   font-weight: 950;
 
   letter-spacing: 1.5px;
-
   line-height: 1;
 
   color: #171717;
 }
-
-
-/* WEATHER */
 
 .weather-box {
   display: flex;
@@ -145,7 +125,6 @@ body {
   justify-content: center;
 
   text-align: center;
-
   padding: 8px;
 }
 
@@ -160,9 +139,6 @@ body {
   margin-top: 2px;
 }
 
-
-/* CLOCK */
-
 .clock-box {
   display: flex;
   justify-content: center;
@@ -176,9 +152,6 @@ body {
   font-weight: 900;
 }
 
-
-/* COUNTDOWN CARDS */
-
 .cards {
   display: grid;
 
@@ -186,7 +159,6 @@ body {
     repeat(5,minmax(0,1fr));
 
   gap: 8px;
-
   margin-bottom: 8px;
 }
 
@@ -194,11 +166,9 @@ body {
   min-height: 108px;
 
   border: 2px solid;
-
   border-radius: 17px;
 
   text-align: center;
-
   padding: 8px 6px;
 
   display: flex;
@@ -217,7 +187,6 @@ body {
   font-weight: 900;
 
   line-height: 1.1;
-
   min-height: 38px;
 
   display: flex;
@@ -230,7 +199,6 @@ body {
   font-weight: 900;
 
   line-height: 1;
-
   margin-top: 3px;
 }
 
@@ -239,7 +207,6 @@ body {
   font-weight: 700;
 
   margin-top: 2px;
-
   letter-spacing: .6px;
 }
 
@@ -248,12 +215,8 @@ body {
   font-weight: 700;
 
   margin-top: 3px;
-
   opacity: .85;
 }
-
-
-/* FAMILY COLORS */
 
 .mom {
   background: rgba(255,227,240,.80);
@@ -291,9 +254,6 @@ body {
   color: #63328b;
 }
 
-
-/* HOLIDAYS */
-
 .halloween {
   background: rgba(255,240,223,.82);
   border-color: #ff8c00;
@@ -318,9 +278,6 @@ body {
   color: #264b9b;
 }
 
-
-/* CALENDAR PANEL */
-
 .calendar-panel {
   padding: 10px;
   border-radius: 18px;
@@ -333,9 +290,6 @@ body {
   overflow: hidden;
   padding: 7px;
 }
-
-
-/* CALENDAR TOOLBAR */
 
 .fc .fc-toolbar {
   margin: 2px 4px 8px !important;
@@ -354,16 +308,8 @@ body {
   border: 1px solid #c7c7c7 !important;
 
   font-weight: 800 !important;
-
   box-shadow: none !important;
 }
-
-.fc .fc-button:hover {
-  background: #f2f2f2 !important;
-}
-
-
-/* WEEKDAYS */
 
 .fc .fc-col-header-cell {
   background: #f3f5f8;
@@ -378,9 +324,6 @@ body {
 
   padding: 7px 2px !important;
 }
-
-
-/* DAY CELLS */
 
 .fc .fc-daygrid-day {
   background: rgba(255,255,255,.90);
@@ -408,9 +351,6 @@ body {
   z-index: 3;
 }
 
-
-/* OTHER MONTH DAYS */
-
 .fc .fc-day-other {
   background: rgba(238,238,238,.66);
 }
@@ -418,9 +358,6 @@ body {
 .fc .fc-day-other .fc-daygrid-day-number {
   opacity: .30;
 }
-
-
-/* TODAY - FULL BOX */
 
 .fc .fc-day-today {
   background: rgba(194,220,255,.96) !important;
@@ -434,19 +371,14 @@ body {
   font-size: 19px !important;
 }
 
-
-/* EVENTS */
-
 .fc .fc-daygrid-event {
   border: none !important;
   background: transparent !important;
 
   margin: 2px 4px !important;
-
   padding: 0 !important;
 
   white-space: normal !important;
-
   overflow: visible !important;
 }
 
@@ -457,9 +389,6 @@ body {
 .fc .fc-event-main {
   padding: 0 !important;
 }
-
-
-/* CUSTOM EVENT BAR */
 
 .custom-event {
   display: grid;
@@ -474,29 +403,20 @@ body {
   width: 100%;
 
   border-radius: 6px;
-
   padding: 3px 5px;
 
   font-size: 11px;
   font-weight: 800;
 
   line-height: 1.12;
-
   overflow: hidden;
 }
-
-
-/* DOT */
 
 .event-dot {
   width: 7px;
   height: 7px;
-
   border-radius: 50%;
 }
-
-
-/* TIME */
 
 .custom-time {
   font-size: 9px;
@@ -505,12 +425,8 @@ body {
   line-height: 1;
 
   white-space: nowrap;
-
   opacity: .90;
 }
-
-
-/* EVENT TITLE */
 
 .custom-title {
   font-size: 11px;
@@ -519,12 +435,8 @@ body {
   line-height: 1.12;
 
   white-space: normal;
-
   overflow: visible;
 }
-
-
-/* GLAZE EVENTS */
 
 .custom-event.glaze {
   background: #dceaff;
@@ -535,9 +447,6 @@ body {
   background: #4f8fe8;
 }
 
-
-/* BASH EVENTS */
-
 .custom-event.bash {
   background: #e4f4e5;
   color: #245d2b;
@@ -547,8 +456,14 @@ body {
   background: #5dbd52;
 }
 
+.custom-event.personal {
+  background: #ffe1ef;
+  color: #9d285d;
+}
 
-/* MORE EVENTS */
+.custom-event.personal .event-dot {
+  background: #e35f9c;
+}
 
 .fc .fc-daygrid-more-link {
   font-size: 10px !important;
@@ -559,16 +474,10 @@ body {
   padding-left: 5px;
 }
 
-
-/* GRID LINES */
-
 .fc-theme-standard td,
 .fc-theme-standard th {
   border-color: rgba(90,100,110,.24) !important;
 }
-
-
-/* TV */
 
 @media (min-width:1200px) {
 
@@ -584,115 +493,6 @@ body {
     min-height: 98px;
   }
 
-  .custom-event {
-    font-size: 11px;
-  }
-
-  .custom-title {
-    font-size: 11px;
-  }
-
-  .custom-time {
-    font-size: 9px;
-  }
-
-}
-
-
-/* SMALLER SCREENS */
-
-@media (max-width:900px) {
-
-  body {
-    padding: 8px;
-  }
-
-  .topbar {
-    grid-template-columns:
-      200px 1fr 100px 125px;
-
-    gap: 6px;
-  }
-
-  .date-box {
-    padding: 8px 10px;
-  }
-
-  .day {
-    font-size: 23px;
-  }
-
-  .date {
-    font-size: 11px;
-  }
-
-  .main-title {
-    font-size: 26px;
-  }
-
-  .weather-main {
-    font-size: 21px;
-  }
-
-  .clock {
-    font-size: 25px;
-  }
-
-  .cards {
-    gap: 5px;
-  }
-
-  .card {
-    min-height: 100px;
-    border-radius: 13px;
-  }
-
-  .event-name {
-    font-size: 14px;
-  }
-
-  .days {
-    font-size: 30px;
-  }
-
-  .days-label {
-    font-size: 10px;
-  }
-
-  .event-date {
-    font-size: 10px;
-  }
-
-  .fc .fc-toolbar-title {
-    font-size: 20px !important;
-  }
-
-  .fc .fc-daygrid-day-frame {
-    min-height: 76px;
-  }
-
-  .fc .fc-daygrid-day-top {
-    min-height: 24px;
-  }
-
-  .custom-event {
-    gap: 3px;
-    padding: 3px 4px;
-  }
-
-  .custom-title {
-    font-size: 9px;
-  }
-
-  .custom-time {
-    font-size: 8px;
-  }
-
-  .event-dot {
-    width: 6px;
-    height: 6px;
-  }
-
 }
 
 </style>
@@ -703,13 +503,7 @@ body {
 
 <div class="hub">
 
-
-<!-- TOP BAR -->
-
 <div class="topbar">
-
-
-  <!-- DAY + DATE -->
 
   <div class="date-box glass">
 
@@ -725,9 +519,6 @@ body {
 
   </div>
 
-
-  <!-- TITLE -->
-
   <div class="title-box glass">
 
     <div class="main-title">
@@ -735,9 +526,6 @@ body {
     </div>
 
   </div>
-
-
-  <!-- WEATHER -->
 
   <div class="weather-box glass">
 
@@ -753,9 +541,6 @@ body {
 
   </div>
 
-
-  <!-- CLOCK -->
-
   <div class="clock-box glass">
 
     <div
@@ -768,17 +553,11 @@ body {
 </div>
 
 
-
-<!-- COUNTDOWNS -->
-
 <div
   class="cards"
   id="cards">
 </div>
 
-
-
-<!-- CALENDAR -->
 
 <div class="calendar-panel glass">
 
@@ -790,11 +569,7 @@ body {
 </div>
 
 
-
 <script>
-
-
-/* DATE + CLOCK */
 
 function updateClock() {
 
@@ -837,53 +612,38 @@ function updateClock() {
 }
 
 updateClock();
+setInterval(updateClock,30000);
 
-setInterval(
-  updateClock,
-  30000
-);
-
-
-
-/* WEATHER */
 
 function weatherIcon(code) {
 
-  if (code === 0)
-    return "☀️";
+  if (code === 0) return "☀️";
 
   if (
     code === 1 ||
     code === 2
-  )
-    return "🌤️";
+  ) return "🌤️";
 
-  if (code === 3)
-    return "☁️";
+  if (code === 3) return "☁️";
 
   if (
     code === 45 ||
     code === 48
-  )
-    return "🌫️";
+  ) return "🌫️";
 
   if (
     (code >= 51 && code <= 67) ||
     (code >= 80 && code <= 82)
-  )
-    return "🌧️";
+  ) return "🌧️";
 
   if (
     code >= 71 &&
     code <= 77
-  )
-    return "❄️";
+  ) return "❄️";
 
-  if (code >= 95)
-    return "⛈️";
+  if (code >= 95) return "⛈️";
 
   return "🌤️";
-
 }
 
 
@@ -912,10 +672,7 @@ async function updateWeather() {
     document
       .getElementById("weatherMain")
       .textContent =
-      icon +
-      " " +
-      temp +
-      "°";
+      icon + " " + temp + "°";
 
   }
 
@@ -931,68 +688,60 @@ async function updateWeather() {
 }
 
 updateWeather();
+setInterval(updateWeather,900000);
 
-setInterval(
-  updateWeather,
-  900000
-);
-
-
-
-/* BIRTHDAYS */
 
 const birthdays = [
 
   {
-    name: "Mom",
-    month: 10,
-    day: 9,
-    year: 1996,
-    className: "mom"
+    name:"Mom",
+    month:10,
+    day:9,
+    year:1996,
+    className:"mom"
   },
 
   {
-    name: "Daddy",
-    month: 11,
-    day: 11,
-    year: 1995,
-    className: "daddy"
+    name:"Daddy",
+    month:11,
+    day:11,
+    year:1995,
+    className:"daddy"
   },
 
   {
-    name: "Ryder",
-    month: 10,
-    day: 18,
-    year: 2016,
-    className: "ryder"
+    name:"Ryder",
+    month:10,
+    day:18,
+    year:2016,
+    className:"ryder"
   },
 
   {
-    name: "Clyde",
-    month: 4,
-    day: 21,
-    year: 2018,
-    className: "clyde"
+    name:"Clyde",
+    month:4,
+    day:21,
+    year:2018,
+    className:"clyde"
   },
 
   {
-    name: "Wyatt",
-    month: 12,
-    day: 8,
-    year: 2019,
-    className: "wyatt"
+    name:"Wyatt",
+    month:12,
+    day:8,
+    year:2019,
+    className:"wyatt"
   },
 
   {
-    name: "Charlotte",
-    month: 11,
-    day: 9,
-    year: 2021,
-    className: "charlotte"
+    name:"Charlotte",
+    month:11,
+    day:9,
+    year:2021,
+    className:"charlotte"
   }
 
 ];
-
 
 
 function thanksgiving(year) {
@@ -1023,7 +772,6 @@ function thanksgiving(year) {
 }
 
 
-
 function ordinal(number) {
 
   const lastTwo =
@@ -1038,9 +786,7 @@ function ordinal(number) {
 
   }
 
-  switch(
-    number % 10
-  ) {
+  switch(number % 10) {
 
     case 1:
       return number + "st";
@@ -1058,9 +804,6 @@ function ordinal(number) {
 
 }
 
-
-
-/* UPCOMING EVENTS */
 
 function upcomingEvents() {
 
@@ -1132,17 +875,17 @@ function upcomingEvents() {
   const holidays = [
 
     {
-      name: "Halloween",
-      month: 10,
-      day: 31,
-      className: "halloween"
+      name:"Halloween",
+      month:10,
+      day:31,
+      className:"halloween"
     },
 
     {
-      name: "Christmas",
-      month: 12,
-      day: 25,
-      className: "christmas"
+      name:"Christmas",
+      month:12,
+      day:25,
+      className:"christmas"
     }
 
   ];
@@ -1258,9 +1001,6 @@ function upcomingEvents() {
 }
 
 
-
-/* RENDER COUNTDOWNS */
-
 function renderCountdowns() {
 
   const now =
@@ -1300,11 +1040,8 @@ function renderCountdowns() {
             .toLocaleDateString(
               "en-US",
               {
-                month:
-                  "long",
-
-                day:
-                  "numeric"
+                month:"long",
+                day:"numeric"
               }
             );
 
@@ -1349,9 +1086,6 @@ function renderCountdowns() {
 renderCountdowns();
 
 
-
-/* CUSTOM CALENDAR */
-
 document.addEventListener(
   "DOMContentLoaded",
   function() {
@@ -1391,6 +1125,12 @@ document.addEventListener(
           displayEventTime:
             true,
 
+          eventTimeFormat: {
+            hour: "numeric",
+            minute: "2-digit",
+            omitZeroMinute: true,
+            meridiem: "short"
+          },
 
           headerToolbar: {
 
@@ -1405,7 +1145,6 @@ document.addEventListener(
 
           },
 
-
           buttonText: {
 
             today:
@@ -1413,53 +1152,85 @@ document.addEventListener(
 
           },
 
-
           eventSources: [
 
             {
-
               url:
                 "glaze-calendar.ics",
 
               format:
-                "ics"
+                "ics",
+
+              eventDataTransform:
+                function(eventData) {
+
+                  eventData.extendedProps =
+                    {
+                      ...(eventData.extendedProps || {}),
+                      calendarType:
+                        "glaze"
+                    };
+
+                  return eventData;
+
+                }
 
             },
 
             {
-
               url:
                 "bash-calendar.ics",
 
               format:
-                "ics"
+                "ics",
+
+              eventDataTransform:
+                function(eventData) {
+
+                  eventData.extendedProps =
+                    {
+                      ...(eventData.extendedProps || {}),
+                      calendarType:
+                        "bash"
+                    };
+
+                  return eventData;
+
+                }
+
+            },
+
+            {
+              url:
+                "savanna-calendar.ics",
+
+              format:
+                "ics",
+
+              eventDataTransform:
+                function(eventData) {
+
+                  eventData.extendedProps =
+                    {
+                      ...(eventData.extendedProps || {}),
+                      calendarType:
+                        "personal"
+                    };
+
+                  return eventData;
+
+                }
 
             }
 
           ],
 
-
           eventContent:
             function(arg) {
 
-              const sourceUrl =
-                arg.event.source &&
-                arg.event.source.url
-                  ?
-                  arg.event.source.url
-                  :
-                  "";
-
-              const isBash =
-                sourceUrl.includes(
-                  "bash-calendar"
-                );
-
               const typeClass =
-                isBash
-                  ?
-                  "bash"
-                  :
+                arg.event.extendedProps.calendarType
+                  ||
                   "glaze";
 
 
@@ -1490,32 +1261,12 @@ document.addEventListener(
               time.className =
                 "custom-time";
 
-
-              if(
+              time.textContent =
                 arg.event.allDay
-              ) {
-
-                time.textContent =
-                  "";
-
-              }
-
-              else {
-
-                time.textContent =
-                  arg.event.start
-                    .toLocaleTimeString(
-                      "en-US",
-                      {
-                        hour:
-                          "numeric",
-
-                        minute:
-                          "2-digit"
-                      }
-                    );
-
-              }
+                  ?
+                  ""
+                  :
+                  arg.timeText;
 
 
               const title =
@@ -1564,5 +1315,4 @@ document.addEventListener(
 </script>
 
 </body>
-
 </html>
