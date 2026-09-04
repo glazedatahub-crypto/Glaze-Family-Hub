@@ -113,7 +113,7 @@ body {
 }
 
 
-/* BIG FAMILY HUB TITLE */
+/* TITLE */
 
 .title-box {
   display: flex;
@@ -319,7 +319,7 @@ body {
 }
 
 
-/* CALENDAR */
+/* CALENDAR PANEL */
 
 .calendar-panel {
   padding: 10px;
@@ -335,7 +335,7 @@ body {
 }
 
 
-/* TOOLBAR */
+/* CALENDAR TOOLBAR */
 
 .fc .fc-toolbar {
   margin: 2px 4px 8px !important;
@@ -363,7 +363,7 @@ body {
 }
 
 
-/* WEEKDAY HEADERS */
+/* WEEKDAYS */
 
 .fc .fc-col-header-cell {
   background: #f3f5f8;
@@ -380,7 +380,7 @@ body {
 }
 
 
-/* DAY BOXES */
+/* DAY CELLS */
 
 .fc .fc-daygrid-day {
   background: rgba(255,255,255,.90);
@@ -388,6 +388,11 @@ body {
 
 .fc .fc-daygrid-day-frame {
   min-height: 96px;
+  padding-top: 2px;
+}
+
+.fc .fc-daygrid-day-top {
+  min-height: 28px;
 }
 
 .fc .fc-daygrid-day-number {
@@ -397,7 +402,10 @@ body {
   font-size: 17px !important;
   font-weight: 900 !important;
 
-  padding: 6px 7px 3px !important;
+  padding: 6px 7px 4px !important;
+
+  position: relative;
+  z-index: 3;
 }
 
 
@@ -427,7 +435,7 @@ body {
 }
 
 
-/* EVENT CONTAINERS */
+/* EVENTS */
 
 .fc .fc-daygrid-event {
   border: none !important;
@@ -440,6 +448,10 @@ body {
   white-space: normal !important;
 
   overflow: visible !important;
+}
+
+.fc .fc-daygrid-day-events {
+  margin-top: 2px !important;
 }
 
 .fc .fc-event-main {
@@ -457,39 +469,37 @@ body {
 
   align-items: center;
 
-  gap: 5px;
+  gap: 4px;
 
   width: 100%;
 
   border-radius: 6px;
 
-  padding: 4px 6px;
+  padding: 3px 5px;
 
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
 
-  line-height: 1.15;
+  line-height: 1.12;
 
   overflow: hidden;
 }
 
 
-/* LITTLE DOT */
+/* DOT */
 
 .event-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
 
   border-radius: 50%;
-
-  flex: 0 0 auto;
 }
 
 
 /* TIME */
 
 .custom-time {
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 900;
 
   line-height: 1;
@@ -500,13 +510,13 @@ body {
 }
 
 
-/* TITLE */
+/* EVENT TITLE */
 
 .custom-title {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 800;
 
-  line-height: 1.15;
+  line-height: 1.12;
 
   white-space: normal;
 
@@ -514,7 +524,7 @@ body {
 }
 
 
-/* GLAZE EVENT */
+/* GLAZE EVENTS */
 
 .custom-event.glaze {
   background: #dceaff;
@@ -526,7 +536,7 @@ body {
 }
 
 
-/* BASH EVENT */
+/* BASH EVENTS */
 
 .custom-event.bash {
   background: #e4f4e5;
@@ -541,7 +551,7 @@ body {
 /* MORE EVENTS */
 
 .fc .fc-daygrid-more-link {
-  font-size: 11px !important;
+  font-size: 10px !important;
   font-weight: 900 !important;
 
   color: #315fa7 !important;
@@ -550,7 +560,7 @@ body {
 }
 
 
-/* GRID */
+/* GRID LINES */
 
 .fc-theme-standard td,
 .fc-theme-standard th {
@@ -575,15 +585,15 @@ body {
   }
 
   .custom-event {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .custom-title {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .custom-time {
-    font-size: 11px;
+    font-size: 9px;
   }
 
 }
@@ -661,17 +671,21 @@ body {
     min-height: 76px;
   }
 
+  .fc .fc-daygrid-day-top {
+    min-height: 24px;
+  }
+
   .custom-event {
     gap: 3px;
     padding: 3px 4px;
   }
 
   .custom-title {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .custom-time {
-    font-size: 9px;
+    font-size: 8px;
   }
 
   .event-dot {
@@ -712,7 +726,7 @@ body {
   </div>
 
 
-  <!-- BIG TITLE -->
+  <!-- TITLE -->
 
   <div class="title-box glass">
 
