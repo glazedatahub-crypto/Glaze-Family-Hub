@@ -1258,15 +1258,19 @@ document.addEventListener(
                   "span"
                 );
 
-              time.className =
-                "custom-time";
-
               time.textContent =
-                arg.event.allDay
-                  ?
-                  ""
-                  :
-                  arg.timeText;
+  arg.event.allDay
+    ?
+    ""
+    :
+    arg.event.start.toLocaleTimeString(
+      "en-US",
+      {
+        timeZone: "America/Chicago",
+        hour: "numeric",
+        minute: "2-digit"
+      }
+    );
 
 
               const title =
