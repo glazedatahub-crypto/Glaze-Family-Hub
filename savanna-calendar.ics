@@ -24,98 +24,9 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART:20230224T180000Z
-DTEND:20230224T203000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:C836749A-5758-4F40-8A95-04656FE9D3BC
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-URL:message://%3CCAAJSuv0NX5=7X=NRoZDGPvfQDV2_frXZUqp5ggE+Apnx3k9hYQ%40mail
- .gmail.com%3E?c=1518537897&k=%7C543110400/WJG2dzjOWQ
-CREATED:20230124T193225Z
-LAST-MODIFIED:20250321T032832Z
-LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
- ates
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Gala Meeting 
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260309T120000
-DTEND;TZID=America/Chicago:20260309T133000
-RRULE:FREQ=MONTHLY;UNTIL=20260511T045959Z;BYDAY=MO;BYSETPOS=2
-EXDATE;TZID=America/Chicago:20260413T120000
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:567701E1-4492-41D7-B2E0-4F8386CF6DCD
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
- aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-CREATED:20260211T141514Z
-DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
- Join Zoom Meeting\nhttps://us02web.zoom.us/j/88581732031?pwd=Wk1vZmJEYjE0SF
- hubStzYXNZcy8yQT09\n\nMeeting ID: 885 8173 2031\nPassword: 424639\nOne tap 
- mobile\n+13462487799\,\,88581732031#\,\,\,\,0#\,\,424639# US (Houston)\n+16
- 699006833\,\,88581732031#\,\,\,\,0#\,\,424639# US (San Jose)\n\nDial by you
- r location\n        +1 346 248 7799 US (Houston)\n        +1 669 900 6833 U
- S (San Jose)\n        +1 253 215 8782 US (Tacoma)\n        +1 929 436 2866 
- US (New York)\n        +1 301 715 8592 US (Germantown)\n        +1 312 626 
- 6799 US (Chicago)\nMeeting ID: 885 8173 2031\nPassword: 424639\nFind your l
- ocal number: https://us02web.zoom.us/u/kZzNu2dHb\nThis email message and an
- y attachments are intended only for the use of the addressee(s) named above
- . This message may contain privileged and confidential information. If you 
- are not the intended recipient\, any review\, dissemination\, distribution\
- , or copying is strictly prohibited. If you received this email message in 
- error\, please immediately delete it and notify the sender by replying to t
- his email message or by telephone.\n
-LAST-MODIFIED:20260904T042956Z
-LOCATION:Home Bank\n105 E Parkwood Ave\, Unit 101\, Friendswood\, TX  77546
- \, United States
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Kidz Harbor Gala Meeting
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260511T120000
-DTEND;TZID=America/Chicago:20260511T133000
-RRULE:FREQ=MONTHLY;UNTIL=20260713T045959Z;BYDAY=MO;BYSETPOS=2
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260511T1
- 70000@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
- aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-CREATED:20260211T141514Z
-DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
- Join Zoom Meeting\nhttps://us02web.zoom.us/j/88581732031?pwd=Wk1vZmJEYjE0SF
- hubStzYXNZcy8yQT09\n\nMeeting ID: 885 8173 2031\nPassword: 424639\nOne tap 
- mobile\n+13462487799\,\,88581732031#\,\,\,\,0#\,\,424639# US (Houston)\n+16
- 699006833\,\,88581732031#\,\,\,\,0#\,\,424639# US (San Jose)\n\nDial by you
- r location\n        +1 346 248 7799 US (Houston)\n        +1 669 900 6833 U
- S (San Jose)\n        +1 253 215 8782 US (Tacoma)\n        +1 929 436 2866 
- US (New York)\n        +1 301 715 8592 US (Germantown)\n        +1 312 626 
- 6799 US (Chicago)\nMeeting ID: 885 8173 2031\nPassword: 424639\nFind your l
- ocal number: https://us02web.zoom.us/u/kZzNu2dHb\nThis email message and an
- y attachments are intended only for the use of the addressee(s) named above
- . This message may contain privileged and confidential information. If you 
- are not the intended recipient\, any review\, dissemination\, distribution\
- , or copying is strictly prohibited. If you received this email message in 
- error\, please immediately delete it and notify the sender by replying to t
- his email message or by telephone.\n
-LAST-MODIFIED:20260904T042956Z
-LOCATION:Home Bank\n105 E Parkwood Ave\, Unit 101\, Friendswood\, TX  77546
- \, United States
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Kidz Harbor Gala Meeting
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20260728T141500Z
 DTEND:20260728T160000Z
-DTSTAMP:20260905T080904Z
+DTSTAMP:20260905T083813Z
 UID:QxX-t8UVbyPzxFpHpTTmw
 CREATED:20260727T192053Z
 DESCRIPTION:https://www.zeffy.com/en-US/ticketing/basf-planetarium-show-sci
@@ -128,24 +39,9 @@ SUMMARY:BASF Planetarium Show\, Science Museum\, & Art Gallery
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20231007T160000Z
-DTEND:20231007T170000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:78D01CA1-BBF1-4649-B87E-542E73CA4906
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-CREATED:20230126T194853Z
-LAST-MODIFIED:20250321T031702Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:2023 Kidz Harbor Gala
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261020
-DTSTAMP:20260905T080904Z
+DTSTAMP:20260905T083813Z
 UID:trt71cv2aniln0vj29barmq50c@google.com
 CREATED:20260905T024742Z
 LAST-MODIFIED:20260905T024753Z
@@ -155,92 +51,68 @@ SUMMARY:Maryland Trip
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20210711T160000Z
-DTEND:20210711T163000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=Christy MCQUEEN:mailto:christy.mcqueen@airgas.com
-UID:dnha7cfvls0capremc2qri27ls@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/jyj-qzkg-enc
-CREATED:20210703T200727Z
-DESCRIPTION:Join with Google Meet: https://meet.google.com/jyj-qzkg-enc\nOr
-  dial: (US) +1 530-395-0680 PIN: 252282902#\nMore phone numbers: https://te
- l.meet/jyj-qzkg-enc?pin=9716149240641&hs=7\n\nLearn more about Meet at: htt
- ps://support.google.com/a/users/answer/9282720
-LAST-MODIFIED:20260402T173239Z
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Donna’s Legacy
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260817T143000Z
-DTEND:20260817T153000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=mcqueenchristy@gmail.com:mailto:mcqueenchristy@gmail.com
-UID:d5pnd905ekccn1ugm3bnkaq354@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/rmx-wnba-fae
-CREATED:20260811T131717Z
-DESCRIPTION:Join with Google Meet: https://meet.google.com/rmx-wnba-fae\n\n
- Learn more about Meet at: https://support.google.com/a/users/answer/9282720
-LAST-MODIFIED:20260811T191308Z
-LOCATION:Summer Moon Coffee\, 1765 S Friendswood Dr Ste 101\, Friendswood\,
-  TX 77546\, USA
+DTSTART:20261115T220000Z
+DTEND:20261116T000000Z
+DTSTAMP:20260905T083813Z
+UID:psdaa33f580rk82jmgd1ne7d4s@google.com
+CREATED:20260904T052939Z
+LAST-MODIFIED:20260904T052939Z
+LOCATION:Bayou Theater\, 2700 Bay Area Blvd Ste 2602\, Houston\, TX 77058\,
+  USA
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Graphics Mtg for KH Gala
+SUMMARY:Ballet of Lights
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20210702T200000Z
-DTEND:20210702T210000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=Christy MCQUEEN:mailto:christy.mcqueen@airgas.com
-UID:ppf4ep06r68lpa66tukuvf86ok@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/scu-ioop-wco
-CREATED:20210623T054023Z
-DESCRIPTION:https://www.thevenueonsealy.com/\n\nJoin with Google Meet: http
- s://meet.google.com/scu-ioop-wco\nOr dial: (US) +1 929-249-4802 PIN: 256778
- 760#\nMore phone numbers: https://tel.meet/scu-ioop-wco?pin=4967103776332&h
- s=7\n\nLearn more about Meet at: https://support.google.com/a/users/answer/
- 9282720
-LAST-MODIFIED:20260402T173134Z
-SEQUENCE:2
+DTSTART:20260430T223000Z
+DTEND:20260501T020000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=mcqueenchristy@gmail.com:mailto:mcqueenchristy@gmail.com
+UID:7vt7321hongcsha7cial4dqulc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
+ aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/ynb-vdgu-ayq
+CREATED:20260117T195702Z
+DESCRIPTION:Join with Google Meet: https://meet.google.com/ynb-vdgu-ayq\n\n
+ Learn more about Meet at: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260122T130443Z
+LOCATION:Nessler Civic Center\, 2010 5th Ave N\, Texas City\, TX 77590\, US
+ A
+SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Venue tour
+SUMMARY:KH Purse Bingo
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260720T140000
-DTEND;TZID=America/Chicago:20260720T153000
-DTSTAMP:20260905T080904Z
+DTSTART;TZID=America/Chicago:20260209T120000
+DTEND;TZID=America/Chicago:20260209T140000
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260713T1
- 70000@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-RECURRENCE-ID;TZID=America/Chicago:20260713T120000
-CREATED:20260211T141514Z
-DESCRIPTION:(Houston)\n        +1 669 900 6833 US (San Jose)\n        +1 25
- 3 215 8782 US (Tacoma)\n        +1 929 436 2866 US (New York)\n        +1 3
- 01 715 8592 US (Germantown)\n        +1 312 626 6799 US (Chicago)\nMeeting 
- ID: 885 8173 2031\nPassword: 424639\nFind your local number: https://us02we
- b.zoom.us/u/kZzNu2dHb\nThis email message and any attachments are intended 
- only for the use of the addressee(s) named above. This message may contain 
- privileged and confidential information. If you are not the intended recipi
- ent\, any review\, dissemination\, distribution\, or copying is strictly pr
- ohibited. If you received this email message in error\, please immediately 
- delete it and notify the sender by replying to this email message or by tel
- ephone.\n
-LAST-MODIFIED:20260904T042956Z
-LOCATION:Home Bank\n105 E Parkwood Ave\, Unit 101\, Friendswood\, TX  77546
- \, United States
-SEQUENCE:2
+UID:A5D57837-AA15-4B49-BAA9-D32DBE9E77A8
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
+ aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+RECURRENCE-ID;TZID=America/Chicago:20260209T120000
+CREATED:20260112T184655Z
+DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://us02web.zoom.us/j/88581732031?pwd=Wk1vZmJEYjE0SF
+ hubStzYXNZcy8yQT09\n\nMeeting ID: 885 8173 2031\nPassword: 424639\nOne tap 
+ mobile\n+13462487799\,\,88581732031#\,\,\,\,0#\,\,424639# US (Houston)\n+16
+ 699006833\,\,88581732031#\,\,\,\,0#\,\,424639# US (San Jose)\n\nDial by you
+ r location\n        +1 346 248 7799 US (Houston)\n        +1 669 900 6833 U
+ S (San Jose)\n        +1 253 215 8782 US (Tacoma)\n        +1 929 436 2866 
+ US (New York)\n        +1 301 715 8592 US (Germantown)\n        +1 312 626 
+ 6799 US (Chicago)\nMeeting ID: 885 8173 2031\nPassword: 424639\nFind your l
+ ocal number: https://us02web.zoom.us/u/kZzNu2dHb\nThis email message and an
+ y attachments are intended only for the use of the addressee(s) named above
+ . This message may contain privileged and confidential information. If you 
+ are not the intended recipient\, any review\, dissemination\, distribution\
+ , or copying is strictly prohibited. If you received this email message in 
+ error\, please immediately delete it and notify the sender by replying to t
+ his email message or by telephone.\n
+LAST-MODIFIED:20260211T180417Z
+LOCATION:Alvin Library\n105 S Gordon St\, Alvin\, TX  77511\, United States
+SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:Kidz Harbor Gala Meeting
 TRANSP:OPAQUE
@@ -248,7 +120,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260316T100000
 DTEND;TZID=America/Chicago:20260316T113000
-DTSTAMP:20260905T080904Z
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
 UID:567701E1-4492-41D7-B2E0-4F8386CF6DCD
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
@@ -280,130 +152,63 @@ SUMMARY:Kidz Harbor Gala Meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260209T120000
-DTEND;TZID=America/Chicago:20260209T140000
-DTSTAMP:20260905T080904Z
+DTSTART:20230224T180000Z
+DTEND:20230224T203000Z
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:A5D57837-AA15-4B49-BAA9-D32DBE9E77A8
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
- aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-RECURRENCE-ID;TZID=America/Chicago:20260209T120000
-CREATED:20260112T184655Z
-DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
- Join Zoom Meeting\nhttps://us02web.zoom.us/j/88581732031?pwd=Wk1vZmJEYjE0SF
- hubStzYXNZcy8yQT09\n\nMeeting ID: 885 8173 2031\nPassword: 424639\nOne tap 
- mobile\n+13462487799\,\,88581732031#\,\,\,\,0#\,\,424639# US (Houston)\n+16
- 699006833\,\,88581732031#\,\,\,\,0#\,\,424639# US (San Jose)\n\nDial by you
- r location\n        +1 346 248 7799 US (Houston)\n        +1 669 900 6833 U
- S (San Jose)\n        +1 253 215 8782 US (Tacoma)\n        +1 929 436 2866 
- US (New York)\n        +1 301 715 8592 US (Germantown)\n        +1 312 626 
- 6799 US (Chicago)\nMeeting ID: 885 8173 2031\nPassword: 424639\nFind your l
- ocal number: https://us02web.zoom.us/u/kZzNu2dHb\nThis email message and an
- y attachments are intended only for the use of the addressee(s) named above
- . This message may contain privileged and confidential information. If you 
- are not the intended recipient\, any review\, dissemination\, distribution\
- , or copying is strictly prohibited. If you received this email message in 
- error\, please immediately delete it and notify the sender by replying to t
- his email message or by telephone.\n
-LAST-MODIFIED:20260211T180417Z
-LOCATION:Alvin Library\n105 S Gordon St\, Alvin\, TX  77511\, United States
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Kidz Harbor Gala Meeting
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20251020T170000Z
-DTEND:20251020T180000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:6C90C676-28EB-4A6E-A090-2FDCE58E079C
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-CREATED:20250922T004438Z
-LAST-MODIFIED:20251014T112808Z
-LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
- ates
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Gala Wrap
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20230124T180000Z
-DTEND:20230124T190000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=3itj1gmtd9t9dlv38hraogu6ho@group.calendar.google.com:mailto:3i
- tj1gmtd9t9dlv38hraogu6ho@group.calendar.google.com
-UID:d67koji2hqbb2rp2nif668tt74@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-CREATED:20230112T055512Z
-LAST-MODIFIED:20250330T094629Z
-LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
- ates
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:ST : Kids Harbor Gala Meeting
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260905T190000Z
-DTEND:20260905T220000Z
-DTSTAMP:20260905T080904Z
-UID:D11776FA-F665-42CC-A703-10907F834AB8
-URL:https://facebook.com/events/s/-james-two-nado-birthday-/198289852574552
- 5/
-CREATED:20260904T020524Z
-DESCRIPTION:Come take shelter with us and celebrate James turning 2! 🥳 Bri
- ng your swimsuit for water fun! 💦 There will be a bouncy water slide perfe
- ct for little kids & toddlers\, plus a small pool and slip n slide! 💧 Snac
- ks and drinks provided. 🌪
-LAST-MODIFIED:20260904T020524Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:🌪 🥳 James' Two-nado Birthday 🥳 🌪
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20230124T180000Z
-DTEND:20230124T190000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:407E4A7A-B4B8-44BE-BB60-F0805BE94D0E
+UID:C836749A-5758-4F40-8A95-04656FE9D3BC
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
  vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
 URL:message://%3CCAAJSuv0NX5=7X=NRoZDGPvfQDV2_frXZUqp5ggE+Apnx3k9hYQ%40mail
  .gmail.com%3E?c=1518537897&k=%7C543110400/WJG2dzjOWQ
-CREATED:20230106T205547Z
-LAST-MODIFIED:20250321T032516Z
+CREATED:20230124T193225Z
+LAST-MODIFIED:20250321T032832Z
 LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
  ates
-SEQUENCE:0
+SEQUENCE:1
 STATUS:CONFIRMED
 SUMMARY:Gala Meeting 
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261115T220000Z
-DTEND:20261116T000000Z
-DTSTAMP:20260905T080904Z
-UID:psdaa33f580rk82jmgd1ne7d4s@google.com
-CREATED:20260904T052939Z
-LAST-MODIFIED:20260904T052939Z
-LOCATION:Bayou Theater\, 2700 Bay Area Blvd Ste 2602\, Houston\, TX 77058\,
-  USA
+DTSTART:20260817T143000Z
+DTEND:20260817T153000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=mcqueenchristy@gmail.com:mailto:mcqueenchristy@gmail.com
+UID:d5pnd905ekccn1ugm3bnkaq354@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rmx-wnba-fae
+CREATED:20260811T131717Z
+DESCRIPTION:Join with Google Meet: https://meet.google.com/rmx-wnba-fae\n\n
+ Learn more about Meet at: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260811T191308Z
+LOCATION:Summer Moon Coffee\, 1765 S Friendswood Dr Ste 101\, Friendswood\,
+  TX 77546\, USA
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Ballet of Lights
+SUMMARY:Graphics Mtg for KH Gala
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20231007T160000Z
+DTEND:20231007T170000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
+UID:78D01CA1-BBF1-4649-B87E-542E73CA4906
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+CREATED:20230126T194853Z
+LAST-MODIFIED:20250321T031702Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:2023 Kidz Harbor Gala
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20210710T160000Z
 DTEND:20210710T190000Z
-DTSTAMP:20260905T080904Z
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=Christy MCQUEEN:mailto:christy.mcqueen@airgas.com
 UID:li3bg9s2hgtq58c4pqfomaj2h4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
@@ -424,59 +229,53 @@ ATTACH;FILENAME=IMG_8020.HEIC;FMTTYPE=image/heif:https://drive.google.com/f
  ile/d/13gg8BS534h3Uz2svXYwd8_otewaZmo8H
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260907T160000Z
-DTEND:20260907T170000Z
-DTSTAMP:20260905T080904Z
-UID:nqbfrtcf74stnv6q1jish4fm28@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
- aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-CREATED:20260905T021058Z
-LAST-MODIFIED:20260905T021355Z
-LOCATION:Eat Thai (Webster\, TX)\, 565 W Bay Area Blvd\, Webster\, TX 77598
- \, USA
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:BASH Rotary Meeting
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20200703T160000Z
-DTEND:20200703T200000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=mcqueenchristy@gmail.com:mailto:mcqueenchristy@gmail.com
-UID:7af0hf1974364sldiaa4pg0fnr@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
- aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/kmi-vpew-peq
-CREATED:20200518T174835Z
-DESCRIPTION:Business Name : Janna's Place \nStatus: Need Acceptance\n\nJoin
-  with Google Meet: https://meet.google.com/kmi-vpew-peq\n\nLearn more about
-  Meet at: https://support.google.com/a/users/answer/9282720
-LAST-MODIFIED:20230304T103831Z
-LOCATION:818 Milam Street\,Liberty\,Texas\,77575\, 
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Hair Janna
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260908T170000Z
-DTEND:20260908T180000Z
-DTSTAMP:20260905T080904Z
-UID:66426C7A-5E67-4D71-92DF-5BFEEFA266AB
-CREATED:20260904T023647Z
-LAST-MODIFIED:20260904T023647Z
+DTSTART;TZID=America/Chicago:20260720T140000
+DTEND;TZID=America/Chicago:20260720T153000
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
+UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260713T1
+ 70000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+RECURRENCE-ID;TZID=America/Chicago:20260713T120000
+CREATED:20260211T141514Z
+DESCRIPTION:(Houston)\n        +1 669 900 6833 US (San Jose)\n        +1 25
+ 3 215 8782 US (Tacoma)\n        +1 929 436 2866 US (New York)\n        +1 3
+ 01 715 8592 US (Germantown)\n        +1 312 626 6799 US (Chicago)\nMeeting 
+ ID: 885 8173 2031\nPassword: 424639\nFind your local number: https://us02we
+ b.zoom.us/u/kZzNu2dHb\nThis email message and any attachments are intended 
+ only for the use of the addressee(s) named above. This message may contain 
+ privileged and confidential information. If you are not the intended recipi
+ ent\, any review\, dissemination\, distribution\, or copying is strictly pr
+ ohibited. If you received this email message in error\, please immediately 
+ delete it and notify the sender by replying to this email message or by tel
+ ephone.\n
+LAST-MODIFIED:20260904T042956Z
 LOCATION:Home Bank\n105 E Parkwood Ave\, Unit 101\, Friendswood\, TX  77546
  \, United States
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Kidz Harbor Gala Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260904T230000Z
+DTEND:20260905T030000Z
+DTSTAMP:20260905T083813Z
+UID:3vplbdeh6dsovjdtqpr41hvuck@google.com
+CREATED:20260904T012320Z
+LAST-MODIFIED:20260904T012320Z
+LOCATION:Clear Creek ISD Challenger Columbia Stadium\, 1955 W Nasa Blvd\, W
+ ebster\, TX 77598\, USA\; https://meet.google.com/ppc-rccv-caa
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Gala Meeting - Kidz Harbor
+SUMMARY:Harper’s Senior Night
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260608T120000
 DTEND;TZID=America/Chicago:20260608T133000
-DTSTAMP:20260905T080904Z
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
 UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260511T1
  70000@google.com
@@ -509,14 +308,36 @@ SUMMARY:Kidz Harbor Gala Meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260713T120000
-DTEND;TZID=America/Chicago:20260713T133000
-RRULE:FREQ=MONTHLY;UNTIL=20261012T045959Z;BYDAY=MO;BYSETPOS=2
-EXDATE;TZID=America/Chicago:20260914T120000
-DTSTAMP:20260905T080904Z
+DTSTART:20210703T160000Z
+DTEND:20210703T170000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=Christy MCQUEEN:mailto:christy.mcqueen@airgas.com
+UID:seh16tjv1gl1gdggsgeulvplqs@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/scu-ioop-wco
+CREATED:20210628T201421Z
+DESCRIPTION:https://www.thevenueonsealy.com/\n\nJoin with Google Meet: http
+ s://meet.google.com/scu-ioop-wco\nOr dial: (US) +1 929-249-4802 PIN: 256778
+ 760#\nMore phone numbers: https://tel.meet/scu-ioop-wco?pin=4967103776332&h
+ s=7\n\nLearn more about Meet at: https://support.google.com/a/users/answer/
+ 9282720
+LAST-MODIFIED:20260402T173236Z
+LOCATION:Donna's Legacy Event Center\, 785 County Rd 539\, Alvin\, TX 77511
+ \, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Venue tour
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260309T120000
+DTEND;TZID=America/Chicago:20260309T133000
+RRULE:FREQ=MONTHLY;UNTIL=20260511T045959Z;BYDAY=MO;BYSETPOS=2
+EXDATE;TZID=America/Chicago:20260413T120000
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260713T1
- 70000@google.com
+UID:567701E1-4492-41D7-B2E0-4F8386CF6DCD
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
  aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
 CREATED:20260211T141514Z
@@ -545,76 +366,135 @@ SUMMARY:Kidz Harbor Gala Meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20210703T160000Z
-DTEND:20210703T170000Z
-DTSTAMP:20260905T080904Z
+DTSTART:20260907T160000Z
+DTEND:20260907T170000Z
+DTSTAMP:20260905T083813Z
+UID:nqbfrtcf74stnv6q1jish4fm28@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
+ aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+CREATED:20260905T021058Z
+LAST-MODIFIED:20260905T021355Z
+LOCATION:Eat Thai (Webster\, TX)\, 565 W Bay Area Blvd\, Webster\, TX 77598
+ \, USA
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BASH Rotary Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260209T120000
+DTEND;TZID=America/Chicago:20260209T140000
+RRULE:FREQ=MONTHLY;UNTIL=20260210T055959Z;BYDAY=MO;BYSETPOS=2
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
+UID:A5D57837-AA15-4B49-BAA9-D32DBE9E77A8
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
+ aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+CREATED:20260112T184655Z
+DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://us02web.zoom.us/j/88581732031?pwd=Wk1vZmJEYjE0SF
+ hubStzYXNZcy8yQT09\n\nMeeting ID: 885 8173 2031\nPassword: 424639\nOne tap 
+ mobile\n+13462487799\,\,88581732031#\,\,\,\,0#\,\,424639# US (Houston)\n+16
+ 699006833\,\,88581732031#\,\,\,\,0#\,\,424639# US (San Jose)\n\nDial by you
+ r location\n        +1 346 248 7799 US (Houston)\n        +1 669 900 6833 U
+ S (San Jose)\n        +1 253 215 8782 US (Tacoma)\n        +1 929 436 2866 
+ US (New York)\n        +1 301 715 8592 US (Germantown)\n        +1 312 626 
+ 6799 US (Chicago)\nMeeting ID: 885 8173 2031\nPassword: 424639\nFind your l
+ ocal number: https://us02web.zoom.us/u/kZzNu2dHb\nThis email message and an
+ y attachments are intended only for the use of the addressee(s) named above
+ . This message may contain privileged and confidential information. If you 
+ are not the intended recipient\, any review\, dissemination\, distribution\
+ , or copying is strictly prohibited. If you received this email message in 
+ error\, please immediately delete it and notify the sender by replying to t
+ his email message or by telephone.\n
+LAST-MODIFIED:20260211T180417Z
+LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
+ ates
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kidz Harbor Gala Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=America/Chicago:20260810T120000
+DTEND;TZID=America/Chicago:20260810T133000
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
+UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260713T1
+ 70000@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
+ aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+RECURRENCE-ID;TZID=America/Chicago:20260810T120000
+CREATED:20260211T141514Z
+DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
+ Join Zoom Meeting\nhttps://us02web.zoom.us/j/88581732031?pwd=Wk1vZmJEYjE0SF
+ hubStzYXNZcy8yQT09\n\nMeeting ID: 885 8173 2031\nPassword: 424639\nOne tap 
+ mobile\n+13462487799\,\,88581732031#\,\,\,\,0#\,\,424639# US (Houston)\n+16
+ 699006833\,\,88581732031#\,\,\,\,0#\,\,424639# US (San Jose)\n\nDial by you
+ r location\n        +1 346 248 7799 US (Houston)\n        +1 669 900 6833 U
+ S (San Jose)\n        +1 253 215 8782 US (Tacoma)\n        +1 929 436 2866 
+ US (New York)\n        +1 301 715 8592 US (Germantown)\n        +1 312 626 
+ 6799 US (Chicago)\nMeeting ID: 885 8173 2031\nPassword: 424639\nFind your l
+ ocal number: https://us02web.zoom.us/u/kZzNu2dHb\nThis email message and an
+ y attachments are intended only for the use of the addressee(s) named above
+ . This message may contain privileged and confidential information. If you 
+ are not the intended recipient\, any review\, dissemination\, distribution\
+ , or copying is strictly prohibited. If you received this email message in 
+ error\, please immediately delete it and notify the sender by replying to t
+ his email message or by telephone.\n
+LAST-MODIFIED:20260904T042956Z
+LOCATION:Home Bank\n105 E Parkwood Ave\, Unit 101\, Friendswood\, TX  77546
+ \, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Kidz Harbor Gala Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200703T160000Z
+DTEND:20200703T200000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=mcqueenchristy@gmail.com:mailto:mcqueenchristy@gmail.com
+UID:7af0hf1974364sldiaa4pg0fnr@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
+ aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/kmi-vpew-peq
+CREATED:20200518T174835Z
+DESCRIPTION:Business Name : Janna's Place \nStatus: Need Acceptance\n\nJoin
+  with Google Meet: https://meet.google.com/kmi-vpew-peq\n\nLearn more about
+  Meet at: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20230304T103831Z
+LOCATION:818 Milam Street\,Liberty\,Texas\,77575\, 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hair Janna
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210702T200000Z
+DTEND:20210702T210000Z
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=Christy MCQUEEN:mailto:christy.mcqueen@airgas.com
-UID:seh16tjv1gl1gdggsgeulvplqs@google.com
+UID:ppf4ep06r68lpa66tukuvf86ok@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
  vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
 X-GOOGLE-CONFERENCE:https://meet.google.com/scu-ioop-wco
-CREATED:20210628T201421Z
+CREATED:20210623T054023Z
 DESCRIPTION:https://www.thevenueonsealy.com/\n\nJoin with Google Meet: http
  s://meet.google.com/scu-ioop-wco\nOr dial: (US) +1 929-249-4802 PIN: 256778
  760#\nMore phone numbers: https://tel.meet/scu-ioop-wco?pin=4967103776332&h
  s=7\n\nLearn more about Meet at: https://support.google.com/a/users/answer/
  9282720
-LAST-MODIFIED:20260402T173236Z
-LOCATION:Donna's Legacy Event Center\, 785 County Rd 539\, Alvin\, TX 77511
- \, USA
-SEQUENCE:0
+LAST-MODIFIED:20260402T173134Z
+SEQUENCE:2
 STATUS:CONFIRMED
 SUMMARY:Venue tour
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260912T230000Z
-DTEND:20260913T020000Z
-DTSTAMP:20260905T080904Z
-UID:9351D5FB-270F-4E9D-8331-E4A454D1CBE6
-URL:https://facebook.com/events/s/thorns-to-triumph-experience/101083134150
- 8984/
-CREATED:20260904T043211Z
-DESCRIPTION:We are so excited to announce that our Annual Gala will be held
-  on Saturday\, September 12\, 2026 at the Great Wolf Lodge!\nOur Thorns to 
- Triumph Experience is an event you won’t want to miss. There will be lots o
- f new and exciting things to enjoy\, along with some of your favorite highl
- ights from past years.\n\nThis year\, during the Thorns to Triumph Experien
- ce\, you will also hear from a panel of speakers who have first-hand knowle
- dge of Kidz Harbor and will share their personal experiences over the years
- .\n\nFor more information on becoming a sponsor or purchasing an individual
-  ticket\, please follow this link:\nhttps://onecau.se/_hhgnx1
-LAST-MODIFIED:20260904T043211Z
-LOCATION:Great Wolf Lodge\, 1000 Great Wolf Wy\, Webster\, TX 77598
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Thorns to Triumph Experience
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20211218T013000Z
-DTEND:20211218T023000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=mcqueenchristy@gmail.com:mailto:mcqueenchristy@gmail.com
-UID:atl4ejd5kkn4jhadq0p3v0rkc0@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
- vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/rap-ccnk-ijw
-CREATED:20211112T042233Z
-DESCRIPTION:Join with Google Meet: https://meet.google.com/rap-ccnk-ijw\n\n
- Learn more about Meet at: https://support.google.com/a/users/answer/9282720
-LAST-MODIFIED:20230304T103813Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Santa pictures
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20260725T150000Z
 DTEND:20260726T220000Z
-DTSTAMP:20260905T080904Z
+DTSTAMP:20260905T083813Z
 UID:77363-1784973600-1785085200@ccs-houston.com
 CREATED:20260711T204517Z
 DESCRIPTION:🚗🏁 Houston World of Hot Wheels IV is roaring back with more t
@@ -653,29 +533,83 @@ SUMMARY:Houston World of Hot Wheels IV
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260904T230000Z
-DTEND:20260905T030000Z
-DTSTAMP:20260905T080904Z
-UID:3vplbdeh6dsovjdtqpr41hvuck@google.com
-CREATED:20260904T012320Z
-LAST-MODIFIED:20260904T012320Z
-LOCATION:Clear Creek ISD Challenger Columbia Stadium\, 1955 W Nasa Blvd\, W
- ebster\, TX 77598\, USA\; https://meet.google.com/ppc-rccv-caa
+DTSTART:20260912T230000Z
+DTEND:20260913T020000Z
+DTSTAMP:20260905T083813Z
+UID:9351D5FB-270F-4E9D-8331-E4A454D1CBE6
+URL:https://facebook.com/events/s/thorns-to-triumph-experience/101083134150
+ 8984/
+CREATED:20260904T043211Z
+DESCRIPTION:We are so excited to announce that our Annual Gala will be held
+  on Saturday\, September 12\, 2026 at the Great Wolf Lodge!\nOur Thorns to 
+ Triumph Experience is an event you won’t want to miss. There will be lots o
+ f new and exciting things to enjoy\, along with some of your favorite highl
+ ights from past years.\n\nThis year\, during the Thorns to Triumph Experien
+ ce\, you will also hear from a panel of speakers who have first-hand knowle
+ dge of Kidz Harbor and will share their personal experiences over the years
+ .\n\nFor more information on becoming a sponsor or purchasing an individual
+  ticket\, please follow this link:\nhttps://onecau.se/_hhgnx1
+LAST-MODIFIED:20260904T043211Z
+LOCATION:Great Wolf Lodge\, 1000 Great Wolf Wy\, Webster\, TX 77598
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Harper’s Senior Night
+SUMMARY:Thorns to Triumph Experience
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260905T190000Z
+DTEND:20260905T220000Z
+DTSTAMP:20260905T083813Z
+UID:D11776FA-F665-42CC-A703-10907F834AB8
+URL:https://facebook.com/events/s/-james-two-nado-birthday-/198289852574552
+ 5/
+CREATED:20260904T020524Z
+DESCRIPTION:Come take shelter with us and celebrate James turning 2! 🥳 Bri
+ ng your swimsuit for water fun! 💦 There will be a bouncy water slide perfe
+ ct for little kids & toddlers\, plus a small pool and slip n slide! 💧 Snac
+ ks and drinks provided. 🌪
+LAST-MODIFIED:20260904T020524Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:🌪 🥳 James' Two-nado Birthday 🥳 🌪
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20210711T160000Z
+DTEND:20210711T163000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=Christy MCQUEEN:mailto:christy.mcqueen@airgas.com
+UID:dnha7cfvls0capremc2qri27ls@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/jyj-qzkg-enc
+CREATED:20210703T200727Z
+DESCRIPTION:Join with Google Meet: https://meet.google.com/jyj-qzkg-enc\nOr
+  dial: (US) +1 530-395-0680 PIN: 252282902#\nMore phone numbers: https://te
+ l.meet/jyj-qzkg-enc?pin=9716149240641&hs=7\n\nLearn more about Meet at: htt
+ ps://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20260402T173239Z
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Donna’s Legacy
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260209T120000
-DTEND;TZID=America/Chicago:20260209T140000
-RRULE:FREQ=MONTHLY;UNTIL=20260210T055959Z;BYDAY=MO;BYSETPOS=2
-DTSTAMP:20260905T080904Z
+DTSTART;TZID=America/Chicago:20260713T120000
+DTEND;TZID=America/Chicago:20260713T133000
+RRULE:FREQ=MONTHLY;UNTIL=20261012T045959Z;BYDAY=MO;BYSETPOS=2
+EXDATE;TZID=America/Chicago:20260914T120000
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:A5D57837-AA15-4B49-BAA9-D32DBE9E77A8
+UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260713T1
+ 70000@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
  aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-CREATED:20260112T184655Z
+CREATED:20260211T141514Z
 DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
  Join Zoom Meeting\nhttps://us02web.zoom.us/j/88581732031?pwd=Wk1vZmJEYjE0SF
  hubStzYXNZcy8yQT09\n\nMeeting ID: 885 8173 2031\nPassword: 424639\nOne tap 
@@ -692,19 +626,88 @@ DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
  , or copying is strictly prohibited. If you received this email message in 
  error\, please immediately delete it and notify the sender by replying to t
  his email message or by telephone.\n
-LAST-MODIFIED:20260211T180417Z
-LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
- ates
+LAST-MODIFIED:20260904T042956Z
+LOCATION:Home Bank\n105 E Parkwood Ave\, Unit 101\, Friendswood\, TX  77546
+ \, United States
 SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:Kidz Harbor Gala Meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20230124T180000Z
+DTEND:20230124T190000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=3itj1gmtd9t9dlv38hraogu6ho@group.calendar.google.com:mailto:3i
+ tj1gmtd9t9dlv38hraogu6ho@group.calendar.google.com
+UID:d67koji2hqbb2rp2nif668tt74@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+CREATED:20230112T055512Z
+LAST-MODIFIED:20250330T094629Z
+LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
+ ates
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:ST : Kids Harbor Gala Meeting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230124T180000Z
+DTEND:20230124T190000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
+UID:407E4A7A-B4B8-44BE-BB60-F0805BE94D0E
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+URL:message://%3CCAAJSuv0NX5=7X=NRoZDGPvfQDV2_frXZUqp5ggE+Apnx3k9hYQ%40mail
+ .gmail.com%3E?c=1518537897&k=%7C543110400/WJG2dzjOWQ
+CREATED:20230106T205547Z
+LAST-MODIFIED:20250321T032516Z
+LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
+ ates
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gala Meeting 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20211218T013000Z
+DTEND:20211218T023000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=mcqueenchristy@gmail.com:mailto:mcqueenchristy@gmail.com
+UID:atl4ejd5kkn4jhadq0p3v0rkc0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/rap-ccnk-ijw
+CREATED:20211112T042233Z
+DESCRIPTION:Join with Google Meet: https://meet.google.com/rap-ccnk-ijw\n\n
+ Learn more about Meet at: https://support.google.com/a/users/answer/9282720
+LAST-MODIFIED:20230304T103813Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Santa pictures
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260908T170000Z
+DTEND:20260908T180000Z
+DTSTAMP:20260905T083813Z
+UID:66426C7A-5E67-4D71-92DF-5BFEEFA266AB
+CREATED:20260904T023647Z
+LAST-MODIFIED:20260904T023647Z
+LOCATION:Home Bank\n105 E Parkwood Ave\, Unit 101\, Friendswood\, TX  77546
+ \, United States
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gala Meeting - Kidz Harbor
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=America/Chicago:20260112T120000
 DTEND;TZID=America/Chicago:20260112T140000
 RRULE:FREQ=MONTHLY;UNTIL=20260113T055959Z;BYDAY=MO;BYSETPOS=2
-DTSTAMP:20260905T080904Z
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
 UID:C11C4A1F-8503-4776-BF00-B8029866CCFB
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
@@ -735,15 +738,15 @@ SUMMARY:Kidz Harbor Gala Meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID=America/Chicago:20260810T120000
-DTEND;TZID=America/Chicago:20260810T133000
-DTSTAMP:20260905T080904Z
+DTSTART;TZID=America/Chicago:20260511T120000
+DTEND;TZID=America/Chicago:20260511T133000
+RRULE:FREQ=MONTHLY;UNTIL=20260713T045959Z;BYDAY=MO;BYSETPOS=2
+DTSTAMP:20260905T083813Z
 ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
-UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260713T1
+UID:_6kr3edpg652j2b9k6gsj4b9k6523eba2692j0b9k8os36e1m8d33ch238g_R20260511T1
  70000@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
  aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-RECURRENCE-ID;TZID=America/Chicago:20260810T120000
 CREATED:20260211T141514Z
 DESCRIPTION:Kristi Koncaba is inviting you to a scheduled Zoom meeting.\n\n
  Join Zoom Meeting\nhttps://us02web.zoom.us/j/88581732031?pwd=Wk1vZmJEYjE0SF
@@ -770,23 +773,20 @@ SUMMARY:Kidz Harbor Gala Meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260430T223000Z
-DTEND:20260501T020000Z
-DTSTAMP:20260905T080904Z
-ORGANIZER;CN=mcqueenchristy@gmail.com:mailto:mcqueenchristy@gmail.com
-UID:7vt7321hongcsha7cial4dqulc@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=savann
- aglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
-X-GOOGLE-CONFERENCE:https://meet.google.com/ynb-vdgu-ayq
-CREATED:20260117T195702Z
-DESCRIPTION:Join with Google Meet: https://meet.google.com/ynb-vdgu-ayq\n\n
- Learn more about Meet at: https://support.google.com/a/users/answer/9282720
-LAST-MODIFIED:20260122T130443Z
-LOCATION:Nessler Civic Center\, 2010 5th Ave N\, Texas City\, TX 77590\, US
- A
-SEQUENCE:0
+DTSTART:20251020T170000Z
+DTEND:20251020T180000Z
+DTSTAMP:20260905T083813Z
+ORGANIZER;CN=kidzharbor@gmail.com:mailto:kidzharbor@gmail.com
+UID:6C90C676-28EB-4A6E-A090-2FDCE58E079C
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=sa
+ vannaglaze@gmail.com;X-NUM-GUESTS=0:mailto:savannaglaze@gmail.com
+CREATED:20250922T004438Z
+LAST-MODIFIED:20251014T112808Z
+LOCATION:Olive Garden\n162 Highway 35 Byp N\, Alvin\, TX  77511\, United St
+ ates
+SEQUENCE:1
 STATUS:CONFIRMED
-SUMMARY:KH Purse Bingo
+SUMMARY:Gala Wrap
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
