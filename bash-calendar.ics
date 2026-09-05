@@ -6,114 +6,249 @@ METHOD:PUBLISH
 X-WR-CALNAME:bashhomeschoolers@gmail.com
 X-WR-TIMEZONE:America/Chicago
 BEGIN:VEVENT
-DTSTART:20260921T170000Z
-DTEND:20260921T200000Z
-DTSTAMP:20260905T093640Z
-UID:E1C4CB4E-E05C-4A1E-AF57-26CAD50A8AB2
-URL:https://facebook.com/events/s/movie-monday-pajama-day/1734503077682092/
-CREATED:20260831T175253Z
-DESCRIPTION:Let’s have a relaxing morning in our pajamas\, and watch a movi
- e! \n(Movie TBD)\n\nRemember to always treat this library with respect and 
- keep it clean ❤️ 
-LAST-MODIFIED:20260831T175253Z
+DTSTART:20260929T160000Z
+DTEND:20260929T190000Z
+DTSTAMP:20260905T100819Z
+UID:8AF994D3-E236-4227-97A5-F10953D474EC
+URL:https://facebook.com/events/s/green-thumb-tuesday/1672382030645406/
+CREATED:20260831T175320Z
+DESCRIPTION:The Houston arboretum is such a cool place. \nA super awesome p
+ layground\, lots of fun nature to explore and some educational exhibits ins
+ ide. \nLet’s have a picnic lunch 🥪 🧺 \nDon’t forget water\, bug spray\, a
+ nd close toes shoes! \n\nAlways remember to treat nature with kindness and 
+ respect\, only leave behind footprints 👣 🍃 
+LAST-MODIFIED:20260831T175320Z
+LOCATION:Houston Arboretum
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Green thumb Tuesday! 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260919T150000Z
+DTEND:20260919T190000Z
+DTSTAMP:20260905T100819Z
+UID:B7EF1E52-008C-437D-961A-CB6BE4D01A5D
+URL:https://facebook.com/events/s/bash-booth-farmers-marker/270561855321831
+ 0/
+CREATED:20260831T175248Z
+DESCRIPTION:BASH kids sell @ the farmers market! \nWe will have 3 tables wi
+ th room to display products! Please bring a tray\, and either your items in
+ dividually priced or a paper showing your price list & payment method! \nTh
+ ese items should be (mostly) kid crafted! \nNo food or drink items! \nOutdo
+ or booth\, bring a lawn chair and a fan? \nIf you plan on selling with BASH
+  you are required to comment on the post on the event page! 
+LAST-MODIFIED:20260831T175248Z
+LOCATION:Columbus Club Of Dickinson
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BASH Booth @ Farmers Marker
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261021T160000Z
+DTEND:20261021T190000Z
+DTSTAMP:20260905T100819Z
+UID:CD61A27D-13E0-4A5F-B126-6921B288B0AF
+URL:https://facebook.com/events/s/galveston-childrens-museum/84498285536136
+ 1/
+CREATED:20260831T175402Z
+DESCRIPTION:Lets go explore the children's museum! so much to do here.\nWe 
+ will have a picnic outside around 11:30. \nmaybe even go explore a little m
+ ore afterwards. \n$10/person\nunder 2 free\nmilitary $8\n$3 for anyone who 
+ receives WIC\, SNAP\, or medicaid benefits. 
+LAST-MODIFIED:20260831T175402Z
+LOCATION:Galveston Children's Museum
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Galveston Children’s Museum
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261102T170000Z
+DTEND:20261102T200000Z
+DTSTAMP:20260905T100819Z
+UID:96203574-3C19-4500-9C99-83D6F10A335B
+URL:https://facebook.com/events/s/meow-wolf-houston-field-trip/135285502632
+ 5085/
+CREATED:20260831T175428Z
+DESCRIPTION:🌌✨ BASH Field Trip: Meow Wolf Houston ✨🌌\n\nJoin us for a fun
+  and unique adventure at Meow Wolf Houston! Explore a world of colorful art
+ \, hidden surprises\, and interactive experiences where imagination comes t
+ o life.\n\nCome ready to wander\, discover\, and enjoy an unforgettable day
+  of creativity and exploration!\n\nMore details to come! 🎨🚀\n\nField trip
+  tickets are $12 per student\n
+LAST-MODIFIED:20260831T175428Z
+LOCATION:Meow Wolf Houston
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meow wolf Houston field trip! 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261002T160000Z
+DTEND:20261002T190000Z
+DTSTAMP:20260905T100819Z
+UID:73C2871B-F1F9-49C7-BEF0-32640C468B72
+URL:https://facebook.com/events/s/spooky-art-in-the-park/1515066476754884/
+CREATED:20260831T175325Z
+DESCRIPTION:Join us for Halloween themed crafts at Stevenson park! We will 
+ meet under the pavilion for crafts and we can play at the park! \nCrafts ar
+ e TBD but we are thinking spiderweb+stick weaving and a painting activity! 
+ 🕸️🕷️
+LAST-MODIFIED:20260831T175325Z
+LOCATION:Stevenson Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Spooky Art in the Park👻
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+DTSTAMP:20260905T100819Z
+UID:B973AD59-5EEA-4F0E-B7E4-DE45CB06B6A6
+URL:https://facebook.com/events/s/once-upon-a-halloween-ball-/1006881622137
+ 460/
+CREATED:20260831T175417Z
+DESCRIPTION:🎃✨ Once Upon a Halloween Ball ✨🎃\n\nStep into a night of magi
+ c\, mystery\, and Halloween fun at BASH’s Once Upon a Halloween Ball!\n\nCo
+ me dressed to impress in your fanciest attire\, your spookiest costume\, or
+  transform into your favorite superhero or villain. 🦸‍♀️🦹‍♂️👻\n\nWe’ll h
+ ave a night filled with delicious food\, sweet treats\, tricks\, games\, an
+ d plenty of fun surprises for the whole family!\n\nMore details to come… we
+  can’t wait to celebrate Halloween together! 🕸️🍂
+LAST-MODIFIED:20260831T175417Z
+LOCATION:TBD
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Once upon a Halloween Ball 🎃 🕺 👻 🎵 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261116T170000Z
+DTEND:20261116T200000Z
+DTSTAMP:20260905T100819Z
+UID:48043D00-83E8-4CA5-A26D-FD4272497C9E
+URL:https://facebook.com/events/s/movie-monday-/1019644290705171/
+CREATED:20260831T175457Z
+DESCRIPTION:Let’s watch a movie and hang out before thanksgiving break :) \
+ nMovie TBD! \nWe will bring a snack\, you bring a blanket ❤️ \nRemember to 
+ always treat this library with respect\, thank the librarians and clean up 
+ after yourselves 🙏 
+LAST-MODIFIED:20260831T175458Z
 LOCATION:Clear Lake City-County Freeman Branch Library
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Movie Monday! Pajama day 
+SUMMARY:Movie Monday 🎥 
 TRANSP:OPAQUE
 X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
 X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261006T160000Z
-DTEND:20261006T190000Z
-DTSTAMP:20260905T093640Z
-UID:D0C5259E-B1A3-4A27-9A3E-1BBE176696B5
-URL:https://facebook.com/events/s/monster-mash-nerf-bash/1695022031701966/
-CREATED:20260831T175330Z
-DESCRIPTION:Join us on the nerf maze for a nerf war with a spoookkyyyy twis
- t! \nFeel free to dress up as a spooky monster (bad guy) or a sweet princes
- s (with the nerf power to protect herself💪💪)\nPlease bring a nerf gun and
-  foam bullets for each kiddo! \nThere’s also a cute playground at this park
-  so if monsters and nerf wars aren’t your thing there will still be plenty 
- of fun to be had!! \n((Dressing up is not required\, however\, I was thinki
- ng since it’s October and if they want to- why not?!))
-LAST-MODIFIED:20260831T175330Z
-LOCATION:Newman Park
+DTSTART:20261217T170000Z
+DTEND:20261217T200000Z
+DTSTAMP:20260905T100819Z
+UID:F34A44EC-261B-42CC-BE8B-200CA79406B8
+URL:https://facebook.com/events/s/annual-ornament-exchange-/145533068969413
+ 6/
+CREATED:20260831T175557Z
+DESCRIPTION:Join BASH for our annual Christmas ornament exchange! 🎄 \nBrin
+ g ONE\, wrapped\, non breakable ornament per participating child ❤️ \nWe wi
+ ll draw numbers and each child will pick a present based off what number th
+ ey received :) \n\nBounce n play is amazing bc one we get the group rate (m
+ ention you’re with BASH when you arrive)\, and two you can bring your own f
+ ood and drinks. \nWhile we can’t bring cupcakes or cake\, we can still orde
+ r pizza and bring drinks :) \nDon’t forget your grippy socks!! \nHohoho 🎅 
+LAST-MODIFIED:20260831T175557Z
+LOCATION:Bounce N Play
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Monster Mash Nerf BASH!!! 
+SUMMARY:Annual ornament exchange! 🎄 
 TRANSP:OPAQUE
 X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
 X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20261120T170000Z
-DTEND:20261120T200000Z
-DTSTAMP:20260905T093640Z
-UID:E8F73BD3-ADCE-48E1-BE59-AFE2B546DE98
-URL:https://facebook.com/events/s/november-birthday-bash-and-fri/2764126104
- 5507753/
-CREATED:20260831T175511Z
-DESCRIPTION:Let’s celebrate November birthdays! \nAs always BASH will provi
- de cupcakes and birthday baggies for the birthday kiddos :) \nPlease add yo
- ur birthday kid to the headcount post 🙏 \n\nLet’s also celebrate thanksgiv
- ing with a BASH Friendsgiving ❤️ \nWe will have a zeffy sign up sheet set u
- p for a potluck style event! \nAlso I’m sure we will have some sort of fun 
- craft or sensory fun 🤩 
-LAST-MODIFIED:20260831T175512Z
-LOCATION:Frankie Carter park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:November birthday BASH\, and Friendsgiving 🦃 🎂 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260922T160000Z
-DTEND:20260922T190000Z
-DTSTAMP:20260905T093640Z
-UID:4F3CEBAC-8821-49CB-8B5D-D19EDDC89801
-URL:https://facebook.com/events/s/johnny-appleseed-day-apple-sam/1388564926
- 467913/
-CREATED:20260831T175258Z
-DESCRIPTION:Johnny Appleseed day!! \nLet’s enjoy and sample some yummy appl
- es\, and chart our findings 📊 \n
-LAST-MODIFIED:20260831T175259Z
+DTSTART:20261211T170000Z
+DTEND:20261211T200000Z
+DTSTAMP:20260905T100819Z
+UID:0174E17C-7624-4388-96DE-C6B383758D9A
+URL:https://facebook.com/events/s/bash-reindeer-games-/1730579757991920/
+CREATED:20260831T175544Z
+DESCRIPTION:Let’s be silly and see if BASH can fly Santa’s sleigh 🛷 🎅 \nJ
+ oin us for BASH reindeer games! \nMore info to come ❤️ 
+LAST-MODIFIED:20260831T175544Z
 LOCATION:Challenger 7 Memorial Park
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Johnny Appleseed day! Apple sample and charting
+SUMMARY:BASH reindeer games 🫎 🎅 
 TRANSP:OPAQUE
 X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
 X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20260918T160000Z
-DTEND:20260918T190000Z
-DTSTAMP:20260905T093640Z
-UID:7D8B9A68-78DB-4D52-9D6E-7DE93F5E7783
-URL:https://facebook.com/events/s/houston-interactive-aquarium-f/1458733232
- 948621/
-CREATED:20260831T175244Z
-DESCRIPTION:Join BASH for an incredible field trip to the Houston interacti
- ve aquarium. There is such a big variety of animals here\, such an amazing 
- learning experience and so much fun for all!\nIt will be $10 per child\, an
- d $26 for parents. BUTTT\, teachers and first responders are free\, and yes
-  homeschool teachers count :) so please make yourself a homeschool ID\, if 
- you need help with that please reach out to an admin\, we will be happy to 
- assist ❤️ you HAVE to have your homeschool ID to receive the free admission
- . \nBring a lunch\, I will have a couple coolers you can use :)\nPlease arr
- ive at least 10 mins early\, we have to be on time to stay on schedule 🙏 \
- n\nWe will post a zeffy link for you to pay :) \nDon’t forget your BASH fie
- ld trip shirt! 💚\n\nIncludes Stingray Feeding\nAviary Visit\nEducational T
- alk\nPetting Zoo\, \nLemur Encounter (4th grade or higher age)
-LAST-MODIFIED:20260831T175244Z
-LOCATION:Houston Interactive Aquarium and Animal Preserve
+DTSTART:20260911T150000Z
+DTEND:20260911T180000Z
+DTSTAMP:20260905T100819Z
+UID:0933A7D7-E2F8-49AD-B7AD-46D14249741D
+URL:https://facebook.com/events/s/september-birthday-bash-back-t/1542657997
+ 537358/
+CREATED:20260831T175229Z
+DESCRIPTION:Let’s celebrate the September birthdays!! \nAs always BASH will
+  provide cupcakes and birthday baggies for the birthday kiddos :) \nPlease 
+ make sure to add your birthday kid to the headcount post ❤️ \nIf you’d like
+  to bring something to share\, drinks are always very appreciated:)\n\nMadi
+  will be taking back to school pictures for those who would like to join 📸
+  \nShe has an awesome idea in mind 🎨 \nI’ll make a separate post for pictu
+ res\, please add your family name and how many of y’all there is 🙏 
+LAST-MODIFIED:20260831T175229Z
+LOCATION:Frankie Carter park
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Houston interactive aquarium field trip 
+SUMMARY:September birthday BASH & back to school pictures! 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270108T170000Z
+DTEND:20270108T200000Z
+DTSTAMP:20260905T100819Z
+UID:B76C836F-10F3-470C-925B-3AB19473649E
+URL:https://facebook.com/events/s/galveston-railroad-museum-fiel/1675439527
+ 083497/
+CREATED:20260831T175605Z
+DESCRIPTION:🚂 BASH Field Trip: Galveston Railroad Museum 🚂\n\nAll aboard!
+  Join us for a fun\, hands-on day exploring one of Galveston’s most unique 
+ museums. Kids and adults can climb aboard historic railcars\, explore locom
+ otives\, see interactive exhibits\, and learn how railroads helped shape Te
+ xas and the nation. It’s a great trip for train lovers and curious explorer
+ s alike!\n\nAdmission:\n🎟️ Ages 3 & up: $8\n🎟️ Adults: $13\n🇺🇸 Veterans
+ : FREE\n🍎 Teachers: FREE (please bring your homeschool ID)\n\nThe museum f
+ eatures historic train cars\, model train displays\, railroad artifacts\, i
+ nteractive exhibits\, and opportunities to step inside many of the restored
+  railcars. It’s an educational experience that’s fun for the whole family. 
+ (galvestonrrmuseum.org⁠￼)\n\nWe can’t wait to explore the rails with everyo
+ ne! 🚂\n\n(We will post a zeffy link for payment when the event gets closer
+  🙏)
+LAST-MODIFIED:20260831T175606Z
+LOCATION:Galveston Railroad Museum
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Galveston railroad museum field trip. 
 TRANSP:OPAQUE
 X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
 X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
@@ -121,7 +256,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20261204T170000Z
 DTEND:20261204T200000Z
-DTSTAMP:20260905T093640Z
+DTSTAMP:20260905T100819Z
 UID:8DCBC32C-7D15-4CA2-A3CD-7193B7663B5F
 URL:https://facebook.com/events/s/christmas-make-take-slime-day/20175115789
  71233/
@@ -142,9 +277,303 @@ X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
 X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20261027T160000Z
+DTEND:20261027T190000Z
+DTSTAMP:20260905T100819Z
+UID:13187DAF-F7E8-48A6-8F09-2D4EAA438200
+URL:https://facebook.com/events/s/green-thumb-tuesday-jimbos-nur/1300997748
+ 476062/
+CREATED:20260831T175411Z
+DESCRIPTION:Let’s go garden! 🪴 \nJoin us at Jimbos nursery as Mrs. Claire 
+ will be teaching us to make Kokedama. \n\nKokedama (pronounced koh-keh-DAH-
+ mah) is a Japanese gardening art form whose name means “moss ball.” Instead
+  of growing a plant in a pot\, the plant’s roots are wrapped in a ball of s
+ oil that’s covered in moss and secured with string or fishing line.\n\nEach
+  participant is $10 \nPlease comment on the headcount post only if you are 
+ for sure going\, class caps at 20 kids. \nYou’ll pay the nursery after we’r
+ e done ❤️ \nThis is an amazing nursery\, so many great plants and all very 
+ reasonable if you’d like to shop around afterwards :) 
+LAST-MODIFIED:20260831T175411Z
+LOCATION:Jimbo’s Nursery
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Green thumb Tuesday: Jimbos nursery 🪴 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261016T160000Z
+DTEND:20261016T190000Z
+DTSTAMP:20260905T100819Z
+UID:571480B9-5F57-4845-B7AC-CC5054487F68
+URL:https://facebook.com/events/s/october-birthday-bash-pumpkin-/2400102037
+ 149640/
+CREATED:20260831T175350Z
+DESCRIPTION:Let’s celebrate the October birthdays!! \nAs always BASH will p
+ rovide cupcakes and birthday baggies for the birthday kiddos :) \nPlease ma
+ ke sure to add your birthday kid to the headcount post ❤️ \nIf you’d like t
+ o bring something to share\, drinks are always very appreciated:)\n\nBring 
+ your own pumpkin to carve or paint! We will bring paint supplies but if you
+  have extra carving supplies please bring them to use or share with the gro
+ up!! 🎃🎃🎃
+LAST-MODIFIED:20260831T175350Z
+LOCATION:Old City Park/Friendswood Petsafe Dog Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:October birthday BASH & Pumpkin Carving
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261019T160000Z
+DTEND:20261019T190000Z
+DTSTAMP:20260905T100819Z
+UID:1ED9CB5C-67F2-437B-A097-E398F7F8CBA9
+URL:https://facebook.com/events/s/movie-monday-haunted-mansion/164276360013
+ 3410/
+CREATED:20260831T175358Z
+DESCRIPTION:Join us for a movie and popcorn while we watch the haunted mans
+ ion! \n\nWe will be in the kids event room\, please remember to thank our l
+ ibrarians and be quiet and respectful in all parts of the library so we can
+  continue to utilize this space for events!!\nAny help at the end to clean 
+ up and vacuum is always appreciated 🫶
+LAST-MODIFIED:20260831T175358Z
+LOCATION:Clear Lake City-County Freeman Branch Library
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Monday- Haunted Mansion
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260908T160000Z
+DTEND:20260908T190000Z
+DTSTAMP:20260905T100819Z
+UID:1F855619-CA6F-4040-B696-972530FBF05C
+URL:https://facebook.com/events/s/literacy-day-bring-your-fav-bo/1743308886
+ 867142/
+CREATED:20260831T175218Z
+DESCRIPTION:It’s literacy day! 📚 📖 \nBring you fav book to share and read
+  with a friend :) \nThis park has lots of shade\, basketball court\, playgr
+ ound\, trails\, and a splash pad ☀️ 
+LAST-MODIFIED:20260905T020413Z
+LOCATION:Brummerhop Park
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Literacy day\, bring your fav book!
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260921T170000Z
+DTEND:20260921T200000Z
+DTSTAMP:20260905T100819Z
+UID:E1C4CB4E-E05C-4A1E-AF57-26CAD50A8AB2
+URL:https://facebook.com/events/s/movie-monday-pajama-day/1734503077682092/
+CREATED:20260831T175253Z
+DESCRIPTION:Let’s have a relaxing morning in our pajamas\, and watch a movi
+ e! \n(Movie TBD)\n\nRemember to always treat this library with respect and 
+ keep it clean ❤️ 
+LAST-MODIFIED:20260831T175253Z
+LOCATION:Clear Lake City-County Freeman Branch Library
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Monday! Pajama day 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260922T160000Z
+DTEND:20260922T190000Z
+DTSTAMP:20260905T100819Z
+UID:4F3CEBAC-8821-49CB-8B5D-D19EDDC89801
+URL:https://facebook.com/events/s/johnny-appleseed-day-apple-sam/1388564926
+ 467913/
+CREATED:20260831T175258Z
+DESCRIPTION:Johnny Appleseed day!! \nLet’s enjoy and sample some yummy appl
+ es\, and chart our findings 📊 \n
+LAST-MODIFIED:20260831T175259Z
+LOCATION:Challenger 7 Memorial Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Johnny Appleseed day! Apple sample and charting
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261022T150000Z
+DTEND:20261022T180000Z
+DTSTAMP:20260905T100819Z
+UID:C6E4C4C2-2C28-4E36-B6A8-FDDE55830D83
+URL:https://facebook.com/events/s/homeschool-day-the-patch/2025308292206841
+ /
+CREATED:20260831T230927Z
+DESCRIPTION:Join us for Homeschool Day @ the Texas City Pumpkin Patch! Entr
+ y is free\, student activities provided! Will post the flyer on the event p
+ age. 🎃🎃\n\npumpkin prices start at $1 and go up! 
+LAST-MODIFIED:20260831T230928Z
+LOCATION:Fatima Soccer Fields
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Homeschool Day @ the Patch
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261117T160000Z
+DTEND:20261117T190000Z
+DTSTAMP:20260905T100819Z
+UID:C158922D-55B9-4822-90EB-72E1C8BC43D8
+URL:https://facebook.com/events/s/green-thumb-tuesday-/4001903240118807/
+CREATED:20260831T175504Z
+DESCRIPTION:Let’s go for a morning stroll\, this nature walk is beautiful! 
+ \nIt is stroller friendly :) \nPlease don’t forget bug spray\, water\, and 
+ close toed shoes! \nAlways remember to talk to your kiddos about nature saf
+ ety beforehand! \n
+LAST-MODIFIED:20260831T175505Z
+LOCATION:Robinson Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Green thumb Tuesday 💚
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261208T170000Z
+DTEND:20261208T200000Z
+DTSTAMP:20260905T100819Z
+UID:84A9159D-3964-4CE2-8619-3AAD49782C20
+URL:https://facebook.com/events/s/christmas-make-and-take-mug-cr/1488794462
+ 935202/
+CREATED:20260831T175540Z
+DESCRIPTION:Come paint and decorate the perfect Christmas Mug for your Hot 
+ Cocoa or Milk for Santa Claus! We will bring all the necessary supplies and
+  the mugs too! Directions will be posted and sent home on how to bake your 
+ mugs in the oven when you get home so the paint stays! \nZeffy link for sig
+ n ups will be posted closer to the event date!! ☕️🎄🤶
+LAST-MODIFIED:20260831T175540Z
+LOCATION:Texas Avenue Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Christmas Make and Take Mug Craft! 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270409T160000Z
+DTEND:20270409T190000Z
+DTSTAMP:20260905T100819Z
+UID:163DBDB5-BD77-4356-B373-71E1E5AB904F
+URL:https://facebook.com/events/s/100th-day-of-school-celebratio/1053457303
+ 739280/
+CREATED:20260831T175609Z
+DESCRIPTION:Location TBD!\n\n100TH DAY OF SCHOOL CELEBRATION! 🎉\n\nSince w
+ e all start school on different days and some of us school year-round\, we 
+ decided to celebrate our 100th day of school together on the 100th day of t
+ he year! Well\, the 99th because it’s a Friday! 😂\n\nCome celebrate with u
+ s! \n\n- Make a fun shirt with 100 items on it\n- Bring 100 Pokémon cards t
+ o show off\n- Bring 100 of whatever you want!\n- Get creative and have fun 
+ with it!\n\nLet’s make it a fun day for all of our homeschooled kiddos! ❤️
+LAST-MODIFIED:20260831T175609Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:100th DAY OF SCHOOL CELEBRATION!
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261013T160000Z
+DTEND:20261013T190000Z
+DTSTAMP:20260905T100819Z
+UID:B8C79187-A759-4443-BB40-809594013AE3
+URL:https://facebook.com/events/s/rockstar-energy-bike-park/125601747982470
+ 6/
+CREATED:20260831T175346Z
+DESCRIPTION:Brink your bikes\, scooters\, skateboards! This park has dirt t
+ racks\, skate parks and even a toddler track! 
+LAST-MODIFIED:20260831T175346Z
+LOCATION:Rockstar BMX park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Rockstar Energy Bike Park
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261006T160000Z
+DTEND:20261006T190000Z
+DTSTAMP:20260905T100819Z
+UID:D0C5259E-B1A3-4A27-9A3E-1BBE176696B5
+URL:https://facebook.com/events/s/monster-mash-nerf-bash/1695022031701966/
+CREATED:20260831T175330Z
+DESCRIPTION:Join us on the nerf maze for a nerf war with a spoookkyyyy twis
+ t! \nFeel free to dress up as a spooky monster (bad guy) or a sweet princes
+ s (with the nerf power to protect herself💪💪)\nPlease bring a nerf gun and
+  foam bullets for each kiddo! \nThere’s also a cute playground at this park
+  so if monsters and nerf wars aren’t your thing there will still be plenty 
+ of fun to be had!! \n((Dressing up is not required\, however\, I was thinki
+ ng since it’s October and if they want to- why not?!))
+LAST-MODIFIED:20260831T175330Z
+LOCATION:Newman Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Monster Mash Nerf BASH!!! 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261110T170000Z
+DTEND:20261110T200000Z
+DTSTAMP:20260905T100819Z
+UID:69ABA303-1F46-4EE2-B167-7F00EB38A3E0
+URL:https://facebook.com/events/s/ed-thompson-inclusive-park-/1697277508176
+ 941/
+CREATED:20260831T175448Z
+DESCRIPTION:Let’s go explore this amazing park!! \nThis is Ed Thompson incl
+ usive park. \nPack a lunch and let’s play 💚
+LAST-MODIFIED:20260831T175449Z
+LOCATION:Sports Complex at Shadow Creek Ranch
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ed Thompson inclusive park :) 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261009T150000Z
+DTEND:20261009T180000Z
+DTSTAMP:20260905T100819Z
+UID:C6A03ADF-F942-42FE-9C39-DA012B965F81
+URL:https://facebook.com/events/s/frobergs-fall-festival/1282364687309185/
+CREATED:20260831T175334Z
+DESCRIPTION:They have not released details or tickets for this event yet\, 
+ but it’s such a fun Fall Farm Event! More details to come…. 
+LAST-MODIFIED:20260831T175334Z
+LOCATION:Froberg Fruit and Vegetable Farm\, Alvin\, Texas
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Frobergs Fall Festival
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20261202T170000Z
 DTEND:20261202T200000Z
-DTSTAMP:20260905T093640Z
+DTSTAMP:20260905T100819Z
 UID:0C9B44A8-93CA-4474-A251-5894FF63C2CD
 URL:https://facebook.com/events/s/galveston-childrens-museum/13138292038540
  77/
@@ -163,9 +592,224 @@ X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
 X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20260904T160000Z
+DTEND:20260904T190000Z
+DTSTAMP:20260905T100819Z
+UID:C51ACC21-8AFB-4019-8D7E-15A6C67566A2
+URL:https://facebook.com/events/s/bikes-and-scooters-/1535234464968326/
+CREATED:20260831T175215Z
+DESCRIPTION:Such a great park! Let’s burn some energy with bikes and scoote
+ rs. \n
+LAST-MODIFIED:20260831T175215Z
+LOCATION:Alvin Skate Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bikes and scooters! 🛴 🚲 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260925T140000Z
+DTEND:20260925T170000Z
+DTSTAMP:20260905T100819Z
+UID:4324002C-2EA6-41A2-A031-F38D98554BB6
+URL:https://facebook.com/events/s/john-moore-stem-field-trip/21019140612052
+ 60/
+CREATED:20260831T175315Z
+DESCRIPTION:Join BASH for a FREE STEM field trip at John Moore! \nDon’t for
+ get to wear your field trip shirt \nWhat to Expect:\nFREE ADMISSION\nAmple 
+ parking for buses and cars\nTables and chairs for lunch if needed (lunch wi
+ ll not be provided by John Moore and must be brought with each student)\nRe
+ stroom facilities\n\nWe will bring coolers for lunches :) \n\nI’ll post the
+  link so you’ll know more what to expect! \n
+LAST-MODIFIED:20260831T175315Z
+LOCATION:10005 West Sam Houston Pkwy North\, Houston\, TX 77064 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:John Moore STEM field trip 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261103T160000Z
+DTEND:20261103T190000Z
+DTSTAMP:20260905T100819Z
+UID:0A3DC323-B942-494D-9FDD-7191BABBE365
+URL:https://facebook.com/events/s/nature-walk-/1202016472994638/
+CREATED:20260831T175435Z
+DESCRIPTION:Join us for a morning walk and exploration ❤️ \nThis park looks
+  so beautiful. 
+LAST-MODIFIED:20260831T175435Z
+LOCATION:Lake Friendswood Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Nature walk 🍃 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261112T170000Z
+DTEND:20261112T200000Z
+DTSTAMP:20260905T100819Z
+UID:D661C3CE-2B73-49C8-B119-F0CBE5C020CE
+URL:https://facebook.com/events/s/george-ranch-frontier-day/177601408042596
+ 1/
+CREATED:20260831T175452Z
+DESCRIPTION:This unique fall festival celebrates the heritage of The George
+  Ranch with cattle working demonstrations\, historic home tours\, battle re
+ -enactments\, games\, vendors\, food trucks\, music\, entertainment\, hands
+ -on activities and more!\n\nLet’s take BASH back to the frontier days! \nDo
+ n’t forget your BASH shirt\, and a lunch :) \nMore details to come! 
+LAST-MODIFIED:20260831T175453Z
+LOCATION:10215 FM 762 RICHMOND\, TX 77469
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:George ranch frontier day 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261106T170000Z
+DTEND:20261106T200000Z
+DTSTAMP:20260905T100819Z
+UID:F25CF5FF-2DF4-4F6A-A2EA-D39FD46897E8
+URL:https://facebook.com/events/s/turkey-craft-/4406024766392783/
+CREATED:20260831T175443Z
+DESCRIPTION:The park has much to offer. ☀️ \nPlayground\, basketball court\
+ , skate park. \nLet’s make a thanksgiving turkey craft\, and play 🛝 
+LAST-MODIFIED:20260831T175443Z
+LOCATION:Cien Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Turkey craft 🦃 🎨 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261120T170000Z
+DTEND:20261120T200000Z
+DTSTAMP:20260905T100819Z
+UID:E8F73BD3-ADCE-48E1-BE59-AFE2B546DE98
+URL:https://facebook.com/events/s/november-birthday-bash-and-fri/2764126104
+ 5507753/
+CREATED:20260831T175511Z
+DESCRIPTION:Let’s celebrate November birthdays! \nAs always BASH will provi
+ de cupcakes and birthday baggies for the birthday kiddos :) \nPlease add yo
+ ur birthday kid to the headcount post 🙏 \n\nLet’s also celebrate thanksgiv
+ ing with a BASH Friendsgiving ❤️ \nWe will have a zeffy sign up sheet set u
+ p for a potluck style event! \nAlso I’m sure we will have some sort of fun 
+ craft or sensory fun 🤩 
+LAST-MODIFIED:20260831T175512Z
+LOCATION:Frankie Carter park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:November birthday BASH\, and Friendsgiving 🦃 🎂 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261023T153000Z
+DTEND:20261023T183000Z
+DTSTAMP:20260905T100819Z
+UID:B9F204DC-E336-486B-9D2C-CA9D1B5F253B
+URL:https://facebook.com/events/s/bash-science-fair-mad-scientis/1362460585
+ 328020/
+CREATED:20260831T175406Z
+DESCRIPTION:Bring your wildest ideas to life at our BASH Science Fair: Mad 
+ Scientist Edition 🧪⚡ Kids and teens can design an experiment\, build a con
+ traption\, or share a favorite science obsession with our homeschooling com
+ munity.\n🧫🧬🔬⚗️🔭🥼🧪🧑‍🔬👩‍🔬\nThis event celebrates curiosity\, creati
+ vity\, and hands-on learning. All comfort levels are welcome—from first-tim
+ e experimenters to seasoned tinkerers. Sign up here to share your project\,
+  help out\, or just let us know you’re coming.\n🚨Zeffy Registration Requir
+ ed⬇️🚨\nhttps://www.zeffy.com/en-US/ticketing/bash-science-fair-mad-scienti
+ st-edition\n\n•Upon registration I will email you the PDF information on wh
+ at is required of your Science Fair Project Display Board in order to quali
+ fy for 1st\, 2nd\, 3rd\, 4th or 5th place trophy or to receive your BASH Ma
+ d Scientist Participation Award! \n•Registration ends on Oct 17th! 
+LAST-MODIFIED:20260831T175406Z
+LOCATION:Bob Briscoe Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:BASH Science Fair: Mad Scientist Edition
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261214T170000Z
+DTEND:20261214T200000Z
+DTSTAMP:20260905T100819Z
+UID:EDD43E40-DA20-4E5B-95F9-240E39016A93
+URL:https://facebook.com/events/s/movie-monday-polar-express-/1579575263600
+ 098/
+CREATED:20260831T175548Z
+DESCRIPTION:Do you believe in Christmas magic? 🪄 ✨ 🎅 let’s watch the pola
+ r express together and enjoy some hot coco and snacks. Bring a blanket\, an
+ d remember to always treat this library with respect\, clean up after yours
+ elves\, and thank the librarians ❤️ 
+LAST-MODIFIED:20260831T175549Z
+LOCATION:Clear Lake City-County Freeman Branch Library
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Movie Monday! Polar express 🚂 ⛄️ 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261215T160000Z
+DTEND:20261215T190000Z
+DTSTAMP:20260905T100819Z
+UID:1031B452-2508-4869-8219-F1A1B953846D
+URL:https://facebook.com/events/s/green-thumb-tuesday/1024356389996003/
+CREATED:20260831T175552Z
+DESCRIPTION:Let’s go enjoy the morning at one of our favorite nature spots 
+ 🍂 \nAlmost Christmas time! Maybe we can make some twig ornaments 🎄 \nBrin
+ g your coffee\, some water\, and your walking shoes ☀️ \nBug spray 🤷‍♀️ de
+ pends on the weather 😂 
+LAST-MODIFIED:20260831T175553Z
+LOCATION:Frankie Carter park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Green thumb Tuesday! 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261218T170000Z
+DTEND:20261218T200000Z
+DTSTAMP:20260905T100819Z
+UID:D88087AA-01F5-41E6-9C29-0F986BD0CC4C
+URL:https://facebook.com/events/s/december-birthday-bash-and-gin/2597397644
+ 013309/
+CREATED:20260831T175601Z
+DESCRIPTION:Let’s celebrate December birthday kiddos ❤️ \nAs always BASH wi
+ ll provide cupcakes and birthday baggies for the birthday kids! \nPlease do
+ n’t forget to add your kiddo to the headcount post 🙏 \nIf you’d like to co
+ ntribute\, drinks are always greatly appreciated ❤️ \n\nAlso we will be dec
+ orating gingerbread men 🍪 \nMore info to come.. ❤️ \n\nLet’s enjoy the day
+  together before we all take a little holiday for Christmas break 🎄 🎅 
+LAST-MODIFIED:20260831T175601Z
+LOCATION:Pearson Park
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:December birthday BASH and ginger bread decorating 🍪 🎄 
+TRANSP:OPAQUE
+X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
+X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20260915T150000Z
 DTEND:20260915T180000Z
-DTSTAMP:20260905T093640Z
+DTSTAMP:20260905T100819Z
 UID:3ADDD300-5BDC-45F0-AEB8-8AEE186FE329
 URL:https://facebook.com/events/s/bash-swap-share-/1011097941624330/
 CREATED:20260831T175236Z
@@ -209,674 +853,30 @@ X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
 X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20270409T160000Z
-DTEND:20270409T190000Z
-DTSTAMP:20260905T093640Z
-UID:163DBDB5-BD77-4356-B373-71E1E5AB904F
-URL:https://facebook.com/events/s/100th-day-of-school-celebratio/1053457303
- 739280/
-CREATED:20260831T175609Z
-DESCRIPTION:Location TBD!\n\n100TH DAY OF SCHOOL CELEBRATION! 🎉\n\nSince w
- e all start school on different days and some of us school year-round\, we 
- decided to celebrate our 100th day of school together on the 100th day of t
- he year! Well\, the 99th because it’s a Friday! 😂\n\nCome celebrate with u
- s! \n\n- Make a fun shirt with 100 items on it\n- Bring 100 Pokémon cards t
- o show off\n- Bring 100 of whatever you want!\n- Get creative and have fun 
- with it!\n\nLet’s make it a fun day for all of our homeschooled kiddos! ❤️
-LAST-MODIFIED:20260831T175609Z
+DTSTART:20260918T160000Z
+DTEND:20260918T190000Z
+DTSTAMP:20260905T100819Z
+UID:7D8B9A68-78DB-4D52-9D6E-7DE93F5E7783
+URL:https://facebook.com/events/s/houston-interactive-aquarium-f/1458733232
+ 948621/
+CREATED:20260831T175244Z
+DESCRIPTION:Join BASH for an incredible field trip to the Houston interacti
+ ve aquarium. There is such a big variety of animals here\, such an amazing 
+ learning experience and so much fun for all!\nIt will be $10 per child\, an
+ d $26 for parents. BUTTT\, teachers and first responders are free\, and yes
+  homeschool teachers count :) so please make yourself a homeschool ID\, if 
+ you need help with that please reach out to an admin\, we will be happy to 
+ assist ❤️ you HAVE to have your homeschool ID to receive the free admission
+ . \nBring a lunch\, I will have a couple coolers you can use :)\nPlease arr
+ ive at least 10 mins early\, we have to be on time to stay on schedule 🙏 \
+ n\nWe will post a zeffy link for you to pay :) \nDon’t forget your BASH fie
+ ld trip shirt! 💚\n\nIncludes Stingray Feeding\nAviary Visit\nEducational T
+ alk\nPetting Zoo\, \nLemur Encounter (4th grade or higher age)
+LAST-MODIFIED:20260831T175244Z
+LOCATION:Houston Interactive Aquarium and Animal Preserve
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:100th DAY OF SCHOOL CELEBRATION!
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261112T170000Z
-DTEND:20261112T200000Z
-DTSTAMP:20260905T093640Z
-UID:D661C3CE-2B73-49C8-B119-F0CBE5C020CE
-URL:https://facebook.com/events/s/george-ranch-frontier-day/177601408042596
- 1/
-CREATED:20260831T175452Z
-DESCRIPTION:This unique fall festival celebrates the heritage of The George
-  Ranch with cattle working demonstrations\, historic home tours\, battle re
- -enactments\, games\, vendors\, food trucks\, music\, entertainment\, hands
- -on activities and more!\n\nLet’s take BASH back to the frontier days! \nDo
- n’t forget your BASH shirt\, and a lunch :) \nMore details to come! 
-LAST-MODIFIED:20260831T175453Z
-LOCATION:10215 FM 762 RICHMOND\, TX 77469
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:George ranch frontier day 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261002T160000Z
-DTEND:20261002T190000Z
-DTSTAMP:20260905T093640Z
-UID:73C2871B-F1F9-49C7-BEF0-32640C468B72
-URL:https://facebook.com/events/s/spooky-art-in-the-park/1515066476754884/
-CREATED:20260831T175325Z
-DESCRIPTION:Join us for Halloween themed crafts at Stevenson park! We will 
- meet under the pavilion for crafts and we can play at the park! \nCrafts ar
- e TBD but we are thinking spiderweb+stick weaving and a painting activity! 
- 🕸️🕷️
-LAST-MODIFIED:20260831T175325Z
-LOCATION:Stevenson Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Spooky Art in the Park👻
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261021T160000Z
-DTEND:20261021T190000Z
-DTSTAMP:20260905T093640Z
-UID:CD61A27D-13E0-4A5F-B126-6921B288B0AF
-URL:https://facebook.com/events/s/galveston-childrens-museum/84498285536136
- 1/
-CREATED:20260831T175402Z
-DESCRIPTION:Lets go explore the children's museum! so much to do here.\nWe 
- will have a picnic outside around 11:30. \nmaybe even go explore a little m
- ore afterwards. \n$10/person\nunder 2 free\nmilitary $8\n$3 for anyone who 
- receives WIC\, SNAP\, or medicaid benefits. 
-LAST-MODIFIED:20260831T175402Z
-LOCATION:Galveston Children's Museum
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Galveston Children’s Museum
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260911T150000Z
-DTEND:20260911T180000Z
-DTSTAMP:20260905T093640Z
-UID:0933A7D7-E2F8-49AD-B7AD-46D14249741D
-URL:https://facebook.com/events/s/september-birthday-bash-back-t/1542657997
- 537358/
-CREATED:20260831T175229Z
-DESCRIPTION:Let’s celebrate the September birthdays!! \nAs always BASH will
-  provide cupcakes and birthday baggies for the birthday kiddos :) \nPlease 
- make sure to add your birthday kid to the headcount post ❤️ \nIf you’d like
-  to bring something to share\, drinks are always very appreciated:)\n\nMadi
-  will be taking back to school pictures for those who would like to join 📸
-  \nShe has an awesome idea in mind 🎨 \nI’ll make a separate post for pictu
- res\, please add your family name and how many of y’all there is 🙏 
-LAST-MODIFIED:20260831T175229Z
-LOCATION:Frankie Carter park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:September birthday BASH & back to school pictures! 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261103T160000Z
-DTEND:20261103T190000Z
-DTSTAMP:20260905T093640Z
-UID:0A3DC323-B942-494D-9FDD-7191BABBE365
-URL:https://facebook.com/events/s/nature-walk-/1202016472994638/
-CREATED:20260831T175435Z
-DESCRIPTION:Join us for a morning walk and exploration ❤️ \nThis park looks
-  so beautiful. 
-LAST-MODIFIED:20260831T175435Z
-LOCATION:Lake Friendswood Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Nature walk 🍃 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261215T160000Z
-DTEND:20261215T190000Z
-DTSTAMP:20260905T093640Z
-UID:1031B452-2508-4869-8219-F1A1B953846D
-URL:https://facebook.com/events/s/green-thumb-tuesday/1024356389996003/
-CREATED:20260831T175552Z
-DESCRIPTION:Let’s go enjoy the morning at one of our favorite nature spots 
- 🍂 \nAlmost Christmas time! Maybe we can make some twig ornaments 🎄 \nBrin
- g your coffee\, some water\, and your walking shoes ☀️ \nBug spray 🤷‍♀️ de
- pends on the weather 😂 
-LAST-MODIFIED:20260831T175553Z
-LOCATION:Frankie Carter park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Green thumb Tuesday! 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261211T170000Z
-DTEND:20261211T200000Z
-DTSTAMP:20260905T093640Z
-UID:0174E17C-7624-4388-96DE-C6B383758D9A
-URL:https://facebook.com/events/s/bash-reindeer-games-/1730579757991920/
-CREATED:20260831T175544Z
-DESCRIPTION:Let’s be silly and see if BASH can fly Santa’s sleigh 🛷 🎅 \nJ
- oin us for BASH reindeer games! \nMore info to come ❤️ 
-LAST-MODIFIED:20260831T175544Z
-LOCATION:Challenger 7 Memorial Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:BASH reindeer games 🫎 🎅 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261019T160000Z
-DTEND:20261019T190000Z
-DTSTAMP:20260905T093640Z
-UID:1ED9CB5C-67F2-437B-A097-E398F7F8CBA9
-URL:https://facebook.com/events/s/movie-monday-haunted-mansion/164276360013
- 3410/
-CREATED:20260831T175358Z
-DESCRIPTION:Join us for a movie and popcorn while we watch the haunted mans
- ion! \n\nWe will be in the kids event room\, please remember to thank our l
- ibrarians and be quiet and respectful in all parts of the library so we can
-  continue to utilize this space for events!!\nAny help at the end to clean 
- up and vacuum is always appreciated 🫶
-LAST-MODIFIED:20260831T175358Z
-LOCATION:Clear Lake City-County Freeman Branch Library
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Movie Monday- Haunted Mansion
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261217T170000Z
-DTEND:20261217T200000Z
-DTSTAMP:20260905T093640Z
-UID:F34A44EC-261B-42CC-BE8B-200CA79406B8
-URL:https://facebook.com/events/s/annual-ornament-exchange-/145533068969413
- 6/
-CREATED:20260831T175557Z
-DESCRIPTION:Join BASH for our annual Christmas ornament exchange! 🎄 \nBrin
- g ONE\, wrapped\, non breakable ornament per participating child ❤️ \nWe wi
- ll draw numbers and each child will pick a present based off what number th
- ey received :) \n\nBounce n play is amazing bc one we get the group rate (m
- ention you’re with BASH when you arrive)\, and two you can bring your own f
- ood and drinks. \nWhile we can’t bring cupcakes or cake\, we can still orde
- r pizza and bring drinks :) \nDon’t forget your grippy socks!! \nHohoho 🎅 
-LAST-MODIFIED:20260831T175557Z
-LOCATION:Bounce N Play
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Annual ornament exchange! 🎄 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261106T170000Z
-DTEND:20261106T200000Z
-DTSTAMP:20260905T093640Z
-UID:F25CF5FF-2DF4-4F6A-A2EA-D39FD46897E8
-URL:https://facebook.com/events/s/turkey-craft-/4406024766392783/
-CREATED:20260831T175443Z
-DESCRIPTION:The park has much to offer. ☀️ \nPlayground\, basketball court\
- , skate park. \nLet’s make a thanksgiving turkey craft\, and play 🛝 
-LAST-MODIFIED:20260831T175443Z
-LOCATION:Cien Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Turkey craft 🦃 🎨 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260929T160000Z
-DTEND:20260929T190000Z
-DTSTAMP:20260905T093640Z
-UID:8AF994D3-E236-4227-97A5-F10953D474EC
-URL:https://facebook.com/events/s/green-thumb-tuesday/1672382030645406/
-CREATED:20260831T175320Z
-DESCRIPTION:The Houston arboretum is such a cool place. \nA super awesome p
- layground\, lots of fun nature to explore and some educational exhibits ins
- ide. \nLet’s have a picnic lunch 🥪 🧺 \nDon’t forget water\, bug spray\, a
- nd close toes shoes! \n\nAlways remember to treat nature with kindness and 
- respect\, only leave behind footprints 👣 🍃 
-LAST-MODIFIED:20260831T175320Z
-LOCATION:Houston Arboretum
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Green thumb Tuesday! 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261218T170000Z
-DTEND:20261218T200000Z
-DTSTAMP:20260905T093640Z
-UID:D88087AA-01F5-41E6-9C29-0F986BD0CC4C
-URL:https://facebook.com/events/s/december-birthday-bash-and-gin/2597397644
- 013309/
-CREATED:20260831T175601Z
-DESCRIPTION:Let’s celebrate December birthday kiddos ❤️ \nAs always BASH wi
- ll provide cupcakes and birthday baggies for the birthday kids! \nPlease do
- n’t forget to add your kiddo to the headcount post 🙏 \nIf you’d like to co
- ntribute\, drinks are always greatly appreciated ❤️ \n\nAlso we will be dec
- orating gingerbread men 🍪 \nMore info to come.. ❤️ \n\nLet’s enjoy the day
-  together before we all take a little holiday for Christmas break 🎄 🎅 
-LAST-MODIFIED:20260831T175601Z
-LOCATION:Pearson Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:December birthday BASH and ginger bread decorating 🍪 🎄 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261102T170000Z
-DTEND:20261102T200000Z
-DTSTAMP:20260905T093640Z
-UID:96203574-3C19-4500-9C99-83D6F10A335B
-URL:https://facebook.com/events/s/meow-wolf-houston-field-trip/135285502632
- 5085/
-CREATED:20260831T175428Z
-DESCRIPTION:🌌✨ BASH Field Trip: Meow Wolf Houston ✨🌌\n\nJoin us for a fun
-  and unique adventure at Meow Wolf Houston! Explore a world of colorful art
- \, hidden surprises\, and interactive experiences where imagination comes t
- o life.\n\nCome ready to wander\, discover\, and enjoy an unforgettable day
-  of creativity and exploration!\n\nMore details to come! 🎨🚀\n\nField trip
-  tickets are $12 per student\n
-LAST-MODIFIED:20260831T175428Z
-LOCATION:Meow Wolf Houston
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Meow wolf Houston field trip! 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-DTSTAMP:20260905T093640Z
-UID:B973AD59-5EEA-4F0E-B7E4-DE45CB06B6A6
-URL:https://facebook.com/events/s/once-upon-a-halloween-ball-/1006881622137
- 460/
-CREATED:20260831T175417Z
-DESCRIPTION:🎃✨ Once Upon a Halloween Ball ✨🎃\n\nStep into a night of magi
- c\, mystery\, and Halloween fun at BASH’s Once Upon a Halloween Ball!\n\nCo
- me dressed to impress in your fanciest attire\, your spookiest costume\, or
-  transform into your favorite superhero or villain. 🦸‍♀️🦹‍♂️👻\n\nWe’ll h
- ave a night filled with delicious food\, sweet treats\, tricks\, games\, an
- d plenty of fun surprises for the whole family!\n\nMore details to come… we
-  can’t wait to celebrate Halloween together! 🕸️🍂
-LAST-MODIFIED:20260831T175417Z
-LOCATION:TBD
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Once upon a Halloween Ball 🎃 🕺 👻 🎵 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261110T170000Z
-DTEND:20261110T200000Z
-DTSTAMP:20260905T093640Z
-UID:69ABA303-1F46-4EE2-B167-7F00EB38A3E0
-URL:https://facebook.com/events/s/ed-thompson-inclusive-park-/1697277508176
- 941/
-CREATED:20260831T175448Z
-DESCRIPTION:Let’s go explore this amazing park!! \nThis is Ed Thompson incl
- usive park. \nPack a lunch and let’s play 💚
-LAST-MODIFIED:20260831T175449Z
-LOCATION:Sports Complex at Shadow Creek Ranch
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Ed Thompson inclusive park :) 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261116T170000Z
-DTEND:20261116T200000Z
-DTSTAMP:20260905T093640Z
-UID:48043D00-83E8-4CA5-A26D-FD4272497C9E
-URL:https://facebook.com/events/s/movie-monday-/1019644290705171/
-CREATED:20260831T175457Z
-DESCRIPTION:Let’s watch a movie and hang out before thanksgiving break :) \
- nMovie TBD! \nWe will bring a snack\, you bring a blanket ❤️ \nRemember to 
- always treat this library with respect\, thank the librarians and clean up 
- after yourselves 🙏 
-LAST-MODIFIED:20260831T175458Z
-LOCATION:Clear Lake City-County Freeman Branch Library
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Movie Monday 🎥 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260908T160000Z
-DTEND:20260908T190000Z
-DTSTAMP:20260905T093640Z
-UID:1F855619-CA6F-4040-B696-972530FBF05C
-URL:https://facebook.com/events/s/literacy-day-bring-your-fav-bo/1743308886
- 867142/
-CREATED:20260831T175218Z
-DESCRIPTION:It’s literacy day! 📚 📖 \nBring you fav book to share and read
-  with a friend :) \nThis park has lots of shade\, basketball court\, playgr
- ound\, trails\, and a splash pad ☀️ 
-LAST-MODIFIED:20260905T020413Z
-LOCATION:Brummerhop Park
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Literacy day\, bring your fav book!
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261009T150000Z
-DTEND:20261009T180000Z
-DTSTAMP:20260905T093640Z
-UID:C6A03ADF-F942-42FE-9C39-DA012B965F81
-URL:https://facebook.com/events/s/frobergs-fall-festival/1282364687309185/
-CREATED:20260831T175334Z
-DESCRIPTION:They have not released details or tickets for this event yet\, 
- but it’s such a fun Fall Farm Event! More details to come…. 
-LAST-MODIFIED:20260831T175334Z
-LOCATION:Froberg Fruit and Vegetable Farm\, Alvin\, Texas
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Frobergs Fall Festival
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261013T160000Z
-DTEND:20261013T190000Z
-DTSTAMP:20260905T093640Z
-UID:B8C79187-A759-4443-BB40-809594013AE3
-URL:https://facebook.com/events/s/rockstar-energy-bike-park/125601747982470
- 6/
-CREATED:20260831T175346Z
-DESCRIPTION:Brink your bikes\, scooters\, skateboards! This park has dirt t
- racks\, skate parks and even a toddler track! 
-LAST-MODIFIED:20260831T175346Z
-LOCATION:Rockstar BMX park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Rockstar Energy Bike Park
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260904T160000Z
-DTEND:20260904T190000Z
-DTSTAMP:20260905T093640Z
-UID:C51ACC21-8AFB-4019-8D7E-15A6C67566A2
-URL:https://facebook.com/events/s/bikes-and-scooters-/1535234464968326/
-CREATED:20260831T175215Z
-DESCRIPTION:Such a great park! Let’s burn some energy with bikes and scoote
- rs. \n
-LAST-MODIFIED:20260831T175215Z
-LOCATION:Alvin Skate Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Bikes and scooters! 🛴 🚲 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261022T150000Z
-DTEND:20261022T180000Z
-DTSTAMP:20260905T093640Z
-UID:C6E4C4C2-2C28-4E36-B6A8-FDDE55830D83
-URL:https://facebook.com/events/s/homeschool-day-the-patch/2025308292206841
- /
-CREATED:20260831T230927Z
-DESCRIPTION:Join us for Homeschool Day @ the Texas City Pumpkin Patch! Entr
- y is free\, student activities provided! Will post the flyer on the event p
- age. 🎃🎃\n\npumpkin prices start at $1 and go up! 
-LAST-MODIFIED:20260831T230928Z
-LOCATION:Fatima Soccer Fields
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Homeschool Day @ the Patch
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260925T140000Z
-DTEND:20260925T170000Z
-DTSTAMP:20260905T093640Z
-UID:4324002C-2EA6-41A2-A031-F38D98554BB6
-URL:https://facebook.com/events/s/john-moore-stem-field-trip/21019140612052
- 60/
-CREATED:20260831T175315Z
-DESCRIPTION:Join BASH for a FREE STEM field trip at John Moore! \nDon’t for
- get to wear your field trip shirt \nWhat to Expect:\nFREE ADMISSION\nAmple 
- parking for buses and cars\nTables and chairs for lunch if needed (lunch wi
- ll not be provided by John Moore and must be brought with each student)\nRe
- stroom facilities\n\nWe will bring coolers for lunches :) \n\nI’ll post the
-  link so you’ll know more what to expect! \n
-LAST-MODIFIED:20260831T175315Z
-LOCATION:10005 West Sam Houston Pkwy North\, Houston\, TX 77064 
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:John Moore STEM field trip 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20270108T170000Z
-DTEND:20270108T200000Z
-DTSTAMP:20260905T093640Z
-UID:B76C836F-10F3-470C-925B-3AB19473649E
-URL:https://facebook.com/events/s/galveston-railroad-museum-fiel/1675439527
- 083497/
-CREATED:20260831T175605Z
-DESCRIPTION:🚂 BASH Field Trip: Galveston Railroad Museum 🚂\n\nAll aboard!
-  Join us for a fun\, hands-on day exploring one of Galveston’s most unique 
- museums. Kids and adults can climb aboard historic railcars\, explore locom
- otives\, see interactive exhibits\, and learn how railroads helped shape Te
- xas and the nation. It’s a great trip for train lovers and curious explorer
- s alike!\n\nAdmission:\n🎟️ Ages 3 & up: $8\n🎟️ Adults: $13\n🇺🇸 Veterans
- : FREE\n🍎 Teachers: FREE (please bring your homeschool ID)\n\nThe museum f
- eatures historic train cars\, model train displays\, railroad artifacts\, i
- nteractive exhibits\, and opportunities to step inside many of the restored
-  railcars. It’s an educational experience that’s fun for the whole family. 
- (galvestonrrmuseum.org⁠￼)\n\nWe can’t wait to explore the rails with everyo
- ne! 🚂\n\n(We will post a zeffy link for payment when the event gets closer
-  🙏)
-LAST-MODIFIED:20260831T175606Z
-LOCATION:Galveston Railroad Museum
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Galveston railroad museum field trip. 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261027T160000Z
-DTEND:20261027T190000Z
-DTSTAMP:20260905T093640Z
-UID:13187DAF-F7E8-48A6-8F09-2D4EAA438200
-URL:https://facebook.com/events/s/green-thumb-tuesday-jimbos-nur/1300997748
- 476062/
-CREATED:20260831T175411Z
-DESCRIPTION:Let’s go garden! 🪴 \nJoin us at Jimbos nursery as Mrs. Claire 
- will be teaching us to make Kokedama. \n\nKokedama (pronounced koh-keh-DAH-
- mah) is a Japanese gardening art form whose name means “moss ball.” Instead
-  of growing a plant in a pot\, the plant’s roots are wrapped in a ball of s
- oil that’s covered in moss and secured with string or fishing line.\n\nEach
-  participant is $10 \nPlease comment on the headcount post only if you are 
- for sure going\, class caps at 20 kids. \nYou’ll pay the nursery after we’r
- e done ❤️ \nThis is an amazing nursery\, so many great plants and all very 
- reasonable if you’d like to shop around afterwards :) 
-LAST-MODIFIED:20260831T175411Z
-LOCATION:Jimbo’s Nursery
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Green thumb Tuesday: Jimbos nursery 🪴 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261208T170000Z
-DTEND:20261208T200000Z
-DTSTAMP:20260905T093640Z
-UID:84A9159D-3964-4CE2-8619-3AAD49782C20
-URL:https://facebook.com/events/s/christmas-make-and-take-mug-cr/1488794462
- 935202/
-CREATED:20260831T175540Z
-DESCRIPTION:Come paint and decorate the perfect Christmas Mug for your Hot 
- Cocoa or Milk for Santa Claus! We will bring all the necessary supplies and
-  the mugs too! Directions will be posted and sent home on how to bake your 
- mugs in the oven when you get home so the paint stays! \nZeffy link for sig
- n ups will be posted closer to the event date!! ☕️🎄🤶
-LAST-MODIFIED:20260831T175540Z
-LOCATION:Texas Avenue Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Christmas Make and Take Mug Craft! 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261214T170000Z
-DTEND:20261214T200000Z
-DTSTAMP:20260905T093640Z
-UID:EDD43E40-DA20-4E5B-95F9-240E39016A93
-URL:https://facebook.com/events/s/movie-monday-polar-express-/1579575263600
- 098/
-CREATED:20260831T175548Z
-DESCRIPTION:Do you believe in Christmas magic? 🪄 ✨ 🎅 let’s watch the pola
- r express together and enjoy some hot coco and snacks. Bring a blanket\, an
- d remember to always treat this library with respect\, clean up after yours
- elves\, and thank the librarians ❤️ 
-LAST-MODIFIED:20260831T175549Z
-LOCATION:Clear Lake City-County Freeman Branch Library
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Movie Monday! Polar express 🚂 ⛄️ 
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261023T153000Z
-DTEND:20261023T183000Z
-DTSTAMP:20260905T093640Z
-UID:B9F204DC-E336-486B-9D2C-CA9D1B5F253B
-URL:https://facebook.com/events/s/bash-science-fair-mad-scientis/1362460585
- 328020/
-CREATED:20260831T175406Z
-DESCRIPTION:Bring your wildest ideas to life at our BASH Science Fair: Mad 
- Scientist Edition 🧪⚡ Kids and teens can design an experiment\, build a con
- traption\, or share a favorite science obsession with our homeschooling com
- munity.\n🧫🧬🔬⚗️🔭🥼🧪🧑‍🔬👩‍🔬\nThis event celebrates curiosity\, creati
- vity\, and hands-on learning. All comfort levels are welcome—from first-tim
- e experimenters to seasoned tinkerers. Sign up here to share your project\,
-  help out\, or just let us know you’re coming.\n🚨Zeffy Registration Requir
- ed⬇️🚨\nhttps://www.zeffy.com/en-US/ticketing/bash-science-fair-mad-scienti
- st-edition\n\n•Upon registration I will email you the PDF information on wh
- at is required of your Science Fair Project Display Board in order to quali
- fy for 1st\, 2nd\, 3rd\, 4th or 5th place trophy or to receive your BASH Ma
- d Scientist Participation Award! \n•Registration ends on Oct 17th! 
-LAST-MODIFIED:20260831T175406Z
-LOCATION:Bob Briscoe Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:BASH Science Fair: Mad Scientist Edition
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261016T160000Z
-DTEND:20261016T190000Z
-DTSTAMP:20260905T093640Z
-UID:571480B9-5F57-4845-B7AC-CC5054487F68
-URL:https://facebook.com/events/s/october-birthday-bash-pumpkin-/2400102037
- 149640/
-CREATED:20260831T175350Z
-DESCRIPTION:Let’s celebrate the October birthdays!! \nAs always BASH will p
- rovide cupcakes and birthday baggies for the birthday kiddos :) \nPlease ma
- ke sure to add your birthday kid to the headcount post ❤️ \nIf you’d like t
- o bring something to share\, drinks are always very appreciated:)\n\nBring 
- your own pumpkin to carve or paint! We will bring paint supplies but if you
-  have extra carving supplies please bring them to use or share with the gro
- up!! 🎃🎃🎃
-LAST-MODIFIED:20260831T175350Z
-LOCATION:Old City Park/Friendswood Petsafe Dog Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:October birthday BASH & Pumpkin Carving
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260919T150000Z
-DTEND:20260919T190000Z
-DTSTAMP:20260905T093640Z
-UID:B7EF1E52-008C-437D-961A-CB6BE4D01A5D
-URL:https://facebook.com/events/s/bash-booth-farmers-marker/270561855321831
- 0/
-CREATED:20260831T175248Z
-DESCRIPTION:BASH kids sell @ the farmers market! \nWe will have 3 tables wi
- th room to display products! Please bring a tray\, and either your items in
- dividually priced or a paper showing your price list & payment method! \nTh
- ese items should be (mostly) kid crafted! \nNo food or drink items! \nOutdo
- or booth\, bring a lawn chair and a fan? \nIf you plan on selling with BASH
-  you are required to comment on the post on the event page! 
-LAST-MODIFIED:20260831T175248Z
-LOCATION:Columbus Club Of Dickinson
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:BASH Booth @ Farmers Marker
-TRANSP:OPAQUE
-X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
-X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20261117T160000Z
-DTEND:20261117T190000Z
-DTSTAMP:20260905T093640Z
-UID:C158922D-55B9-4822-90EB-72E1C8BC43D8
-URL:https://facebook.com/events/s/green-thumb-tuesday-/4001903240118807/
-CREATED:20260831T175504Z
-DESCRIPTION:Let’s go for a morning stroll\, this nature walk is beautiful! 
- \nIt is stroller friendly :) \nPlease don’t forget bug spray\, water\, and 
- close toed shoes! \nAlways remember to talk to your kiddos about nature saf
- ety beforehand! \n
-LAST-MODIFIED:20260831T175505Z
-LOCATION:Robinson Park
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Green thumb Tuesday 💚
+SUMMARY:Houston interactive aquarium field trip 
 TRANSP:OPAQUE
 X-APPLE-CREATOR-IDENTITY:com.facebook.Facebook
 X-APPLE-CREATOR-TEAM-IDENTITY:V9WTTPBFK9
